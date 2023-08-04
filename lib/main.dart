@@ -1,3 +1,7 @@
+//                  .where('giorno', isEqualTo: 'Monday')
+//                  .where('pasto', isEqualTo: 'Pranzo')
+//.where('tipo', isEqualTo: 'Frutta_Fresca')
+
 import 'dart:io';
 
 import 'package:flutter/material.dart';
@@ -46,11 +50,9 @@ class _BottomNavigationBarExampleState
         padding: const EdgeInsets.all(20),
         child: Column(
           children: [
-            const Text("\nProducts"),
+            const Text("Day"),
             StreamBuilder<QuerySnapshot>(
-              stream: FirebaseFirestore.instance
-                  .collection("day_of_the_week")
-                  .snapshots(),
+              stream: FirebaseFirestore.instance.collection("Diet").snapshots(),
               builder: (BuildContext context,
                   AsyncSnapshot<QuerySnapshot> snapshot) {
                 if (snapshot.hasData) {
@@ -81,7 +83,7 @@ class _BottomNavigationBarExampleState
                               margin: const EdgeInsets.only(left: 20),
                               alignment: Alignment.centerLeft,
                               child: Text(
-                                snap[index][''],
+                                snap[index]['giorno'],
                                 style: const TextStyle(
                                   color: Colors.black54,
                                   fontWeight: FontWeight.bold,
@@ -92,7 +94,7 @@ class _BottomNavigationBarExampleState
                               margin: const EdgeInsets.only(right: 20),
                               alignment: Alignment.centerRight,
                               child: Text(
-                                "\$${snap[index]['']}",
+                                "\$${snap[index]['giorno']}",
                                 style: TextStyle(
                                   color: Colors.green.withOpacity(0.7),
                                   fontWeight: FontWeight.bold,
