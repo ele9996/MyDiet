@@ -1,776 +1,776 @@
 ,Alimento,Quantita,giorno,pasto,tipo
-0,Burro di vacca,g 10,Friday,Colazione,Burro
-1,Burro di vacca light,g 10,Friday,Colazione,Burro
-0,Caffè,1 Tazzina,Friday,Colazione,Caffe
-1,Caffè decaffeinato,1 Tazzina,Friday,Colazione,Caffe
-0,Mele,150g (Quello che sta in una mano aperta),Friday,Colazione,Frutta_Fresca
-1,Albicocche,150g (Quello che sta in una mano aperta),Friday,Colazione,Frutta_Fresca
-2,Ananas,150g (Quello che sta in una mano aperta),Friday,Colazione,Frutta_Fresca
-3,Banane,150g (Quello che sta in una mano aperta),Friday,Colazione,Frutta_Fresca
-4,Fichi,150g (Quello che sta in una mano aperta),Friday,Colazione,Frutta_Fresca
-5,Fragole,150g (Quello che sta in una mano aperta),Friday,Colazione,Frutta_Fresca
-6,Kiwi,150g (Quello che sta in una mano aperta),Friday,Colazione,Frutta_Fresca
-7,Mango,150g (Quello che sta in una mano aperta),Friday,Colazione,Frutta_Fresca
-8,Melone estivo,150g (Quello che sta in una mano aperta),Friday,Colazione,Frutta_Fresca
-9,Pere,150g (Quello che sta in una mano aperta),Friday,Colazione,Frutta_Fresca
-10,Pesche,150g (Quello che sta in una mano aperta),Friday,Colazione,Frutta_Fresca
-11,Prugne,150g (Quello che sta in una mano aperta),Friday,Colazione,Frutta_Fresca
-12,Uva,150g (Quello che sta in una mano aperta),Friday,Colazione,Frutta_Fresca
-0,Latte Parzialmente scremato di vacca,g 200,Friday,Colazione,Latte
-0,Marmellata,2 cucchiaini,Friday,Colazione,Marmellata
-0,Pane bianco,g 50,Friday,Colazione,Pane
-1,Pane integrale,g 60,Friday,Colazione,Pane
-0,Asparagi,,Friday,Pranzo,Contorni
-1,Bieta,,Friday,Pranzo,Contorni
-2,Carote,,Friday,Pranzo,Contorni
-3,Cetrioli,,Friday,Pranzo,Contorni
-4,Cicoria,,Friday,Pranzo,Contorni
-5,Cime di rapa,,Friday,Pranzo,Contorni
-6,Cipolle,,Friday,Pranzo,Contorni
-7,Fagiolini,,Friday,Pranzo,Contorni
-8,Finocchi,,Friday,Pranzo,Contorni
-9,Insalata mista,,Friday,Pranzo,Contorni
-10,Lattuga,,Friday,Pranzo,Contorni
-11,Melanzane,,Friday,Pranzo,Contorni
-12,Peperoni,,Friday,Pranzo,Contorni
-13,Pomodori,,Friday,Pranzo,Contorni
-14,Spinaci,,Friday,Pranzo,Contorni
-15,Zucchine,,Friday,Pranzo,Contorni
-0,Mele,150g (Quello che sta in una mano aperta),Friday,Pranzo,Frutta_Fresca
-1,Albicocche,150g (Quello che sta in una mano aperta),Friday,Pranzo,Frutta_Fresca
-2,Ananas,150g (Quello che sta in una mano aperta),Friday,Pranzo,Frutta_Fresca
-3,Banane,150g (Quello che sta in una mano aperta),Friday,Pranzo,Frutta_Fresca
-4,Fichi,150g (Quello che sta in una mano aperta),Friday,Pranzo,Frutta_Fresca
-5,Fragole,150g (Quello che sta in una mano aperta),Friday,Pranzo,Frutta_Fresca
-6,Kiwi,150g (Quello che sta in una mano aperta),Friday,Pranzo,Frutta_Fresca
-7,Mango,150g (Quello che sta in una mano aperta),Friday,Pranzo,Frutta_Fresca
-8,Melone estivo,150g (Quello che sta in una mano aperta),Friday,Pranzo,Frutta_Fresca
-9,Pere,150g (Quello che sta in una mano aperta),Friday,Pranzo,Frutta_Fresca
-10,Pesche,150g (Quello che sta in una mano aperta),Friday,Pranzo,Frutta_Fresca
-11,Prugne,150g (Quello che sta in una mano aperta),Friday,Pranzo,Frutta_Fresca
-12,Uva,150g (Quello che sta in una mano aperta),Friday,Pranzo,Frutta_Fresca
-0,Pasta di farro,g 80,Friday,Pranzo,Pasta
-1,Pasta di semola,g 70,Friday,Pranzo,Pasta
-2,Pasta integrale,g 80,Friday,Pranzo,Pasta
-0,Uovo di gallina, n° 2,Friday,Pranzo,Uova
-0,Mele,150g (Quello che sta in una mano aperta),Friday,Merenda,Frutta_Fresca
-1,Albicocche,150g (Quello che sta in una mano aperta),Friday,Merenda,Frutta_Fresca
-2,Ananas,150g (Quello che sta in una mano aperta),Friday,Merenda,Frutta_Fresca
-3,Banane,150g (Quello che sta in una mano aperta),Friday,Merenda,Frutta_Fresca
-4,Fichi,150g (Quello che sta in una mano aperta),Friday,Merenda,Frutta_Fresca
-5,Fragole,150g (Quello che sta in una mano aperta),Friday,Merenda,Frutta_Fresca
-6,Kiwi,150g (Quello che sta in una mano aperta),Friday,Merenda,Frutta_Fresca
-7,Mango,150g (Quello che sta in una mano aperta),Friday,Merenda,Frutta_Fresca
-8,Melone estivo,150g (Quello che sta in una mano aperta),Friday,Merenda,Frutta_Fresca
-9,Pere,150g (Quello che sta in una mano aperta),Friday,Merenda,Frutta_Fresca
-10,Pesche,150g (Quello che sta in una mano aperta),Friday,Merenda,Frutta_Fresca
-11,Prugne,150g (Quello che sta in una mano aperta),Friday,Merenda,Frutta_Fresca
-12,Uva,150g (Quello che sta in una mano aperta),Friday,Merenda,Frutta_Fresca
-0,Marmellata,1 cucchiaino,Friday,Merenda,Marmellata
-0,Noci secche,g 10,Friday,Merenda,Noci
-1,Anacardi,g 10,Friday,Merenda,Noci
-2,Mandorle,g 10,Friday,Merenda,Noci
-3,Nocciole,g 10,Friday,Merenda,Noci
-0,Yogurt da latte intero,1 vasetto,Friday,Merenda,Yogurt
-0,Asparagi,,Friday,Cena,Contorni
-1,Bieta,,Friday,Cena,Contorni
-2,Carote,,Friday,Cena,Contorni
-3,Cetrioli,,Friday,Cena,Contorni
-4,Cicoria,,Friday,Cena,Contorni
-5,Cime di rapa,,Friday,Cena,Contorni
-6,Cipolle,,Friday,Cena,Contorni
-7,Fagiolini,,Friday,Cena,Contorni
-8,Finocchi,,Friday,Cena,Contorni
-9,Insalata mista,,Friday,Cena,Contorni
-10,Lattuga,,Friday,Cena,Contorni
-11,Melanzane,,Friday,Cena,Contorni
-12,Peperoni,,Friday,Cena,Contorni
-13,Pomodori,,Friday,Cena,Contorni
-14,Spinaci,,Friday,Cena,Contorni
-15,Zucchine,,Friday,Cena,Contorni
-0,Mele,150g (Quello che sta in una mano aperta),Friday,Cena,Frutta_Fresca
-1,Albicocche,150g (Quello che sta in una mano aperta),Friday,Cena,Frutta_Fresca
-2,Ananas,150g (Quello che sta in una mano aperta),Friday,Cena,Frutta_Fresca
-3,Banane,150g (Quello che sta in una mano aperta),Friday,Cena,Frutta_Fresca
-4,Fichi,150g (Quello che sta in una mano aperta),Friday,Cena,Frutta_Fresca
-5,Fragole,150g (Quello che sta in una mano aperta),Friday,Cena,Frutta_Fresca
-6,Kiwi,150g (Quello che sta in una mano aperta),Friday,Cena,Frutta_Fresca
-7,Mango,150g (Quello che sta in una mano aperta),Friday,Cena,Frutta_Fresca
-8,Melone estivo,150g (Quello che sta in una mano aperta),Friday,Cena,Frutta_Fresca
-9,Pere,150g (Quello che sta in una mano aperta),Friday,Cena,Frutta_Fresca
-10,Pesche,150g (Quello che sta in una mano aperta),Friday,Cena,Frutta_Fresca
-11,Prugne,150g (Quello che sta in una mano aperta),Friday,Cena,Frutta_Fresca
-12,Uva,150g (Quello che sta in una mano aperta),Friday,Cena,Frutta_Fresca
-0,Pane bianco,g60,Friday,Cena,Pane
-1,Pane integrale,g70,Friday,Cena,Pane
-0,Calamari,g 200,Friday,Cena,Pesce_Fresco
-1,Coda di rospo,g 200,Friday,Cena,Pesce_Fresco
-2,Dentice,g 200,Friday,Cena,Pesce_Fresco
-3,Gamberi,g 200 (6 gamberoni o 40 gamberetti),Friday,Cena,Pesce_Fresco
-4,Merluzzo o Nasello,g 200,Friday,Cena,Pesce_Fresco
-5,Orata,g 200,Friday,Cena,Pesce_Fresco
-6,Pesce spada,g 200,Friday,Cena,Pesce_Fresco
-7,Platessa,g 200,Friday,Cena,Pesce_Fresco
-8,Polpo,g 200,Friday,Cena,Pesce_Fresco
-9,Salmone fresco,g 200,Friday,Cena,Pesce_Fresco
-10,Seppie,g 200,Friday,Cena,Pesce_Fresco
-11,Sgombro,g 200,Friday,Cena,Pesce_Fresco
-12,Spigola,g 200,Friday,Cena,Pesce_Fresco
-13,Tonno,g 200,Friday,Cena,Pesce_Fresco
-14,Cozze, 50 circa,Friday,Cena,Pesce_Fresco
-0,Olio, 5 cucchiaini,Friday,Arco_Della_Giornata,Olio
-0,Caffè,1 Tazzina,Monday,Colazione,Caffe
-1,Caffè decaffeinato,1 Tazzina,Monday,Colazione,Caffe
-0,Frollini con cioccolato,g 50,Monday,Colazione,Derivati_Dei_Cereali_Farciti
-1,Barrette ai cereali e cacao,g 50,Monday,Colazione,Derivati_Dei_Cereali_Farciti
-2,Biscotti leggeri con cioccolato,g 60,Monday,Colazione,Derivati_Dei_Cereali_Farciti
-3,Fiocchi di frumento integrale al cioccolato,g 60,Monday,Colazione,Derivati_Dei_Cereali_Farciti
-4,Fiocchi di mais al cioccolato,g 60,Monday,Colazione,Derivati_Dei_Cereali_Farciti
-5,Riso soffiato al cioccolato,g 60,Monday,Colazione,Derivati_Dei_Cereali_Farciti
-6,Wafers,g 50,Monday,Colazione,Derivati_Dei_Cereali_Farciti
-0,Mele,150g (Quello che sta in una mano aperta),Monday,Colazione,Frutta_Fresca
-1,Albicocche,150g (Quello che sta in una mano aperta),Monday,Colazione,Frutta_Fresca
-2,Ananas,150g (Quello che sta in una mano aperta),Monday,Colazione,Frutta_Fresca
-3,Banane,150g (Quello che sta in una mano aperta),Monday,Colazione,Frutta_Fresca
-4,Fichi,150g (Quello che sta in una mano aperta),Monday,Colazione,Frutta_Fresca
-5,Fragole,150g (Quello che sta in una mano aperta),Monday,Colazione,Frutta_Fresca
-6,Kiwi,150g (Quello che sta in una mano aperta),Monday,Colazione,Frutta_Fresca
-7,Mango,150g (Quello che sta in una mano aperta),Monday,Colazione,Frutta_Fresca
-8,Melone estivo,150g (Quello che sta in una mano aperta),Monday,Colazione,Frutta_Fresca
-9,Pere,150g (Quello che sta in una mano aperta),Monday,Colazione,Frutta_Fresca
-10,Pesche,150g (Quello che sta in una mano aperta),Monday,Colazione,Frutta_Fresca
-11,Prugne,150g (Quello che sta in una mano aperta),Monday,Colazione,Frutta_Fresca
-12,Uva,150g (Quello che sta in una mano aperta),Monday,Colazione,Frutta_Fresca
-0,Latte Parzialmente scremato di vacca,g 200,Monday,Colazione,Latte
-0,Asparagi,,Monday,Pranzo,Contorni
-1,Bieta,,Monday,Pranzo,Contorni
-2,Carote,,Monday,Pranzo,Contorni
-3,Cetrioli,,Monday,Pranzo,Contorni
-4,Cicoria,,Monday,Pranzo,Contorni
-5,Cime di rapa,,Monday,Pranzo,Contorni
-6,Cipolle,,Monday,Pranzo,Contorni
-7,Fagiolini,,Monday,Pranzo,Contorni
-8,Finocchi,,Monday,Pranzo,Contorni
-9,Insalata mista,,Monday,Pranzo,Contorni
-10,Lattuga,,Monday,Pranzo,Contorni
-11,Melanzane,,Monday,Pranzo,Contorni
-12,Peperoni,,Monday,Pranzo,Contorni
-13,Pomodori,,Monday,Pranzo,Contorni
-14,Spinaci,,Monday,Pranzo,Contorni
-15,Zucchine,,Monday,Pranzo,Contorni
-0,Mele,150g (Quello che sta in una mano aperta),Monday,Pranzo,Frutta_Fresca
-1,Albicocche,150g (Quello che sta in una mano aperta),Monday,Pranzo,Frutta_Fresca
-2,Ananas,150g (Quello che sta in una mano aperta),Monday,Pranzo,Frutta_Fresca
-3,Banane,150g (Quello che sta in una mano aperta),Monday,Pranzo,Frutta_Fresca
-4,Fichi,150g (Quello che sta in una mano aperta),Monday,Pranzo,Frutta_Fresca
-5,Fragole,150g (Quello che sta in una mano aperta),Monday,Pranzo,Frutta_Fresca
-6,Kiwi,150g (Quello che sta in una mano aperta),Monday,Pranzo,Frutta_Fresca
-7,Mango,150g (Quello che sta in una mano aperta),Monday,Pranzo,Frutta_Fresca
-8,Melone estivo,150g (Quello che sta in una mano aperta),Monday,Pranzo,Frutta_Fresca
-9,Pere,150g (Quello che sta in una mano aperta),Monday,Pranzo,Frutta_Fresca
-10,Pesche,150g (Quello che sta in una mano aperta),Monday,Pranzo,Frutta_Fresca
-11,Prugne,150g (Quello che sta in una mano aperta),Monday,Pranzo,Frutta_Fresca
-12,Uva,150g (Quello che sta in una mano aperta),Monday,Pranzo,Frutta_Fresca
-0,Ceci secchi,g 70,Monday,Pranzo,Legumi_Secchi
-1,Fagioli di soia secchi,g 60,Monday,Pranzo,Legumi_Secchi
-2,Fagioli secchi,g 80,Monday,Pranzo,Legumi_Secchi
-3,Fave secche,g 70,Monday,Pranzo,Legumi_Secchi
-4,Lenticchie secche,g 80,Monday,Pranzo,Legumi_Secchi
-5,Piselli secchi,g 80,Monday,Pranzo,Legumi_Secchi
-0,Pane bianco,g 80,Monday,Pranzo,Pane
-1,Pane integrale,g 100,Monday,Pranzo,Pane
-0,Mele,150g (Quello che sta in una mano aperta),Monday,Merenda,Frutta_Fresca
-1,Albicocche,150g (Quello che sta in una mano aperta),Monday,Merenda,Frutta_Fresca
-2,Ananas,150g (Quello che sta in una mano aperta),Monday,Merenda,Frutta_Fresca
-3,Banane,150g (Quello che sta in una mano aperta),Monday,Merenda,Frutta_Fresca
-4,Fichi,150g (Quello che sta in una mano aperta),Monday,Merenda,Frutta_Fresca
-5,Fragole,150g (Quello che sta in una mano aperta),Monday,Merenda,Frutta_Fresca
-6,Kiwi,150g (Quello che sta in una mano aperta),Monday,Merenda,Frutta_Fresca
-7,Mango,150g (Quello che sta in una mano aperta),Monday,Merenda,Frutta_Fresca
-8,Melone estivo,150g (Quello che sta in una mano aperta),Monday,Merenda,Frutta_Fresca
-9,Pere,150g (Quello che sta in una mano aperta),Monday,Merenda,Frutta_Fresca
-10,Pesche,150g (Quello che sta in una mano aperta),Monday,Merenda,Frutta_Fresca
-11,Prugne,150g (Quello che sta in una mano aperta),Monday,Merenda,Frutta_Fresca
-12,Uva,150g (Quello che sta in una mano aperta),Monday,Merenda,Frutta_Fresca
-0,Marmellata,1 cucchiaino,Monday,Merenda,Marmellata
-0,Noci secche,g 10,Monday,Merenda,Noci
-1,Anacardi,g 10,Monday,Merenda,Noci
-2,Mandorle,g 10,Monday,Merenda,Noci
-3,Nocciole,g 10,Monday,Merenda,Noci
-0,Yogurt da latte intero,1 vasetto,Monday,Merenda,Yogurt
-0,Asparagi,,Monday,Cena,Contorni
-1,Bieta,,Monday,Cena,Contorni
-2,Carote,,Monday,Cena,Contorni
-3,Cetrioli,,Monday,Cena,Contorni
-4,Cicoria,,Monday,Cena,Contorni
-5,Cime di rapa,,Monday,Cena,Contorni
-6,Cipolle,,Monday,Cena,Contorni
-7,Fagiolini,,Monday,Cena,Contorni
-8,Finocchi,,Monday,Cena,Contorni
-9,Insalata mista,,Monday,Cena,Contorni
-10,Lattuga,,Monday,Cena,Contorni
-11,Melanzane,,Monday,Cena,Contorni
-12,Peperoni,,Monday,Cena,Contorni
-13,Pomodori,,Monday,Cena,Contorni
-14,Spinaci,,Monday,Cena,Contorni
-15,Zucchine,,Monday,Cena,Contorni
-0,Mele,150g (Quello che sta in una mano aperta),Monday,Cena,Frutta_Fresca
-1,Albicocche,150g (Quello che sta in una mano aperta),Monday,Cena,Frutta_Fresca
-2,Ananas,150g (Quello che sta in una mano aperta),Monday,Cena,Frutta_Fresca
-3,Banane,150g (Quello che sta in una mano aperta),Monday,Cena,Frutta_Fresca
-4,Fichi,150g (Quello che sta in una mano aperta),Monday,Cena,Frutta_Fresca
-5,Fragole,150g (Quello che sta in una mano aperta),Monday,Cena,Frutta_Fresca
-6,Kiwi,150g (Quello che sta in una mano aperta),Monday,Cena,Frutta_Fresca
-7,Mango,150g (Quello che sta in una mano aperta),Monday,Cena,Frutta_Fresca
-8,Melone estivo,150g (Quello che sta in una mano aperta),Monday,Cena,Frutta_Fresca
-9,Pere,150g (Quello che sta in una mano aperta),Monday,Cena,Frutta_Fresca
-10,Pesche,150g (Quello che sta in una mano aperta),Monday,Cena,Frutta_Fresca
-11,Prugne,150g (Quello che sta in una mano aperta),Monday,Cena,Frutta_Fresca
-12,Uva,150g (Quello che sta in una mano aperta),Monday,Cena,Frutta_Fresca
-0,Tisana,1 tazza,Monday,Cena,Spuntino_Serale
-1,Camomilla,1 tazza,Monday,Cena,Spuntino_Serale
-0,Uovo di gallina, n° 2,Monday,Cena,Uova
-0,Olio, 5 cucchiaini,Monday,Arco_Della_Giornata,Olio
-0,Caffè,1 Tazzina,Saturday,Colazione,Caffe
-1,Caffè decaffeinato,1 Tazzina,Saturday,Colazione,Caffe
-0,Sciroppo d'acero,3 cucchiaini,Saturday,Colazione,Condimenti_Pancakes
-1,Miele di acacia,2 cucchiaini,Saturday,Colazione,Condimenti_Pancakes
-2,Zucchero,2 cucchiaini,Saturday,Colazione,Condimenti_Pancakes
-0,Latte Parzialmente scremato di vacca,g 200,Saturday,Colazione,Latte
-0,farina integrale,g 40,Saturday,Colazione,Pancakes
-1,Latte parzialmente scremato di vacca,g 100,Saturday,Colazione,Pancakes
-2,Uovo di gallina,n° 1,Saturday,Colazione,Pancakes
-0,Asparagi,,Saturday,Pranzo,Contorni
-1,Bieta,,Saturday,Pranzo,Contorni
-2,Carote,,Saturday,Pranzo,Contorni
-3,Cetrioli,,Saturday,Pranzo,Contorni
-4,Cicoria,,Saturday,Pranzo,Contorni
-5,Cime di rapa,,Saturday,Pranzo,Contorni
-6,Cipolle,,Saturday,Pranzo,Contorni
-7,Fagiolini,,Saturday,Pranzo,Contorni
-8,Finocchi,,Saturday,Pranzo,Contorni
-9,Insalata mista,,Saturday,Pranzo,Contorni
-10,Lattuga,,Saturday,Pranzo,Contorni
-11,Melanzane,,Saturday,Pranzo,Contorni
-12,Peperoni,,Saturday,Pranzo,Contorni
-13,Pomodori,,Saturday,Pranzo,Contorni
-14,Spinaci,,Saturday,Pranzo,Contorni
-15,Zucchine,,Saturday,Pranzo,Contorni
-0,Mele,150g (Quello che sta in una mano aperta),Saturday,Pranzo,Frutta_Fresca
-1,Albicocche,150g (Quello che sta in una mano aperta),Saturday,Pranzo,Frutta_Fresca
-2,Ananas,150g (Quello che sta in una mano aperta),Saturday,Pranzo,Frutta_Fresca
-3,Banane,150g (Quello che sta in una mano aperta),Saturday,Pranzo,Frutta_Fresca
-4,Fichi,150g (Quello che sta in una mano aperta),Saturday,Pranzo,Frutta_Fresca
-5,Fragole,150g (Quello che sta in una mano aperta),Saturday,Pranzo,Frutta_Fresca
-6,Kiwi,150g (Quello che sta in una mano aperta),Saturday,Pranzo,Frutta_Fresca
-7,Mango,150g (Quello che sta in una mano aperta),Saturday,Pranzo,Frutta_Fresca
-8,Melone estivo,150g (Quello che sta in una mano aperta),Saturday,Pranzo,Frutta_Fresca
-9,Pere,150g (Quello che sta in una mano aperta),Saturday,Pranzo,Frutta_Fresca
-10,Pesche,150g (Quello che sta in una mano aperta),Saturday,Pranzo,Frutta_Fresca
-11,Prugne,150g (Quello che sta in una mano aperta),Saturday,Pranzo,Frutta_Fresca
-12,Uva,150g (Quello che sta in una mano aperta),Saturday,Pranzo,Frutta_Fresca
-0,Taco di frumento hummus e melanzane,,Saturday,Pranzo,Tacos Vegetariani
-1,Taco di mais hummus e funghi,,Saturday,Pranzo,Tacos Vegetariani
-2,Taco di mais hummus e pomodori,,Saturday,Pranzo,Tacos Vegetariani
-3,Taco di mais hummus e zucchine,,Saturday,Pranzo,Tacos Vegetariani
-0,Cookies al cioccolato,g 30,Saturday,Merenda,Derivati_Dei_Cereali_Farciti
-1,Barrette ai cereali e cacao,g 30,Saturday,Merenda,Derivati_Dei_Cereali_Farciti
-2,Biscotti leggeri con cioccolato,g 30,Saturday,Merenda,Derivati_Dei_Cereali_Farciti
-3,Fiocchi di frumento integrale al cioccolato,g 40,Saturday,Merenda,Derivati_Dei_Cereali_Farciti
-4,Fiocchi di mais al cioccolato,g 40,Saturday,Merenda,Derivati_Dei_Cereali_Farciti
-5,Frollini con cioccolato,g 30,Saturday,Merenda,Derivati_Dei_Cereali_Farciti
-6,Riso soffiato al cioccolato,g 40,Saturday,Merenda,Derivati_Dei_Cereali_Farciti
-7,Wafers,g 30,Saturday,Merenda,Derivati_Dei_Cereali_Farciti
-0,Pasto Libero,,Saturday,Cena,Pasto Libero
-0,Olio, 5 cucchiaini,Saturday,Arco_Della_Giornata,Olio
-0,Pane bianco,g 40,Saturday,Arco_Della_Giornata,Pane
-1,Pane integrale,g 50,Saturday,Arco_Della_Giornata,Pane
-0,Caffè,1 Tazzina,Sunday,Colazione,Caffe
-1,Caffè decaffeinato,1 Tazzina,Sunday,Colazione,Caffe
-0,Torta al cioccolato,g 80,Sunday,Colazione,Dolci_Da_Forno
-1,Croissant alla marmellata,g 90,Sunday,Colazione,Dolci_Da_Forno
-2,Crostata alla marmellata,g 80,Sunday,Colazione,Dolci_Da_Forno
-3,Crostata con crema al cioccolato,g 80,Sunday,Colazione,Dolci_Da_Forno
-4,Pancakes,g 130,Sunday,Colazione,Dolci_Da_Forno
-5,Torta di carote,g 80,Sunday,Colazione,Dolci_Da_Forno
-6,Torta margherita,g 80,Sunday,Colazione,Dolci_Da_Forno
-0,Mele,150g (Quello che sta in una mano aperta),Sunday,Colazione,Frutta_Fresca
-1,Albicocche,150g (Quello che sta in una mano aperta),Sunday,Colazione,Frutta_Fresca
-2,Ananas,150g (Quello che sta in una mano aperta),Sunday,Colazione,Frutta_Fresca
-3,Banane,150g (Quello che sta in una mano aperta),Sunday,Colazione,Frutta_Fresca
-4,Fichi,150g (Quello che sta in una mano aperta),Sunday,Colazione,Frutta_Fresca
-5,Fragole,150g (Quello che sta in una mano aperta),Sunday,Colazione,Frutta_Fresca
-6,Kiwi,150g (Quello che sta in una mano aperta),Sunday,Colazione,Frutta_Fresca
-7,Mango,150g (Quello che sta in una mano aperta),Sunday,Colazione,Frutta_Fresca
-8,Melone estivo,150g (Quello che sta in una mano aperta),Sunday,Colazione,Frutta_Fresca
-9,Pere,150g (Quello che sta in una mano aperta),Sunday,Colazione,Frutta_Fresca
-10,Pesche,150g (Quello che sta in una mano aperta),Sunday,Colazione,Frutta_Fresca
-11,Prugne,150g (Quello che sta in una mano aperta),Sunday,Colazione,Frutta_Fresca
-12,Uva,150g (Quello che sta in una mano aperta),Sunday,Colazione,Frutta_Fresca
-0,Latte Parzialmente scremato di vacca,g 200,Sunday,Colazione,Latte
-0,Bresaola,g 80,Sunday,Pranzo,Carne_Conservata
-1,Fesa di pollo arrosto,g 100,Sunday,Pranzo,Carne_Conservata
-2,Fesa di tacchino arrosto,g 100,Sunday,Pranzo,Carne_Conservata
-3,Prosciutto cotto,g 80,Sunday,Pranzo,Carne_Conservata
-4,Prosciutto crudo magro,g 80,Sunday,Pranzo,Carne_Conservata
-0,Asparagi,,Sunday,Pranzo,Contorni
-1,Bieta,,Sunday,Pranzo,Contorni
-2,Carote,,Sunday,Pranzo,Contorni
-3,Cetrioli,,Sunday,Pranzo,Contorni
-4,Cicoria,,Sunday,Pranzo,Contorni
-5,Cime di rapa,,Sunday,Pranzo,Contorni
-6,Cipolle,,Sunday,Pranzo,Contorni
-7,Fagiolini,,Sunday,Pranzo,Contorni
-8,Finocchi,,Sunday,Pranzo,Contorni
-9,Insalata mista,,Sunday,Pranzo,Contorni
-10,Lattuga,,Sunday,Pranzo,Contorni
-11,Melanzane,,Sunday,Pranzo,Contorni
-12,Peperoni,,Sunday,Pranzo,Contorni
-13,Pomodori,,Sunday,Pranzo,Contorni
-14,Spinaci,,Sunday,Pranzo,Contorni
-15,Zucchine,,Sunday,Pranzo,Contorni
-0,Mele,150g (Quello che sta in una mano aperta),Sunday,Pranzo,Frutta_Fresca
-1,Albicocche,150g (Quello che sta in una mano aperta),Sunday,Pranzo,Frutta_Fresca
-2,Ananas,150g (Quello che sta in una mano aperta),Sunday,Pranzo,Frutta_Fresca
-3,Banane,150g (Quello che sta in una mano aperta),Sunday,Pranzo,Frutta_Fresca
-4,Fichi,150g (Quello che sta in una mano aperta),Sunday,Pranzo,Frutta_Fresca
-5,Fragole,150g (Quello che sta in una mano aperta),Sunday,Pranzo,Frutta_Fresca
-6,Kiwi,150g (Quello che sta in una mano aperta),Sunday,Pranzo,Frutta_Fresca
-7,Mango,150g (Quello che sta in una mano aperta),Sunday,Pranzo,Frutta_Fresca
-8,Melone estivo,150g (Quello che sta in una mano aperta),Sunday,Pranzo,Frutta_Fresca
-9,Pere,150g (Quello che sta in una mano aperta),Sunday,Pranzo,Frutta_Fresca
-10,Pesche,150g (Quello che sta in una mano aperta),Sunday,Pranzo,Frutta_Fresca
-11,Prugne,150g (Quello che sta in una mano aperta),Sunday,Pranzo,Frutta_Fresca
-12,Uva,150g (Quello che sta in una mano aperta),Sunday,Pranzo,Frutta_Fresca
-0,Pasta di farro,g 80,Sunday,Pranzo,Pasta
-1,Pasta di semola,g 70,Sunday,Pranzo,Pasta
-2,Pasta integrale,g 80,Sunday,Pranzo,Pasta
-0,Gelato,,Sunday,Merenda,Gelato
-0,Agnello,g 150 (1 bistecca),Sunday,Cena,Carne_Fresca
-1,Coniglio,g 150(1 bistecca),Sunday,Cena,Carne_Fresca
-2,Coscia di pollo,g 150 (2 cosce),Sunday,Cena,Carne_Fresca
-3,Hamburger di manzo,g 150 (1 burger),Sunday,Cena,Carne_Fresca
-4,Hamburger di pollo,g 150 (1 burger),Sunday,Cena,Carne_Fresca
-5,Maiale bistecca,g 150 (1 bistecca),Sunday,Cena,Carne_Fresca
-6,Maiale magro,g 150(1 bistecca),Sunday,Cena,Carne_Fresca
-7,Manzo magro,g 150(1 bistecca),Sunday,Cena,Carne_Fresca
-8,Petto di pollo,g 150 (2 fette),Sunday,Cena,Carne_Fresca
-9,Petto di tacchino,g 150 (2 fette),Sunday,Cena,Carne_Fresca
-10,Vitello magro,g 150(1 bistecca),Sunday,Cena,Carne_Fresca
-0,Asparagi,,Sunday,Cena,Contorni
-1,Bieta,,Sunday,Cena,Contorni
-2,Carote,,Sunday,Cena,Contorni
-3,Cetrioli,,Sunday,Cena,Contorni
-4,Cicoria,,Sunday,Cena,Contorni
-5,Cime di rapa,,Sunday,Cena,Contorni
-6,Cipolle,,Sunday,Cena,Contorni
-7,Fagiolini,,Sunday,Cena,Contorni
-8,Finocchi,,Sunday,Cena,Contorni
-9,Insalata mista,,Sunday,Cena,Contorni
-10,Lattuga,,Sunday,Cena,Contorni
-11,Melanzane,,Sunday,Cena,Contorni
-12,Peperoni,,Sunday,Cena,Contorni
-13,Pomodori,,Sunday,Cena,Contorni
-14,Spinaci,,Sunday,Cena,Contorni
-15,Zucchine,,Sunday,Cena,Contorni
-0,Mele,150g (Quello che sta in una mano aperta),Sunday,Cena,Frutta_Fresca
-1,Albicocche,150g (Quello che sta in una mano aperta),Sunday,Cena,Frutta_Fresca
-2,Ananas,150g (Quello che sta in una mano aperta),Sunday,Cena,Frutta_Fresca
-3,Banane,150g (Quello che sta in una mano aperta),Sunday,Cena,Frutta_Fresca
-4,Fichi,150g (Quello che sta in una mano aperta),Sunday,Cena,Frutta_Fresca
-5,Fragole,150g (Quello che sta in una mano aperta),Sunday,Cena,Frutta_Fresca
-6,Kiwi,150g (Quello che sta in una mano aperta),Sunday,Cena,Frutta_Fresca
-7,Mango,150g (Quello che sta in una mano aperta),Sunday,Cena,Frutta_Fresca
-8,Melone estivo,150g (Quello che sta in una mano aperta),Sunday,Cena,Frutta_Fresca
-9,Pere,150g (Quello che sta in una mano aperta),Sunday,Cena,Frutta_Fresca
-10,Pesche,150g (Quello che sta in una mano aperta),Sunday,Cena,Frutta_Fresca
-11,Prugne,150g (Quello che sta in una mano aperta),Sunday,Cena,Frutta_Fresca
-12,Uva,150g (Quello che sta in una mano aperta),Sunday,Cena,Frutta_Fresca
-0,Pane bianco,g90,Sunday,Cena,Pane
-1,Pane integrale,g110,Sunday,Cena,Pane
-0,Olio, 5 cucchiaini,Sunday,Arco_Della_Giornata,Olio
-0,Caffè,1 Tazzina,Thursday,Colazione,Caffe
-1,Caffè decaffeinato,1 Tazzina,Thursday,Colazione,Caffe
-0,Muesli,g 30,Thursday,Colazione,Derivati_dei_Cereali
-1,Biscotti ai cereali,g 30,Thursday,Colazione,Derivati_dei_Cereali
-2,Biscotti integrali,g 30,Thursday,Colazione,Derivati_dei_Cereali
-3,Biscotti secchi,g 30,Thursday,Colazione,Derivati_dei_Cereali
-4,Farro soffiato g,30,Thursday,Colazione,Derivati_dei_Cereali
-5,Fette biscottate,g 30,Thursday,Colazione,Derivati_dei_Cereali
-6,Fette biscottate ai cereali,g 30,Thursday,Colazione,Derivati_dei_Cereali
-7,Fette biscottate al malto d'orzo,g 30,Thursday,Colazione,Derivati_dei_Cereali
-8,Fette biscottate integrali,g 30,Thursday,Colazione,Derivati_dei_Cereali
-9,Fiocchi d'avena,g 30,Thursday,Colazione,Derivati_dei_Cereali
-10,Fiocchi di farro,g 40,Thursday,Colazione,Derivati_dei_Cereali
-11,Fiocchi di frumento integrale,g 40,Thursday,Colazione,Derivati_dei_Cereali
-12,Fiocchi di mais,g 30,Thursday,Colazione,Derivati_dei_Cereali
-13,Formelle di frumento integrale,g 30,Thursday,Colazione,Derivati_dei_Cereali
-14,Orzo soffiato,g 30,Thursday,Colazione,Derivati_dei_Cereali
-0,Mele,150g (Quello che sta in una mano aperta),Thursday,Colazione,Frutta_Fresca
-1,Albicocche,150g (Quello che sta in una mano aperta),Thursday,Colazione,Frutta_Fresca
-2,Ananas,150g (Quello che sta in una mano aperta),Thursday,Colazione,Frutta_Fresca
-3,Banane,150g (Quello che sta in una mano aperta),Thursday,Colazione,Frutta_Fresca
-4,Fichi,150g (Quello che sta in una mano aperta),Thursday,Colazione,Frutta_Fresca
-5,Fragole,150g (Quello che sta in una mano aperta),Thursday,Colazione,Frutta_Fresca
-6,Kiwi,150g (Quello che sta in una mano aperta),Thursday,Colazione,Frutta_Fresca
-7,Mango,150g (Quello che sta in una mano aperta),Thursday,Colazione,Frutta_Fresca
-8,Melone estivo,150g (Quello che sta in una mano aperta),Thursday,Colazione,Frutta_Fresca
-9,Pere,150g (Quello che sta in una mano aperta),Thursday,Colazione,Frutta_Fresca
-10,Pesche,150g (Quello che sta in una mano aperta),Thursday,Colazione,Frutta_Fresca
-11,Prugne,150g (Quello che sta in una mano aperta),Thursday,Colazione,Frutta_Fresca
-12,Uva,150g (Quello che sta in una mano aperta),Thursday,Colazione,Frutta_Fresca
-0,Latte Parzialmente scremato di vacca,g 200,Thursday,Colazione,Latte
-0,Noci secche,g 20,Thursday,Colazione,Noci
-1,Anacardi,g 20,Thursday,Colazione,Noci
-2,Mandorle,g 20,Thursday,Colazione,Noci
-3,Nocciole,g 20,Thursday,Colazione,Noci
-0,Asparagi,,Thursday,Pranzo,Contorni
-1,Bieta,,Thursday,Pranzo,Contorni
-2,Carote,,Thursday,Pranzo,Contorni
-3,Cetrioli,,Thursday,Pranzo,Contorni
-4,Cicoria,,Thursday,Pranzo,Contorni
-5,Cime di rapa,,Thursday,Pranzo,Contorni
-6,Cipolle,,Thursday,Pranzo,Contorni
-7,Fagiolini,,Thursday,Pranzo,Contorni
-8,Finocchi,,Thursday,Pranzo,Contorni
-9,Insalata mista,,Thursday,Pranzo,Contorni
-10,Lattuga,,Thursday,Pranzo,Contorni
-11,Melanzane,,Thursday,Pranzo,Contorni
-12,Peperoni,,Thursday,Pranzo,Contorni
-13,Pomodori,,Thursday,Pranzo,Contorni
-14,Spinaci,,Thursday,Pranzo,Contorni
-15,Zucchine,,Thursday,Pranzo,Contorni
-0,Edamame,g 100,Thursday,Pranzo,Edamame
-0,Mele,150g (Quello che sta in una mano aperta),Thursday,Pranzo,Frutta_Fresca
-1,Albicocche,150g (Quello che sta in una mano aperta),Thursday,Pranzo,Frutta_Fresca
-2,Ananas,150g (Quello che sta in una mano aperta),Thursday,Pranzo,Frutta_Fresca
-3,Banane,150g (Quello che sta in una mano aperta),Thursday,Pranzo,Frutta_Fresca
-4,Fichi,150g (Quello che sta in una mano aperta),Thursday,Pranzo,Frutta_Fresca
-5,Fragole,150g (Quello che sta in una mano aperta),Thursday,Pranzo,Frutta_Fresca
-6,Kiwi,150g (Quello che sta in una mano aperta),Thursday,Pranzo,Frutta_Fresca
-7,Mango,150g (Quello che sta in una mano aperta),Thursday,Pranzo,Frutta_Fresca
-8,Melone estivo,150g (Quello che sta in una mano aperta),Thursday,Pranzo,Frutta_Fresca
-9,Pere,150g (Quello che sta in una mano aperta),Thursday,Pranzo,Frutta_Fresca
-10,Pesche,150g (Quello che sta in una mano aperta),Thursday,Pranzo,Frutta_Fresca
-11,Prugne,150g (Quello che sta in una mano aperta),Thursday,Pranzo,Frutta_Fresca
-12,Uva,150g (Quello che sta in una mano aperta),Thursday,Pranzo,Frutta_Fresca
-0,Pane bianco,g 40,Thursday,Pranzo,Pane
-1,Pane integrale,g 50,Thursday,Pranzo,Pane
-0,Salmone affumicato,g 80,Thursday,Pranzo,Pesce_Conservato copy
-1,Tonno al naturale,g 90,Thursday,Pranzo,Pesce_Conservato copy
-2,Tonno sott'olio,g 50,Thursday,Pranzo,Pesce_Conservato copy
-0,Barretta Kinder,barretta 1,Thursday,Merenda,Barretta_Kinder
-0,Mele,150g (Quello che sta in una mano aperta),Thursday,Merenda,Frutta_Fresca
-1,Albicocche,150g (Quello che sta in una mano aperta),Thursday,Merenda,Frutta_Fresca
-2,Ananas,150g (Quello che sta in una mano aperta),Thursday,Merenda,Frutta_Fresca
-3,Banane,150g (Quello che sta in una mano aperta),Thursday,Merenda,Frutta_Fresca
-4,Fichi,150g (Quello che sta in una mano aperta),Thursday,Merenda,Frutta_Fresca
-5,Fragole,150g (Quello che sta in una mano aperta),Thursday,Merenda,Frutta_Fresca
-6,Kiwi,150g (Quello che sta in una mano aperta),Thursday,Merenda,Frutta_Fresca
-7,Mango,150g (Quello che sta in una mano aperta),Thursday,Merenda,Frutta_Fresca
-8,Melone estivo,150g (Quello che sta in una mano aperta),Thursday,Merenda,Frutta_Fresca
-9,Pere,150g (Quello che sta in una mano aperta),Thursday,Merenda,Frutta_Fresca
-10,Pesche,150g (Quello che sta in una mano aperta),Thursday,Merenda,Frutta_Fresca
-11,Prugne,150g (Quello che sta in una mano aperta),Thursday,Merenda,Frutta_Fresca
-12,Uva,150g (Quello che sta in una mano aperta),Thursday,Merenda,Frutta_Fresca
-0,Pane bianco,g 60,Thursday,Merenda,Pane
-1,Pane integrale,g 70,Thursday,Merenda,Pane
-0,Asparagi,,Thursday,Cena,Contorni
-1,Bieta,,Thursday,Cena,Contorni
-2,Carote,,Thursday,Cena,Contorni
-3,Cetrioli,,Thursday,Cena,Contorni
-4,Cicoria,,Thursday,Cena,Contorni
-5,Cime di rapa,,Thursday,Cena,Contorni
-6,Cipolle,,Thursday,Cena,Contorni
-7,Fagiolini,,Thursday,Cena,Contorni
-8,Finocchi,,Thursday,Cena,Contorni
-9,Insalata mista,,Thursday,Cena,Contorni
-10,Lattuga,,Thursday,Cena,Contorni
-11,Melanzane,,Thursday,Cena,Contorni
-12,Peperoni,,Thursday,Cena,Contorni
-13,Pomodori,,Thursday,Cena,Contorni
-14,Spinaci,,Thursday,Cena,Contorni
-15,Zucchine,,Thursday,Cena,Contorni
-0,Mele,150g (Quello che sta in una mano aperta),Thursday,Cena,Frutta_Fresca
-1,Albicocche,150g (Quello che sta in una mano aperta),Thursday,Cena,Frutta_Fresca
-2,Ananas,150g (Quello che sta in una mano aperta),Thursday,Cena,Frutta_Fresca
-3,Banane,150g (Quello che sta in una mano aperta),Thursday,Cena,Frutta_Fresca
-4,Fichi,150g (Quello che sta in una mano aperta),Thursday,Cena,Frutta_Fresca
-5,Fragole,150g (Quello che sta in una mano aperta),Thursday,Cena,Frutta_Fresca
-6,Kiwi,150g (Quello che sta in una mano aperta),Thursday,Cena,Frutta_Fresca
-7,Mango,150g (Quello che sta in una mano aperta),Thursday,Cena,Frutta_Fresca
-8,Melone estivo,150g (Quello che sta in una mano aperta),Thursday,Cena,Frutta_Fresca
-9,Pere,150g (Quello che sta in una mano aperta),Thursday,Cena,Frutta_Fresca
-10,Pesche,150g (Quello che sta in una mano aperta),Thursday,Cena,Frutta_Fresca
-11,Prugne,150g (Quello che sta in una mano aperta),Thursday,Cena,Frutta_Fresca
-12,Uva,150g (Quello che sta in una mano aperta),Thursday,Cena,Frutta_Fresca
-0,Pane bianco,g 60,Thursday,Cena,Pane
-1,Pane integrale,g 70,Thursday,Cena,Pane
-0,Calamari,g 200,Thursday,Cena,Pesce_Fresco
-1,Coda di rospo,g 200,Thursday,Cena,Pesce_Fresco
-2,Dentice,g 200,Thursday,Cena,Pesce_Fresco
-3,Gamberi,g 200 (6 gamberoni o 40 gamberetti),Thursday,Cena,Pesce_Fresco
-4,Merluzzo o Nasello,g 200,Thursday,Cena,Pesce_Fresco
-5,Orata,g 200,Thursday,Cena,Pesce_Fresco
-6,Pesce spada,g 200,Thursday,Cena,Pesce_Fresco
-7,Platessa,g 200,Thursday,Cena,Pesce_Fresco
-8,Polpo,g 200,Thursday,Cena,Pesce_Fresco
-9,Salmone fresco,g 200,Thursday,Cena,Pesce_Fresco
-10,Seppie,g 200,Thursday,Cena,Pesce_Fresco
-11,Sgombro,g 200,Thursday,Cena,Pesce_Fresco
-12,Spigola,g 200,Thursday,Cena,Pesce_Fresco
-13,Tonno,g 200,Thursday,Cena,Pesce_Fresco
-14,Cozze, 50 circa,Thursday,Cena,Pesce_Fresco
-0,Olio, 5 cucchiaini,Thursday,Arco_Della_Giornata,Olio
-0,Caffè,1 Tazzina,Tuesday,Colazione,Caffe
-1,Caffè decaffeinato,1 Tazzina,Tuesday,Colazione,Caffe
-0,Latte Parzialmente scremato di vacca,g 200,Tuesday,Colazione,Latte
-0,Marmellata,3 cucchiaini,Tuesday,Colazione,Marmellata
-0,Pane bianco,g 50,Tuesday,Colazione,Pane
-1,Pane integrale,g 60,Tuesday,Colazione,Pane
-0,philadelphia,g 30,Tuesday,Colazione,Philadelphia
-0,Asparagi,,Tuesday,Pranzo,Contorni
-1,Bieta,,Tuesday,Pranzo,Contorni
-2,Carote,,Tuesday,Pranzo,Contorni
-3,Cetrioli,,Tuesday,Pranzo,Contorni
-4,Cicoria,,Tuesday,Pranzo,Contorni
-5,Cime di rapa,,Tuesday,Pranzo,Contorni
-6,Cipolle,,Tuesday,Pranzo,Contorni
-7,Fagiolini,,Tuesday,Pranzo,Contorni
-8,Finocchi,,Tuesday,Pranzo,Contorni
-9,Insalata mista,,Tuesday,Pranzo,Contorni
-10,Lattuga,,Tuesday,Pranzo,Contorni
-11,Melanzane,,Tuesday,Pranzo,Contorni
-12,Peperoni,,Tuesday,Pranzo,Contorni
-13,Pomodori,,Tuesday,Pranzo,Contorni
-14,Spinaci,,Tuesday,Pranzo,Contorni
-15,Zucchine,,Tuesday,Pranzo,Contorni
-0,Caciottina,g 50,Tuesday,Pranzo,Formaggi_E_Latticini
-1,Crescenza,g 100,Tuesday,Pranzo,Formaggi_E_Latticini
-2,Feta,g 100,Tuesday,Pranzo,Formaggi_E_Latticini
-3,Formaggio cremoso,g 100,Tuesday,Pranzo,Formaggi_E_Latticini
-4,Galbanino,g 50,Tuesday,Pranzo,Formaggi_E_Latticini
-5,Mozzarella,g 100,Tuesday,Pranzo,Formaggi_E_Latticini
-6,Parmigiano,g 50,Tuesday,Pranzo,Formaggi_E_Latticini
-7,Ricotta di vacca, g 100,Tuesday,Pranzo,Formaggi_E_Latticini
-8,Scamorza, g 50,Tuesday,Pranzo,Formaggi_E_Latticini
-9,Stracchino,g 100,Tuesday,Pranzo,Formaggi_E_Latticini
-0,Mele,150g (Quello che sta in una mano aperta),Tuesday,Pranzo,Frutta_Fresca
-1,Albicocche,150g (Quello che sta in una mano aperta),Tuesday,Pranzo,Frutta_Fresca
-2,Ananas,150g (Quello che sta in una mano aperta),Tuesday,Pranzo,Frutta_Fresca
-3,Banane,150g (Quello che sta in una mano aperta),Tuesday,Pranzo,Frutta_Fresca
-4,Fichi,150g (Quello che sta in una mano aperta),Tuesday,Pranzo,Frutta_Fresca
-5,Fragole,150g (Quello che sta in una mano aperta),Tuesday,Pranzo,Frutta_Fresca
-6,Kiwi,150g (Quello che sta in una mano aperta),Tuesday,Pranzo,Frutta_Fresca
-7,Mango,150g (Quello che sta in una mano aperta),Tuesday,Pranzo,Frutta_Fresca
-8,Melone estivo,150g (Quello che sta in una mano aperta),Tuesday,Pranzo,Frutta_Fresca
-9,Pere,150g (Quello che sta in una mano aperta),Tuesday,Pranzo,Frutta_Fresca
-10,Pesche,150g (Quello che sta in una mano aperta),Tuesday,Pranzo,Frutta_Fresca
-11,Prugne,150g (Quello che sta in una mano aperta),Tuesday,Pranzo,Frutta_Fresca
-12,Uva,150g (Quello che sta in una mano aperta),Tuesday,Pranzo,Frutta_Fresca
-0,Pasta di farro,g 80,Tuesday,Pranzo,Pasta
-1,Pasta di semola,g 70,Tuesday,Pranzo,Pasta
-2,Pasta integrale,g 80,Tuesday,Pranzo,Pasta
-0,Cioccolato fondente,g 20,Tuesday,Merenda,Cioccolato
-0,Mele,150g (Quello che sta in una mano aperta),Tuesday,Merenda,Frutta_Fresca
-1,Albicocche,150g (Quello che sta in una mano aperta),Tuesday,Merenda,Frutta_Fresca
-2,Ananas,150g (Quello che sta in una mano aperta),Tuesday,Merenda,Frutta_Fresca
-3,Banane,150g (Quello che sta in una mano aperta),Tuesday,Merenda,Frutta_Fresca
-4,Fichi,150g (Quello che sta in una mano aperta),Tuesday,Merenda,Frutta_Fresca
-5,Fragole,150g (Quello che sta in una mano aperta),Tuesday,Merenda,Frutta_Fresca
-6,Kiwi,150g (Quello che sta in una mano aperta),Tuesday,Merenda,Frutta_Fresca
-7,Mango,150g (Quello che sta in una mano aperta),Tuesday,Merenda,Frutta_Fresca
-8,Melone estivo,150g (Quello che sta in una mano aperta),Tuesday,Merenda,Frutta_Fresca
-9,Pere,150g (Quello che sta in una mano aperta),Tuesday,Merenda,Frutta_Fresca
-10,Pesche,150g (Quello che sta in una mano aperta),Tuesday,Merenda,Frutta_Fresca
-11,Prugne,150g (Quello che sta in una mano aperta),Tuesday,Merenda,Frutta_Fresca
-12,Uva,150g (Quello che sta in una mano aperta),Tuesday,Merenda,Frutta_Fresca
-0,Pane bianco,g 40,Tuesday,Merenda,Pane
-1,Pane integrale,g 50,Tuesday,Merenda,Pane
-0,Asparagi,,Tuesday,Cena,Contorni
-1,Bieta,,Tuesday,Cena,Contorni
-2,Carote,,Tuesday,Cena,Contorni
-3,Cetrioli,,Tuesday,Cena,Contorni
-4,Cicoria,,Tuesday,Cena,Contorni
-5,Cime di rapa,,Tuesday,Cena,Contorni
-6,Cipolle,,Tuesday,Cena,Contorni
-7,Fagiolini,,Tuesday,Cena,Contorni
-8,Finocchi,,Tuesday,Cena,Contorni
-9,Insalata mista,,Tuesday,Cena,Contorni
-10,Lattuga,,Tuesday,Cena,Contorni
-11,Melanzane,,Tuesday,Cena,Contorni
-12,Peperoni,,Tuesday,Cena,Contorni
-13,Pomodori,,Tuesday,Cena,Contorni
-14,Spinaci,,Tuesday,Cena,Contorni
-15,Zucchine,,Tuesday,Cena,Contorni
-0,Mele,150g (Quello che sta in una mano aperta),Tuesday,Cena,Frutta_Fresca
-1,Albicocche,150g (Quello che sta in una mano aperta),Tuesday,Cena,Frutta_Fresca
-2,Ananas,150g (Quello che sta in una mano aperta),Tuesday,Cena,Frutta_Fresca
-3,Banane,150g (Quello che sta in una mano aperta),Tuesday,Cena,Frutta_Fresca
-4,Fichi,150g (Quello che sta in una mano aperta),Tuesday,Cena,Frutta_Fresca
-5,Fragole,150g (Quello che sta in una mano aperta),Tuesday,Cena,Frutta_Fresca
-6,Kiwi,150g (Quello che sta in una mano aperta),Tuesday,Cena,Frutta_Fresca
-7,Mango,150g (Quello che sta in una mano aperta),Tuesday,Cena,Frutta_Fresca
-8,Melone estivo,150g (Quello che sta in una mano aperta),Tuesday,Cena,Frutta_Fresca
-9,Pere,150g (Quello che sta in una mano aperta),Tuesday,Cena,Frutta_Fresca
-10,Pesche,150g (Quello che sta in una mano aperta),Tuesday,Cena,Frutta_Fresca
-11,Prugne,150g (Quello che sta in una mano aperta),Tuesday,Cena,Frutta_Fresca
-12,Uva,150g (Quello che sta in una mano aperta),Tuesday,Cena,Frutta_Fresca
-0,Pane bianco,g 60,Tuesday,Cena,Pane
-1,Pane integrale,g 70,Tuesday,Cena,Pane
-0,Calamari,g 200,Tuesday,Cena,Pesce_Fresco
-1,Coda di rospo,g 200,Tuesday,Cena,Pesce_Fresco
-2,Dentice,g 200,Tuesday,Cena,Pesce_Fresco
-3,Gamberi,g 200 (6 gamberoni o 40 gamberetti),Tuesday,Cena,Pesce_Fresco
-4,Merluzzo o Nasello,g 200,Tuesday,Cena,Pesce_Fresco
-5,Orata,g 200,Tuesday,Cena,Pesce_Fresco
-6,Pesce spada,g 200,Tuesday,Cena,Pesce_Fresco
-7,Platessa,g 200,Tuesday,Cena,Pesce_Fresco
-8,Polpo,g 200,Tuesday,Cena,Pesce_Fresco
-9,Salmone fresco,g 200,Tuesday,Cena,Pesce_Fresco
-10,Seppie,g 200,Tuesday,Cena,Pesce_Fresco
-11,Sgombro,g 200,Tuesday,Cena,Pesce_Fresco
-12,Spigola,g 200,Tuesday,Cena,Pesce_Fresco
-13,Tonno,g 200,Tuesday,Cena,Pesce_Fresco
-14,Cozze, 50 circa,Tuesday,Cena,Pesce_Fresco
-0,Olio, 5 cucchiaini,Tuesday,Arco_Della_Giornata,Olio
-0,Caffè,1 Tazzina,Wednesday,Colazione,Caffe
-1,Caffè decaffeinato,1 Tazzina,Wednesday,Colazione,Caffe
-0,Asparagi,,Wednesday,Colazione,Contorni
-1,Bieta,,Wednesday,Colazione,Contorni
-2,Carote,,Wednesday,Colazione,Contorni
-3,Cetrioli,,Wednesday,Colazione,Contorni
-4,Cicoria,,Wednesday,Colazione,Contorni
-5,Cime di rapa,,Wednesday,Colazione,Contorni
-6,Cipolle,,Wednesday,Colazione,Contorni
-7,Fagiolini,,Wednesday,Colazione,Contorni
-8,Finocchi,,Wednesday,Colazione,Contorni
-9,Insalata mista,,Wednesday,Colazione,Contorni
-10,Lattuga,,Wednesday,Colazione,Contorni
-11,Melanzane,,Wednesday,Colazione,Contorni
-12,Peperoni,,Wednesday,Colazione,Contorni
-13,Pomodori,,Wednesday,Colazione,Contorni
-14,Spinaci,,Wednesday,Colazione,Contorni
-15,Zucchine,,Wednesday,Colazione,Contorni
-0,Mele,150g (Quello che sta in una mano aperta),Wednesday,Colazione,Frutta_Fresca
-1,Albicocche,150g (Quello che sta in una mano aperta),Wednesday,Colazione,Frutta_Fresca
-2,Ananas,150g (Quello che sta in una mano aperta),Wednesday,Colazione,Frutta_Fresca
-3,Banane,150g (Quello che sta in una mano aperta),Wednesday,Colazione,Frutta_Fresca
-4,Fichi,150g (Quello che sta in una mano aperta),Wednesday,Colazione,Frutta_Fresca
-5,Fragole,150g (Quello che sta in una mano aperta),Wednesday,Colazione,Frutta_Fresca
-6,Kiwi,150g (Quello che sta in una mano aperta),Wednesday,Colazione,Frutta_Fresca
-7,Mango,150g (Quello che sta in una mano aperta),Wednesday,Colazione,Frutta_Fresca
-8,Melone estivo,150g (Quello che sta in una mano aperta),Wednesday,Colazione,Frutta_Fresca
-9,Pere,150g (Quello che sta in una mano aperta),Wednesday,Colazione,Frutta_Fresca
-10,Pesche,150g (Quello che sta in una mano aperta),Wednesday,Colazione,Frutta_Fresca
-11,Prugne,150g (Quello che sta in una mano aperta),Wednesday,Colazione,Frutta_Fresca
-12,Uva,150g (Quello che sta in una mano aperta),Wednesday,Colazione,Frutta_Fresca
-0,Latte Parzialmente scremato di vacca,g 200,Wednesday,Colazione,Latte
-0,Pane bianco,g 50,Wednesday,Colazione,Pane
-1,Pane integrale,g 60,Wednesday,Colazione,Pane
-0,Bulgur,g 80,Wednesday,Pranzo,Cereali
-1,Couscous,g 80,Wednesday,Pranzo,Cereali
-2,Farro g,80,Wednesday,Pranzo,Cereali
-3,Orzo g,80,Wednesday,Pranzo,Cereali
-4,Riso,g 80,Wednesday,Pranzo,Cereali
-0,Asparagi,,Wednesday,Pranzo,Contorni
-1,Bieta,,Wednesday,Pranzo,Contorni
-2,Carote,,Wednesday,Pranzo,Contorni
-3,Cetrioli,,Wednesday,Pranzo,Contorni
-4,Cicoria,,Wednesday,Pranzo,Contorni
-5,Cime di rapa,,Wednesday,Pranzo,Contorni
-6,Cipolle,,Wednesday,Pranzo,Contorni
-7,Fagiolini,,Wednesday,Pranzo,Contorni
-8,Finocchi,,Wednesday,Pranzo,Contorni
-9,Insalata mista,,Wednesday,Pranzo,Contorni
-10,Lattuga,,Wednesday,Pranzo,Contorni
-11,Melanzane,,Wednesday,Pranzo,Contorni
-12,Peperoni,,Wednesday,Pranzo,Contorni
-13,Pomodori,,Wednesday,Pranzo,Contorni
-14,Spinaci,,Wednesday,Pranzo,Contorni
-15,Zucchine,,Wednesday,Pranzo,Contorni
-0,Caciottina,g 50,Wednesday,Pranzo,Formaggi_E_Latticini
-1,Crescenza,g 100,Wednesday,Pranzo,Formaggi_E_Latticini
-2,Feta,g 100,Wednesday,Pranzo,Formaggi_E_Latticini
-3,Formaggio cremoso,g 100,Wednesday,Pranzo,Formaggi_E_Latticini
-4,Galbanino,g 50,Wednesday,Pranzo,Formaggi_E_Latticini
-5,Mozzarella,g 100,Wednesday,Pranzo,Formaggi_E_Latticini
-6,Parmigiano,g 50,Wednesday,Pranzo,Formaggi_E_Latticini
-7,Ricotta di vacca, g 100,Wednesday,Pranzo,Formaggi_E_Latticini
-8,Scamorza, g 50,Wednesday,Pranzo,Formaggi_E_Latticini
-9,Stracchino,g 100,Wednesday,Pranzo,Formaggi_E_Latticini
-0,Mele,150g (Quello che sta in una mano aperta),Wednesday,Pranzo,Frutta_Fresca
-1,Albicocche,150g (Quello che sta in una mano aperta),Wednesday,Pranzo,Frutta_Fresca
-2,Ananas,150g (Quello che sta in una mano aperta),Wednesday,Pranzo,Frutta_Fresca
-3,Banane,150g (Quello che sta in una mano aperta),Wednesday,Pranzo,Frutta_Fresca
-4,Fichi,150g (Quello che sta in una mano aperta),Wednesday,Pranzo,Frutta_Fresca
-5,Fragole,150g (Quello che sta in una mano aperta),Wednesday,Pranzo,Frutta_Fresca
-6,Kiwi,150g (Quello che sta in una mano aperta),Wednesday,Pranzo,Frutta_Fresca
-7,Mango,150g (Quello che sta in una mano aperta),Wednesday,Pranzo,Frutta_Fresca
-8,Melone estivo,150g (Quello che sta in una mano aperta),Wednesday,Pranzo,Frutta_Fresca
-9,Pere,150g (Quello che sta in una mano aperta),Wednesday,Pranzo,Frutta_Fresca
-10,Pesche,150g (Quello che sta in una mano aperta),Wednesday,Pranzo,Frutta_Fresca
-11,Prugne,150g (Quello che sta in una mano aperta),Wednesday,Pranzo,Frutta_Fresca
-12,Uva,150g (Quello che sta in una mano aperta),Wednesday,Pranzo,Frutta_Fresca
-0,Mele,150g (Quello che sta in una mano aperta),Wednesday,Merenda,Frutta_Fresca
-1,Albicocche,150g (Quello che sta in una mano aperta),Wednesday,Merenda,Frutta_Fresca
-2,Ananas,150g (Quello che sta in una mano aperta),Wednesday,Merenda,Frutta_Fresca
-3,Banane,150g (Quello che sta in una mano aperta),Wednesday,Merenda,Frutta_Fresca
-4,Fichi,150g (Quello che sta in una mano aperta),Wednesday,Merenda,Frutta_Fresca
-5,Fragole,150g (Quello che sta in una mano aperta),Wednesday,Merenda,Frutta_Fresca
-6,Kiwi,150g (Quello che sta in una mano aperta),Wednesday,Merenda,Frutta_Fresca
-7,Mango,150g (Quello che sta in una mano aperta),Wednesday,Merenda,Frutta_Fresca
-8,Melone estivo,150g (Quello che sta in una mano aperta),Wednesday,Merenda,Frutta_Fresca
-9,Pere,150g (Quello che sta in una mano aperta),Wednesday,Merenda,Frutta_Fresca
-10,Pesche,150g (Quello che sta in una mano aperta),Wednesday,Merenda,Frutta_Fresca
-11,Prugne,150g (Quello che sta in una mano aperta),Wednesday,Merenda,Frutta_Fresca
-12,Uva,150g (Quello che sta in una mano aperta),Wednesday,Merenda,Frutta_Fresca
-0,Marmellata,1 cucchiaino,Wednesday,Merenda,Marmellata
-0,Noci secche,g 10,Wednesday,Merenda,Noci
-1,Anacardi,g 10,Wednesday,Merenda,Noci
-2,Mandorle,g 10,Wednesday,Merenda,Noci
-3,Nocciole,g 10,Wednesday,Merenda,Noci
-0,Yogurt da latte intero,1 vasetto,Wednesday,Merenda,Yogurt
-0,Agnello,g 150 (1 bistecca),Wednesday,Cena,Carne_Fresca
-1,Coniglio,g 150(1 bistecca),Wednesday,Cena,Carne_Fresca
-2,Coscia di pollo,g 150 (2 cosce),Wednesday,Cena,Carne_Fresca
-3,Hamburger di manzo,g 150 (1 burger),Wednesday,Cena,Carne_Fresca
-4,Hamburger di pollo,g 150 (1 burger),Wednesday,Cena,Carne_Fresca
-5,Maiale bistecca,g 150 (1 bistecca),Wednesday,Cena,Carne_Fresca
-6,Maiale magro,g 150(1 bistecca),Wednesday,Cena,Carne_Fresca
-7,Manzo magro,g 150(1 bistecca),Wednesday,Cena,Carne_Fresca
-8,Petto di pollo,g 150 (2 fette),Wednesday,Cena,Carne_Fresca
-9,Petto di tacchino,g 150 (2 fette),Wednesday,Cena,Carne_Fresca
-10,Vitello magro,g 150(1 bistecca),Wednesday,Cena,Carne_Fresca
-0,Asparagi,,Wednesday,Cena,Contorni
-1,Bieta,,Wednesday,Cena,Contorni
-2,Carote,,Wednesday,Cena,Contorni
-3,Cetrioli,,Wednesday,Cena,Contorni
-4,Cicoria,,Wednesday,Cena,Contorni
-5,Cime di rapa,,Wednesday,Cena,Contorni
-6,Cipolle,,Wednesday,Cena,Contorni
-7,Fagiolini,,Wednesday,Cena,Contorni
-8,Finocchi,,Wednesday,Cena,Contorni
-9,Insalata mista,,Wednesday,Cena,Contorni
-10,Lattuga,,Wednesday,Cena,Contorni
-11,Melanzane,,Wednesday,Cena,Contorni
-12,Peperoni,,Wednesday,Cena,Contorni
-13,Pomodori,,Wednesday,Cena,Contorni
-14,Spinaci,,Wednesday,Cena,Contorni
-15,Zucchine,,Wednesday,Cena,Contorni
-0,Mele,150g (Quello che sta in una mano aperta),Wednesday,Cena,Frutta_Fresca
-1,Albicocche,150g (Quello che sta in una mano aperta),Wednesday,Cena,Frutta_Fresca
-2,Ananas,150g (Quello che sta in una mano aperta),Wednesday,Cena,Frutta_Fresca
-3,Banane,150g (Quello che sta in una mano aperta),Wednesday,Cena,Frutta_Fresca
-4,Fichi,150g (Quello che sta in una mano aperta),Wednesday,Cena,Frutta_Fresca
-5,Fragole,150g (Quello che sta in una mano aperta),Wednesday,Cena,Frutta_Fresca
-6,Kiwi,150g (Quello che sta in una mano aperta),Wednesday,Cena,Frutta_Fresca
-7,Mango,150g (Quello che sta in una mano aperta),Wednesday,Cena,Frutta_Fresca
-8,Melone estivo,150g (Quello che sta in una mano aperta),Wednesday,Cena,Frutta_Fresca
-9,Pere,150g (Quello che sta in una mano aperta),Wednesday,Cena,Frutta_Fresca
-10,Pesche,150g (Quello che sta in una mano aperta),Wednesday,Cena,Frutta_Fresca
-11,Prugne,150g (Quello che sta in una mano aperta),Wednesday,Cena,Frutta_Fresca
-12,Uva,150g (Quello che sta in una mano aperta),Wednesday,Cena,Frutta_Fresca
-0,Pane bianco,g 90,Wednesday,Cena,Pane
-1,Pane integrale,g 110,Wednesday,Cena,Pane
-0,Olio, 5 cucchiaini,Wednesday,Arco_Della_Giornata,Olio
+0,Caffè,1 Tazzina,0_Monday,0_Colazione,Caffe
+1,Caffè decaffeinato,1 Tazzina,0_Monday,0_Colazione,Caffe
+0,Frollini con cioccolato,g 50,0_Monday,0_Colazione,Derivati_Dei_Cereali_Farciti
+1,Barrette ai cereali e cacao,g 50,0_Monday,0_Colazione,Derivati_Dei_Cereali_Farciti
+2,Biscotti leggeri con cioccolato,g 60,0_Monday,0_Colazione,Derivati_Dei_Cereali_Farciti
+3,Fiocchi di frumento integrale al cioccolato,g 60,0_Monday,0_Colazione,Derivati_Dei_Cereali_Farciti
+4,Fiocchi di mais al cioccolato,g 60,0_Monday,0_Colazione,Derivati_Dei_Cereali_Farciti
+5,Riso soffiato al cioccolato,g 60,0_Monday,0_Colazione,Derivati_Dei_Cereali_Farciti
+6,Wafers,g 50,0_Monday,0_Colazione,Derivati_Dei_Cereali_Farciti
+0,Mele,150g (Quello che sta in una mano aperta),0_Monday,0_Colazione,Frutta_Fresca
+1,Albicocche,150g (Quello che sta in una mano aperta),0_Monday,0_Colazione,Frutta_Fresca
+2,Ananas,150g (Quello che sta in una mano aperta),0_Monday,0_Colazione,Frutta_Fresca
+3,Banane,150g (Quello che sta in una mano aperta),0_Monday,0_Colazione,Frutta_Fresca
+4,Fichi,150g (Quello che sta in una mano aperta),0_Monday,0_Colazione,Frutta_Fresca
+5,Fragole,150g (Quello che sta in una mano aperta),0_Monday,0_Colazione,Frutta_Fresca
+6,Kiwi,150g (Quello che sta in una mano aperta),0_Monday,0_Colazione,Frutta_Fresca
+7,Mango,150g (Quello che sta in una mano aperta),0_Monday,0_Colazione,Frutta_Fresca
+8,Melone estivo,150g (Quello che sta in una mano aperta),0_Monday,0_Colazione,Frutta_Fresca
+9,Pere,150g (Quello che sta in una mano aperta),0_Monday,0_Colazione,Frutta_Fresca
+10,Pesche,150g (Quello che sta in una mano aperta),0_Monday,0_Colazione,Frutta_Fresca
+11,Prugne,150g (Quello che sta in una mano aperta),0_Monday,0_Colazione,Frutta_Fresca
+12,Uva,150g (Quello che sta in una mano aperta),0_Monday,0_Colazione,Frutta_Fresca
+0,Latte Parzialmente scremato di vacca,g 200,0_Monday,0_Colazione,Latte
+0,Asparagi,,0_Monday,1_Pranzo,Contorni
+1,Bieta,,0_Monday,1_Pranzo,Contorni
+2,Carote,,0_Monday,1_Pranzo,Contorni
+3,Cetrioli,,0_Monday,1_Pranzo,Contorni
+4,Cicoria,,0_Monday,1_Pranzo,Contorni
+5,Cime di rapa,,0_Monday,1_Pranzo,Contorni
+6,Cipolle,,0_Monday,1_Pranzo,Contorni
+7,Fagiolini,,0_Monday,1_Pranzo,Contorni
+8,Finocchi,,0_Monday,1_Pranzo,Contorni
+9,Insalata mista,,0_Monday,1_Pranzo,Contorni
+10,Lattuga,,0_Monday,1_Pranzo,Contorni
+11,Melanzane,,0_Monday,1_Pranzo,Contorni
+12,Peperoni,,0_Monday,1_Pranzo,Contorni
+13,Pomodori,,0_Monday,1_Pranzo,Contorni
+14,Spinaci,,0_Monday,1_Pranzo,Contorni
+15,Zucchine,,0_Monday,1_Pranzo,Contorni
+0,Mele,150g (Quello che sta in una mano aperta),0_Monday,1_Pranzo,Frutta_Fresca
+1,Albicocche,150g (Quello che sta in una mano aperta),0_Monday,1_Pranzo,Frutta_Fresca
+2,Ananas,150g (Quello che sta in una mano aperta),0_Monday,1_Pranzo,Frutta_Fresca
+3,Banane,150g (Quello che sta in una mano aperta),0_Monday,1_Pranzo,Frutta_Fresca
+4,Fichi,150g (Quello che sta in una mano aperta),0_Monday,1_Pranzo,Frutta_Fresca
+5,Fragole,150g (Quello che sta in una mano aperta),0_Monday,1_Pranzo,Frutta_Fresca
+6,Kiwi,150g (Quello che sta in una mano aperta),0_Monday,1_Pranzo,Frutta_Fresca
+7,Mango,150g (Quello che sta in una mano aperta),0_Monday,1_Pranzo,Frutta_Fresca
+8,Melone estivo,150g (Quello che sta in una mano aperta),0_Monday,1_Pranzo,Frutta_Fresca
+9,Pere,150g (Quello che sta in una mano aperta),0_Monday,1_Pranzo,Frutta_Fresca
+10,Pesche,150g (Quello che sta in una mano aperta),0_Monday,1_Pranzo,Frutta_Fresca
+11,Prugne,150g (Quello che sta in una mano aperta),0_Monday,1_Pranzo,Frutta_Fresca
+12,Uva,150g (Quello che sta in una mano aperta),0_Monday,1_Pranzo,Frutta_Fresca
+0,Ceci secchi,g 70,0_Monday,1_Pranzo,Legumi_Secchi
+1,Fagioli di soia secchi,g 60,0_Monday,1_Pranzo,Legumi_Secchi
+2,Fagioli secchi,g 80,0_Monday,1_Pranzo,Legumi_Secchi
+3,Fave secche,g 70,0_Monday,1_Pranzo,Legumi_Secchi
+4,Lenticchie secche,g 80,0_Monday,1_Pranzo,Legumi_Secchi
+5,Piselli secchi,g 80,0_Monday,1_Pranzo,Legumi_Secchi
+0,Pane bianco,g 80,0_Monday,1_Pranzo,Pane
+1,Pane integrale,g 100,0_Monday,1_Pranzo,Pane
+0,Mele,150g (Quello che sta in una mano aperta),0_Monday,2_Merenda,Frutta_Fresca
+1,Albicocche,150g (Quello che sta in una mano aperta),0_Monday,2_Merenda,Frutta_Fresca
+2,Ananas,150g (Quello che sta in una mano aperta),0_Monday,2_Merenda,Frutta_Fresca
+3,Banane,150g (Quello che sta in una mano aperta),0_Monday,2_Merenda,Frutta_Fresca
+4,Fichi,150g (Quello che sta in una mano aperta),0_Monday,2_Merenda,Frutta_Fresca
+5,Fragole,150g (Quello che sta in una mano aperta),0_Monday,2_Merenda,Frutta_Fresca
+6,Kiwi,150g (Quello che sta in una mano aperta),0_Monday,2_Merenda,Frutta_Fresca
+7,Mango,150g (Quello che sta in una mano aperta),0_Monday,2_Merenda,Frutta_Fresca
+8,Melone estivo,150g (Quello che sta in una mano aperta),0_Monday,2_Merenda,Frutta_Fresca
+9,Pere,150g (Quello che sta in una mano aperta),0_Monday,2_Merenda,Frutta_Fresca
+10,Pesche,150g (Quello che sta in una mano aperta),0_Monday,2_Merenda,Frutta_Fresca
+11,Prugne,150g (Quello che sta in una mano aperta),0_Monday,2_Merenda,Frutta_Fresca
+12,Uva,150g (Quello che sta in una mano aperta),0_Monday,2_Merenda,Frutta_Fresca
+0,Marmellata,1 cucchiaino,0_Monday,2_Merenda,Marmellata
+0,Noci secche,g 10,0_Monday,2_Merenda,Noci
+1,Anacardi,g 10,0_Monday,2_Merenda,Noci
+2,Mandorle,g 10,0_Monday,2_Merenda,Noci
+3,Nocciole,g 10,0_Monday,2_Merenda,Noci
+0,Yogurt da latte intero,1 vasetto,0_Monday,2_Merenda,Yogurt
+0,Asparagi,,0_Monday,3_Cena,Contorni
+1,Bieta,,0_Monday,3_Cena,Contorni
+2,Carote,,0_Monday,3_Cena,Contorni
+3,Cetrioli,,0_Monday,3_Cena,Contorni
+4,Cicoria,,0_Monday,3_Cena,Contorni
+5,Cime di rapa,,0_Monday,3_Cena,Contorni
+6,Cipolle,,0_Monday,3_Cena,Contorni
+7,Fagiolini,,0_Monday,3_Cena,Contorni
+8,Finocchi,,0_Monday,3_Cena,Contorni
+9,Insalata mista,,0_Monday,3_Cena,Contorni
+10,Lattuga,,0_Monday,3_Cena,Contorni
+11,Melanzane,,0_Monday,3_Cena,Contorni
+12,Peperoni,,0_Monday,3_Cena,Contorni
+13,Pomodori,,0_Monday,3_Cena,Contorni
+14,Spinaci,,0_Monday,3_Cena,Contorni
+15,Zucchine,,0_Monday,3_Cena,Contorni
+0,Mele,150g (Quello che sta in una mano aperta),0_Monday,3_Cena,Frutta_Fresca
+1,Albicocche,150g (Quello che sta in una mano aperta),0_Monday,3_Cena,Frutta_Fresca
+2,Ananas,150g (Quello che sta in una mano aperta),0_Monday,3_Cena,Frutta_Fresca
+3,Banane,150g (Quello che sta in una mano aperta),0_Monday,3_Cena,Frutta_Fresca
+4,Fichi,150g (Quello che sta in una mano aperta),0_Monday,3_Cena,Frutta_Fresca
+5,Fragole,150g (Quello che sta in una mano aperta),0_Monday,3_Cena,Frutta_Fresca
+6,Kiwi,150g (Quello che sta in una mano aperta),0_Monday,3_Cena,Frutta_Fresca
+7,Mango,150g (Quello che sta in una mano aperta),0_Monday,3_Cena,Frutta_Fresca
+8,Melone estivo,150g (Quello che sta in una mano aperta),0_Monday,3_Cena,Frutta_Fresca
+9,Pere,150g (Quello che sta in una mano aperta),0_Monday,3_Cena,Frutta_Fresca
+10,Pesche,150g (Quello che sta in una mano aperta),0_Monday,3_Cena,Frutta_Fresca
+11,Prugne,150g (Quello che sta in una mano aperta),0_Monday,3_Cena,Frutta_Fresca
+12,Uva,150g (Quello che sta in una mano aperta),0_Monday,3_Cena,Frutta_Fresca
+0,Tisana,1 tazza,0_Monday,3_Cena,Spuntino_Serale
+1,Camomilla,1 tazza,0_Monday,3_Cena,Spuntino_Serale
+0,Uovo di gallina, n° 2,0_Monday,3_Cena,Uova
+0,Olio, 5 cucchiaini,0_Monday,4_Arco_Della_Giornata,Olio
+0,Caffè,1 Tazzina,1_Tuesday,0_Colazione,Caffe
+1,Caffè decaffeinato,1 Tazzina,1_Tuesday,0_Colazione,Caffe
+0,Latte Parzialmente scremato di vacca,g 200,1_Tuesday,0_Colazione,Latte
+0,Marmellata,3 cucchiaini,1_Tuesday,0_Colazione,Marmellata
+0,Pane bianco,g 50,1_Tuesday,0_Colazione,Pane
+1,Pane integrale,g 60,1_Tuesday,0_Colazione,Pane
+0,philadelphia,g 30,1_Tuesday,0_Colazione,Philadelphia
+0,Asparagi,,1_Tuesday,1_Pranzo,Contorni
+1,Bieta,,1_Tuesday,1_Pranzo,Contorni
+2,Carote,,1_Tuesday,1_Pranzo,Contorni
+3,Cetrioli,,1_Tuesday,1_Pranzo,Contorni
+4,Cicoria,,1_Tuesday,1_Pranzo,Contorni
+5,Cime di rapa,,1_Tuesday,1_Pranzo,Contorni
+6,Cipolle,,1_Tuesday,1_Pranzo,Contorni
+7,Fagiolini,,1_Tuesday,1_Pranzo,Contorni
+8,Finocchi,,1_Tuesday,1_Pranzo,Contorni
+9,Insalata mista,,1_Tuesday,1_Pranzo,Contorni
+10,Lattuga,,1_Tuesday,1_Pranzo,Contorni
+11,Melanzane,,1_Tuesday,1_Pranzo,Contorni
+12,Peperoni,,1_Tuesday,1_Pranzo,Contorni
+13,Pomodori,,1_Tuesday,1_Pranzo,Contorni
+14,Spinaci,,1_Tuesday,1_Pranzo,Contorni
+15,Zucchine,,1_Tuesday,1_Pranzo,Contorni
+0,Caciottina,g 50,1_Tuesday,1_Pranzo,Formaggi_E_Latticini
+1,Crescenza,g 100,1_Tuesday,1_Pranzo,Formaggi_E_Latticini
+2,Feta,g 100,1_Tuesday,1_Pranzo,Formaggi_E_Latticini
+3,Formaggio cremoso,g 100,1_Tuesday,1_Pranzo,Formaggi_E_Latticini
+4,Galbanino,g 50,1_Tuesday,1_Pranzo,Formaggi_E_Latticini
+5,Mozzarella,g 100,1_Tuesday,1_Pranzo,Formaggi_E_Latticini
+6,Parmigiano,g 50,1_Tuesday,1_Pranzo,Formaggi_E_Latticini
+7,Ricotta di vacca, g 100,1_Tuesday,1_Pranzo,Formaggi_E_Latticini
+8,Scamorza, g 50,1_Tuesday,1_Pranzo,Formaggi_E_Latticini
+9,Stracchino,g 100,1_Tuesday,1_Pranzo,Formaggi_E_Latticini
+0,Mele,150g (Quello che sta in una mano aperta),1_Tuesday,1_Pranzo,Frutta_Fresca
+1,Albicocche,150g (Quello che sta in una mano aperta),1_Tuesday,1_Pranzo,Frutta_Fresca
+2,Ananas,150g (Quello che sta in una mano aperta),1_Tuesday,1_Pranzo,Frutta_Fresca
+3,Banane,150g (Quello che sta in una mano aperta),1_Tuesday,1_Pranzo,Frutta_Fresca
+4,Fichi,150g (Quello che sta in una mano aperta),1_Tuesday,1_Pranzo,Frutta_Fresca
+5,Fragole,150g (Quello che sta in una mano aperta),1_Tuesday,1_Pranzo,Frutta_Fresca
+6,Kiwi,150g (Quello che sta in una mano aperta),1_Tuesday,1_Pranzo,Frutta_Fresca
+7,Mango,150g (Quello che sta in una mano aperta),1_Tuesday,1_Pranzo,Frutta_Fresca
+8,Melone estivo,150g (Quello che sta in una mano aperta),1_Tuesday,1_Pranzo,Frutta_Fresca
+9,Pere,150g (Quello che sta in una mano aperta),1_Tuesday,1_Pranzo,Frutta_Fresca
+10,Pesche,150g (Quello che sta in una mano aperta),1_Tuesday,1_Pranzo,Frutta_Fresca
+11,Prugne,150g (Quello che sta in una mano aperta),1_Tuesday,1_Pranzo,Frutta_Fresca
+12,Uva,150g (Quello che sta in una mano aperta),1_Tuesday,1_Pranzo,Frutta_Fresca
+0,Pasta di farro,g 80,1_Tuesday,1_Pranzo,Pasta
+1,Pasta di semola,g 70,1_Tuesday,1_Pranzo,Pasta
+2,Pasta integrale,g 80,1_Tuesday,1_Pranzo,Pasta
+0,Cioccolato fondente,g 20,1_Tuesday,2_Merenda,Cioccolato
+0,Mele,150g (Quello che sta in una mano aperta),1_Tuesday,2_Merenda,Frutta_Fresca
+1,Albicocche,150g (Quello che sta in una mano aperta),1_Tuesday,2_Merenda,Frutta_Fresca
+2,Ananas,150g (Quello che sta in una mano aperta),1_Tuesday,2_Merenda,Frutta_Fresca
+3,Banane,150g (Quello che sta in una mano aperta),1_Tuesday,2_Merenda,Frutta_Fresca
+4,Fichi,150g (Quello che sta in una mano aperta),1_Tuesday,2_Merenda,Frutta_Fresca
+5,Fragole,150g (Quello che sta in una mano aperta),1_Tuesday,2_Merenda,Frutta_Fresca
+6,Kiwi,150g (Quello che sta in una mano aperta),1_Tuesday,2_Merenda,Frutta_Fresca
+7,Mango,150g (Quello che sta in una mano aperta),1_Tuesday,2_Merenda,Frutta_Fresca
+8,Melone estivo,150g (Quello che sta in una mano aperta),1_Tuesday,2_Merenda,Frutta_Fresca
+9,Pere,150g (Quello che sta in una mano aperta),1_Tuesday,2_Merenda,Frutta_Fresca
+10,Pesche,150g (Quello che sta in una mano aperta),1_Tuesday,2_Merenda,Frutta_Fresca
+11,Prugne,150g (Quello che sta in una mano aperta),1_Tuesday,2_Merenda,Frutta_Fresca
+12,Uva,150g (Quello che sta in una mano aperta),1_Tuesday,2_Merenda,Frutta_Fresca
+0,Pane bianco,g 40,1_Tuesday,2_Merenda,Pane
+1,Pane integrale,g 50,1_Tuesday,2_Merenda,Pane
+0,Asparagi,,1_Tuesday,3_Cena,Contorni
+1,Bieta,,1_Tuesday,3_Cena,Contorni
+2,Carote,,1_Tuesday,3_Cena,Contorni
+3,Cetrioli,,1_Tuesday,3_Cena,Contorni
+4,Cicoria,,1_Tuesday,3_Cena,Contorni
+5,Cime di rapa,,1_Tuesday,3_Cena,Contorni
+6,Cipolle,,1_Tuesday,3_Cena,Contorni
+7,Fagiolini,,1_Tuesday,3_Cena,Contorni
+8,Finocchi,,1_Tuesday,3_Cena,Contorni
+9,Insalata mista,,1_Tuesday,3_Cena,Contorni
+10,Lattuga,,1_Tuesday,3_Cena,Contorni
+11,Melanzane,,1_Tuesday,3_Cena,Contorni
+12,Peperoni,,1_Tuesday,3_Cena,Contorni
+13,Pomodori,,1_Tuesday,3_Cena,Contorni
+14,Spinaci,,1_Tuesday,3_Cena,Contorni
+15,Zucchine,,1_Tuesday,3_Cena,Contorni
+0,Mele,150g (Quello che sta in una mano aperta),1_Tuesday,3_Cena,Frutta_Fresca
+1,Albicocche,150g (Quello che sta in una mano aperta),1_Tuesday,3_Cena,Frutta_Fresca
+2,Ananas,150g (Quello che sta in una mano aperta),1_Tuesday,3_Cena,Frutta_Fresca
+3,Banane,150g (Quello che sta in una mano aperta),1_Tuesday,3_Cena,Frutta_Fresca
+4,Fichi,150g (Quello che sta in una mano aperta),1_Tuesday,3_Cena,Frutta_Fresca
+5,Fragole,150g (Quello che sta in una mano aperta),1_Tuesday,3_Cena,Frutta_Fresca
+6,Kiwi,150g (Quello che sta in una mano aperta),1_Tuesday,3_Cena,Frutta_Fresca
+7,Mango,150g (Quello che sta in una mano aperta),1_Tuesday,3_Cena,Frutta_Fresca
+8,Melone estivo,150g (Quello che sta in una mano aperta),1_Tuesday,3_Cena,Frutta_Fresca
+9,Pere,150g (Quello che sta in una mano aperta),1_Tuesday,3_Cena,Frutta_Fresca
+10,Pesche,150g (Quello che sta in una mano aperta),1_Tuesday,3_Cena,Frutta_Fresca
+11,Prugne,150g (Quello che sta in una mano aperta),1_Tuesday,3_Cena,Frutta_Fresca
+12,Uva,150g (Quello che sta in una mano aperta),1_Tuesday,3_Cena,Frutta_Fresca
+0,Pane bianco,g 60,1_Tuesday,3_Cena,Pane
+1,Pane integrale,g 70,1_Tuesday,3_Cena,Pane
+0,Calamari,g 200,1_Tuesday,3_Cena,Pesce_Fresco
+1,Coda di rospo,g 200,1_Tuesday,3_Cena,Pesce_Fresco
+2,Dentice,g 200,1_Tuesday,3_Cena,Pesce_Fresco
+3,Gamberi,g 200 (6 gamberoni o 40 gamberetti),1_Tuesday,3_Cena,Pesce_Fresco
+4,Merluzzo o Nasello,g 200,1_Tuesday,3_Cena,Pesce_Fresco
+5,Orata,g 200,1_Tuesday,3_Cena,Pesce_Fresco
+6,Pesce spada,g 200,1_Tuesday,3_Cena,Pesce_Fresco
+7,Platessa,g 200,1_Tuesday,3_Cena,Pesce_Fresco
+8,Polpo,g 200,1_Tuesday,3_Cena,Pesce_Fresco
+9,Salmone fresco,g 200,1_Tuesday,3_Cena,Pesce_Fresco
+10,Seppie,g 200,1_Tuesday,3_Cena,Pesce_Fresco
+11,Sgombro,g 200,1_Tuesday,3_Cena,Pesce_Fresco
+12,Spigola,g 200,1_Tuesday,3_Cena,Pesce_Fresco
+13,Tonno,g 200,1_Tuesday,3_Cena,Pesce_Fresco
+14,Cozze, 50 circa,1_Tuesday,3_Cena,Pesce_Fresco
+0,Olio, 5 cucchiaini,1_Tuesday,4_Arco_Della_Giornata,Olio
+0,Caffè,1 Tazzina,2_Wednesday,0_Colazione,Caffe
+1,Caffè decaffeinato,1 Tazzina,2_Wednesday,0_Colazione,Caffe
+0,Asparagi,,2_Wednesday,0_Colazione,Contorni
+1,Bieta,,2_Wednesday,0_Colazione,Contorni
+2,Carote,,2_Wednesday,0_Colazione,Contorni
+3,Cetrioli,,2_Wednesday,0_Colazione,Contorni
+4,Cicoria,,2_Wednesday,0_Colazione,Contorni
+5,Cime di rapa,,2_Wednesday,0_Colazione,Contorni
+6,Cipolle,,2_Wednesday,0_Colazione,Contorni
+7,Fagiolini,,2_Wednesday,0_Colazione,Contorni
+8,Finocchi,,2_Wednesday,0_Colazione,Contorni
+9,Insalata mista,,2_Wednesday,0_Colazione,Contorni
+10,Lattuga,,2_Wednesday,0_Colazione,Contorni
+11,Melanzane,,2_Wednesday,0_Colazione,Contorni
+12,Peperoni,,2_Wednesday,0_Colazione,Contorni
+13,Pomodori,,2_Wednesday,0_Colazione,Contorni
+14,Spinaci,,2_Wednesday,0_Colazione,Contorni
+15,Zucchine,,2_Wednesday,0_Colazione,Contorni
+0,Mele,150g (Quello che sta in una mano aperta),2_Wednesday,0_Colazione,Frutta_Fresca
+1,Albicocche,150g (Quello che sta in una mano aperta),2_Wednesday,0_Colazione,Frutta_Fresca
+2,Ananas,150g (Quello che sta in una mano aperta),2_Wednesday,0_Colazione,Frutta_Fresca
+3,Banane,150g (Quello che sta in una mano aperta),2_Wednesday,0_Colazione,Frutta_Fresca
+4,Fichi,150g (Quello che sta in una mano aperta),2_Wednesday,0_Colazione,Frutta_Fresca
+5,Fragole,150g (Quello che sta in una mano aperta),2_Wednesday,0_Colazione,Frutta_Fresca
+6,Kiwi,150g (Quello che sta in una mano aperta),2_Wednesday,0_Colazione,Frutta_Fresca
+7,Mango,150g (Quello che sta in una mano aperta),2_Wednesday,0_Colazione,Frutta_Fresca
+8,Melone estivo,150g (Quello che sta in una mano aperta),2_Wednesday,0_Colazione,Frutta_Fresca
+9,Pere,150g (Quello che sta in una mano aperta),2_Wednesday,0_Colazione,Frutta_Fresca
+10,Pesche,150g (Quello che sta in una mano aperta),2_Wednesday,0_Colazione,Frutta_Fresca
+11,Prugne,150g (Quello che sta in una mano aperta),2_Wednesday,0_Colazione,Frutta_Fresca
+12,Uva,150g (Quello che sta in una mano aperta),2_Wednesday,0_Colazione,Frutta_Fresca
+0,Latte Parzialmente scremato di vacca,g 200,2_Wednesday,0_Colazione,Latte
+0,Pane bianco,g 50,2_Wednesday,0_Colazione,Pane
+1,Pane integrale,g 60,2_Wednesday,0_Colazione,Pane
+0,Bulgur,g 80,2_Wednesday,1_Pranzo,Cereali
+1,Couscous,g 80,2_Wednesday,1_Pranzo,Cereali
+2,Farro g,80,2_Wednesday,1_Pranzo,Cereali
+3,Orzo g,80,2_Wednesday,1_Pranzo,Cereali
+4,Riso,g 80,2_Wednesday,1_Pranzo,Cereali
+0,Asparagi,,2_Wednesday,1_Pranzo,Contorni
+1,Bieta,,2_Wednesday,1_Pranzo,Contorni
+2,Carote,,2_Wednesday,1_Pranzo,Contorni
+3,Cetrioli,,2_Wednesday,1_Pranzo,Contorni
+4,Cicoria,,2_Wednesday,1_Pranzo,Contorni
+5,Cime di rapa,,2_Wednesday,1_Pranzo,Contorni
+6,Cipolle,,2_Wednesday,1_Pranzo,Contorni
+7,Fagiolini,,2_Wednesday,1_Pranzo,Contorni
+8,Finocchi,,2_Wednesday,1_Pranzo,Contorni
+9,Insalata mista,,2_Wednesday,1_Pranzo,Contorni
+10,Lattuga,,2_Wednesday,1_Pranzo,Contorni
+11,Melanzane,,2_Wednesday,1_Pranzo,Contorni
+12,Peperoni,,2_Wednesday,1_Pranzo,Contorni
+13,Pomodori,,2_Wednesday,1_Pranzo,Contorni
+14,Spinaci,,2_Wednesday,1_Pranzo,Contorni
+15,Zucchine,,2_Wednesday,1_Pranzo,Contorni
+0,Caciottina,g 50,2_Wednesday,1_Pranzo,Formaggi_E_Latticini
+1,Crescenza,g 100,2_Wednesday,1_Pranzo,Formaggi_E_Latticini
+2,Feta,g 100,2_Wednesday,1_Pranzo,Formaggi_E_Latticini
+3,Formaggio cremoso,g 100,2_Wednesday,1_Pranzo,Formaggi_E_Latticini
+4,Galbanino,g 50,2_Wednesday,1_Pranzo,Formaggi_E_Latticini
+5,Mozzarella,g 100,2_Wednesday,1_Pranzo,Formaggi_E_Latticini
+6,Parmigiano,g 50,2_Wednesday,1_Pranzo,Formaggi_E_Latticini
+7,Ricotta di vacca, g 100,2_Wednesday,1_Pranzo,Formaggi_E_Latticini
+8,Scamorza, g 50,2_Wednesday,1_Pranzo,Formaggi_E_Latticini
+9,Stracchino,g 100,2_Wednesday,1_Pranzo,Formaggi_E_Latticini
+0,Mele,150g (Quello che sta in una mano aperta),2_Wednesday,1_Pranzo,Frutta_Fresca
+1,Albicocche,150g (Quello che sta in una mano aperta),2_Wednesday,1_Pranzo,Frutta_Fresca
+2,Ananas,150g (Quello che sta in una mano aperta),2_Wednesday,1_Pranzo,Frutta_Fresca
+3,Banane,150g (Quello che sta in una mano aperta),2_Wednesday,1_Pranzo,Frutta_Fresca
+4,Fichi,150g (Quello che sta in una mano aperta),2_Wednesday,1_Pranzo,Frutta_Fresca
+5,Fragole,150g (Quello che sta in una mano aperta),2_Wednesday,1_Pranzo,Frutta_Fresca
+6,Kiwi,150g (Quello che sta in una mano aperta),2_Wednesday,1_Pranzo,Frutta_Fresca
+7,Mango,150g (Quello che sta in una mano aperta),2_Wednesday,1_Pranzo,Frutta_Fresca
+8,Melone estivo,150g (Quello che sta in una mano aperta),2_Wednesday,1_Pranzo,Frutta_Fresca
+9,Pere,150g (Quello che sta in una mano aperta),2_Wednesday,1_Pranzo,Frutta_Fresca
+10,Pesche,150g (Quello che sta in una mano aperta),2_Wednesday,1_Pranzo,Frutta_Fresca
+11,Prugne,150g (Quello che sta in una mano aperta),2_Wednesday,1_Pranzo,Frutta_Fresca
+12,Uva,150g (Quello che sta in una mano aperta),2_Wednesday,1_Pranzo,Frutta_Fresca
+0,Mele,150g (Quello che sta in una mano aperta),2_Wednesday,2_Merenda,Frutta_Fresca
+1,Albicocche,150g (Quello che sta in una mano aperta),2_Wednesday,2_Merenda,Frutta_Fresca
+2,Ananas,150g (Quello che sta in una mano aperta),2_Wednesday,2_Merenda,Frutta_Fresca
+3,Banane,150g (Quello che sta in una mano aperta),2_Wednesday,2_Merenda,Frutta_Fresca
+4,Fichi,150g (Quello che sta in una mano aperta),2_Wednesday,2_Merenda,Frutta_Fresca
+5,Fragole,150g (Quello che sta in una mano aperta),2_Wednesday,2_Merenda,Frutta_Fresca
+6,Kiwi,150g (Quello che sta in una mano aperta),2_Wednesday,2_Merenda,Frutta_Fresca
+7,Mango,150g (Quello che sta in una mano aperta),2_Wednesday,2_Merenda,Frutta_Fresca
+8,Melone estivo,150g (Quello che sta in una mano aperta),2_Wednesday,2_Merenda,Frutta_Fresca
+9,Pere,150g (Quello che sta in una mano aperta),2_Wednesday,2_Merenda,Frutta_Fresca
+10,Pesche,150g (Quello che sta in una mano aperta),2_Wednesday,2_Merenda,Frutta_Fresca
+11,Prugne,150g (Quello che sta in una mano aperta),2_Wednesday,2_Merenda,Frutta_Fresca
+12,Uva,150g (Quello che sta in una mano aperta),2_Wednesday,2_Merenda,Frutta_Fresca
+0,Marmellata,1 cucchiaino,2_Wednesday,2_Merenda,Marmellata
+0,Noci secche,g 10,2_Wednesday,2_Merenda,Noci
+1,Anacardi,g 10,2_Wednesday,2_Merenda,Noci
+2,Mandorle,g 10,2_Wednesday,2_Merenda,Noci
+3,Nocciole,g 10,2_Wednesday,2_Merenda,Noci
+0,Yogurt da latte intero,1 vasetto,2_Wednesday,2_Merenda,Yogurt
+0,Agnello,g 150 (1 bistecca),2_Wednesday,3_Cena,Carne_Fresca
+1,Coniglio,g 150(1 bistecca),2_Wednesday,3_Cena,Carne_Fresca
+2,Coscia di pollo,g 150 (2 cosce),2_Wednesday,3_Cena,Carne_Fresca
+3,Hamburger di manzo,g 150 (1 burger),2_Wednesday,3_Cena,Carne_Fresca
+4,Hamburger di pollo,g 150 (1 burger),2_Wednesday,3_Cena,Carne_Fresca
+5,Maiale bistecca,g 150 (1 bistecca),2_Wednesday,3_Cena,Carne_Fresca
+6,Maiale magro,g 150(1 bistecca),2_Wednesday,3_Cena,Carne_Fresca
+7,Manzo magro,g 150(1 bistecca),2_Wednesday,3_Cena,Carne_Fresca
+8,Petto di pollo,g 150 (2 fette),2_Wednesday,3_Cena,Carne_Fresca
+9,Petto di tacchino,g 150 (2 fette),2_Wednesday,3_Cena,Carne_Fresca
+10,Vitello magro,g 150(1 bistecca),2_Wednesday,3_Cena,Carne_Fresca
+0,Asparagi,,2_Wednesday,3_Cena,Contorni
+1,Bieta,,2_Wednesday,3_Cena,Contorni
+2,Carote,,2_Wednesday,3_Cena,Contorni
+3,Cetrioli,,2_Wednesday,3_Cena,Contorni
+4,Cicoria,,2_Wednesday,3_Cena,Contorni
+5,Cime di rapa,,2_Wednesday,3_Cena,Contorni
+6,Cipolle,,2_Wednesday,3_Cena,Contorni
+7,Fagiolini,,2_Wednesday,3_Cena,Contorni
+8,Finocchi,,2_Wednesday,3_Cena,Contorni
+9,Insalata mista,,2_Wednesday,3_Cena,Contorni
+10,Lattuga,,2_Wednesday,3_Cena,Contorni
+11,Melanzane,,2_Wednesday,3_Cena,Contorni
+12,Peperoni,,2_Wednesday,3_Cena,Contorni
+13,Pomodori,,2_Wednesday,3_Cena,Contorni
+14,Spinaci,,2_Wednesday,3_Cena,Contorni
+15,Zucchine,,2_Wednesday,3_Cena,Contorni
+0,Mele,150g (Quello che sta in una mano aperta),2_Wednesday,3_Cena,Frutta_Fresca
+1,Albicocche,150g (Quello che sta in una mano aperta),2_Wednesday,3_Cena,Frutta_Fresca
+2,Ananas,150g (Quello che sta in una mano aperta),2_Wednesday,3_Cena,Frutta_Fresca
+3,Banane,150g (Quello che sta in una mano aperta),2_Wednesday,3_Cena,Frutta_Fresca
+4,Fichi,150g (Quello che sta in una mano aperta),2_Wednesday,3_Cena,Frutta_Fresca
+5,Fragole,150g (Quello che sta in una mano aperta),2_Wednesday,3_Cena,Frutta_Fresca
+6,Kiwi,150g (Quello che sta in una mano aperta),2_Wednesday,3_Cena,Frutta_Fresca
+7,Mango,150g (Quello che sta in una mano aperta),2_Wednesday,3_Cena,Frutta_Fresca
+8,Melone estivo,150g (Quello che sta in una mano aperta),2_Wednesday,3_Cena,Frutta_Fresca
+9,Pere,150g (Quello che sta in una mano aperta),2_Wednesday,3_Cena,Frutta_Fresca
+10,Pesche,150g (Quello che sta in una mano aperta),2_Wednesday,3_Cena,Frutta_Fresca
+11,Prugne,150g (Quello che sta in una mano aperta),2_Wednesday,3_Cena,Frutta_Fresca
+12,Uva,150g (Quello che sta in una mano aperta),2_Wednesday,3_Cena,Frutta_Fresca
+0,Pane bianco,g 90,2_Wednesday,3_Cena,Pane
+1,Pane integrale,g 110,2_Wednesday,3_Cena,Pane
+0,Olio, 5 cucchiaini,2_Wednesday,4_Arco_Della_Giornata,Olio
+0,Caffè,1 Tazzina,3_Thursday,0_Colazione,Caffe
+1,Caffè decaffeinato,1 Tazzina,3_Thursday,0_Colazione,Caffe
+0,Muesli,g 30,3_Thursday,0_Colazione,Derivati_dei_Cereali
+1,Biscotti ai cereali,g 30,3_Thursday,0_Colazione,Derivati_dei_Cereali
+2,Biscotti integrali,g 30,3_Thursday,0_Colazione,Derivati_dei_Cereali
+3,Biscotti secchi,g 30,3_Thursday,0_Colazione,Derivati_dei_Cereali
+4,Farro soffiato g,30,3_Thursday,0_Colazione,Derivati_dei_Cereali
+5,Fette biscottate,g 30,3_Thursday,0_Colazione,Derivati_dei_Cereali
+6,Fette biscottate ai cereali,g 30,3_Thursday,0_Colazione,Derivati_dei_Cereali
+7,Fette biscottate al malto d'orzo,g 30,3_Thursday,0_Colazione,Derivati_dei_Cereali
+8,Fette biscottate integrali,g 30,3_Thursday,0_Colazione,Derivati_dei_Cereali
+9,Fiocchi d'avena,g 30,3_Thursday,0_Colazione,Derivati_dei_Cereali
+10,Fiocchi di farro,g 40,3_Thursday,0_Colazione,Derivati_dei_Cereali
+11,Fiocchi di frumento integrale,g 40,3_Thursday,0_Colazione,Derivati_dei_Cereali
+12,Fiocchi di mais,g 30,3_Thursday,0_Colazione,Derivati_dei_Cereali
+13,Formelle di frumento integrale,g 30,3_Thursday,0_Colazione,Derivati_dei_Cereali
+14,Orzo soffiato,g 30,3_Thursday,0_Colazione,Derivati_dei_Cereali
+0,Mele,150g (Quello che sta in una mano aperta),3_Thursday,0_Colazione,Frutta_Fresca
+1,Albicocche,150g (Quello che sta in una mano aperta),3_Thursday,0_Colazione,Frutta_Fresca
+2,Ananas,150g (Quello che sta in una mano aperta),3_Thursday,0_Colazione,Frutta_Fresca
+3,Banane,150g (Quello che sta in una mano aperta),3_Thursday,0_Colazione,Frutta_Fresca
+4,Fichi,150g (Quello che sta in una mano aperta),3_Thursday,0_Colazione,Frutta_Fresca
+5,Fragole,150g (Quello che sta in una mano aperta),3_Thursday,0_Colazione,Frutta_Fresca
+6,Kiwi,150g (Quello che sta in una mano aperta),3_Thursday,0_Colazione,Frutta_Fresca
+7,Mango,150g (Quello che sta in una mano aperta),3_Thursday,0_Colazione,Frutta_Fresca
+8,Melone estivo,150g (Quello che sta in una mano aperta),3_Thursday,0_Colazione,Frutta_Fresca
+9,Pere,150g (Quello che sta in una mano aperta),3_Thursday,0_Colazione,Frutta_Fresca
+10,Pesche,150g (Quello che sta in una mano aperta),3_Thursday,0_Colazione,Frutta_Fresca
+11,Prugne,150g (Quello che sta in una mano aperta),3_Thursday,0_Colazione,Frutta_Fresca
+12,Uva,150g (Quello che sta in una mano aperta),3_Thursday,0_Colazione,Frutta_Fresca
+0,Latte Parzialmente scremato di vacca,g 200,3_Thursday,0_Colazione,Latte
+0,Noci secche,g 20,3_Thursday,0_Colazione,Noci
+1,Anacardi,g 20,3_Thursday,0_Colazione,Noci
+2,Mandorle,g 20,3_Thursday,0_Colazione,Noci
+3,Nocciole,g 20,3_Thursday,0_Colazione,Noci
+0,Asparagi,,3_Thursday,1_Pranzo,Contorni
+1,Bieta,,3_Thursday,1_Pranzo,Contorni
+2,Carote,,3_Thursday,1_Pranzo,Contorni
+3,Cetrioli,,3_Thursday,1_Pranzo,Contorni
+4,Cicoria,,3_Thursday,1_Pranzo,Contorni
+5,Cime di rapa,,3_Thursday,1_Pranzo,Contorni
+6,Cipolle,,3_Thursday,1_Pranzo,Contorni
+7,Fagiolini,,3_Thursday,1_Pranzo,Contorni
+8,Finocchi,,3_Thursday,1_Pranzo,Contorni
+9,Insalata mista,,3_Thursday,1_Pranzo,Contorni
+10,Lattuga,,3_Thursday,1_Pranzo,Contorni
+11,Melanzane,,3_Thursday,1_Pranzo,Contorni
+12,Peperoni,,3_Thursday,1_Pranzo,Contorni
+13,Pomodori,,3_Thursday,1_Pranzo,Contorni
+14,Spinaci,,3_Thursday,1_Pranzo,Contorni
+15,Zucchine,,3_Thursday,1_Pranzo,Contorni
+0,Edamame,g 100,3_Thursday,1_Pranzo,Edamame
+0,Mele,150g (Quello che sta in una mano aperta),3_Thursday,1_Pranzo,Frutta_Fresca
+1,Albicocche,150g (Quello che sta in una mano aperta),3_Thursday,1_Pranzo,Frutta_Fresca
+2,Ananas,150g (Quello che sta in una mano aperta),3_Thursday,1_Pranzo,Frutta_Fresca
+3,Banane,150g (Quello che sta in una mano aperta),3_Thursday,1_Pranzo,Frutta_Fresca
+4,Fichi,150g (Quello che sta in una mano aperta),3_Thursday,1_Pranzo,Frutta_Fresca
+5,Fragole,150g (Quello che sta in una mano aperta),3_Thursday,1_Pranzo,Frutta_Fresca
+6,Kiwi,150g (Quello che sta in una mano aperta),3_Thursday,1_Pranzo,Frutta_Fresca
+7,Mango,150g (Quello che sta in una mano aperta),3_Thursday,1_Pranzo,Frutta_Fresca
+8,Melone estivo,150g (Quello che sta in una mano aperta),3_Thursday,1_Pranzo,Frutta_Fresca
+9,Pere,150g (Quello che sta in una mano aperta),3_Thursday,1_Pranzo,Frutta_Fresca
+10,Pesche,150g (Quello che sta in una mano aperta),3_Thursday,1_Pranzo,Frutta_Fresca
+11,Prugne,150g (Quello che sta in una mano aperta),3_Thursday,1_Pranzo,Frutta_Fresca
+12,Uva,150g (Quello che sta in una mano aperta),3_Thursday,1_Pranzo,Frutta_Fresca
+0,Pane bianco,g 40,3_Thursday,1_Pranzo,Pane
+1,Pane integrale,g 50,3_Thursday,1_Pranzo,Pane
+0,Salmone affumicato,g 80,3_Thursday,1_Pranzo,Pesce_Conservato copy
+1,Tonno al naturale,g 90,3_Thursday,1_Pranzo,Pesce_Conservato copy
+2,Tonno sott'olio,g 50,3_Thursday,1_Pranzo,Pesce_Conservato copy
+0,Barretta Kinder,barretta 1,3_Thursday,2_Merenda,Barretta_Kinder
+0,Mele,150g (Quello che sta in una mano aperta),3_Thursday,2_Merenda,Frutta_Fresca
+1,Albicocche,150g (Quello che sta in una mano aperta),3_Thursday,2_Merenda,Frutta_Fresca
+2,Ananas,150g (Quello che sta in una mano aperta),3_Thursday,2_Merenda,Frutta_Fresca
+3,Banane,150g (Quello che sta in una mano aperta),3_Thursday,2_Merenda,Frutta_Fresca
+4,Fichi,150g (Quello che sta in una mano aperta),3_Thursday,2_Merenda,Frutta_Fresca
+5,Fragole,150g (Quello che sta in una mano aperta),3_Thursday,2_Merenda,Frutta_Fresca
+6,Kiwi,150g (Quello che sta in una mano aperta),3_Thursday,2_Merenda,Frutta_Fresca
+7,Mango,150g (Quello che sta in una mano aperta),3_Thursday,2_Merenda,Frutta_Fresca
+8,Melone estivo,150g (Quello che sta in una mano aperta),3_Thursday,2_Merenda,Frutta_Fresca
+9,Pere,150g (Quello che sta in una mano aperta),3_Thursday,2_Merenda,Frutta_Fresca
+10,Pesche,150g (Quello che sta in una mano aperta),3_Thursday,2_Merenda,Frutta_Fresca
+11,Prugne,150g (Quello che sta in una mano aperta),3_Thursday,2_Merenda,Frutta_Fresca
+12,Uva,150g (Quello che sta in una mano aperta),3_Thursday,2_Merenda,Frutta_Fresca
+0,Pane bianco,g 60,3_Thursday,2_Merenda,Pane
+1,Pane integrale,g 70,3_Thursday,2_Merenda,Pane
+0,Asparagi,,3_Thursday,3_Cena,Contorni
+1,Bieta,,3_Thursday,3_Cena,Contorni
+2,Carote,,3_Thursday,3_Cena,Contorni
+3,Cetrioli,,3_Thursday,3_Cena,Contorni
+4,Cicoria,,3_Thursday,3_Cena,Contorni
+5,Cime di rapa,,3_Thursday,3_Cena,Contorni
+6,Cipolle,,3_Thursday,3_Cena,Contorni
+7,Fagiolini,,3_Thursday,3_Cena,Contorni
+8,Finocchi,,3_Thursday,3_Cena,Contorni
+9,Insalata mista,,3_Thursday,3_Cena,Contorni
+10,Lattuga,,3_Thursday,3_Cena,Contorni
+11,Melanzane,,3_Thursday,3_Cena,Contorni
+12,Peperoni,,3_Thursday,3_Cena,Contorni
+13,Pomodori,,3_Thursday,3_Cena,Contorni
+14,Spinaci,,3_Thursday,3_Cena,Contorni
+15,Zucchine,,3_Thursday,3_Cena,Contorni
+0,Mele,150g (Quello che sta in una mano aperta),3_Thursday,3_Cena,Frutta_Fresca
+1,Albicocche,150g (Quello che sta in una mano aperta),3_Thursday,3_Cena,Frutta_Fresca
+2,Ananas,150g (Quello che sta in una mano aperta),3_Thursday,3_Cena,Frutta_Fresca
+3,Banane,150g (Quello che sta in una mano aperta),3_Thursday,3_Cena,Frutta_Fresca
+4,Fichi,150g (Quello che sta in una mano aperta),3_Thursday,3_Cena,Frutta_Fresca
+5,Fragole,150g (Quello che sta in una mano aperta),3_Thursday,3_Cena,Frutta_Fresca
+6,Kiwi,150g (Quello che sta in una mano aperta),3_Thursday,3_Cena,Frutta_Fresca
+7,Mango,150g (Quello che sta in una mano aperta),3_Thursday,3_Cena,Frutta_Fresca
+8,Melone estivo,150g (Quello che sta in una mano aperta),3_Thursday,3_Cena,Frutta_Fresca
+9,Pere,150g (Quello che sta in una mano aperta),3_Thursday,3_Cena,Frutta_Fresca
+10,Pesche,150g (Quello che sta in una mano aperta),3_Thursday,3_Cena,Frutta_Fresca
+11,Prugne,150g (Quello che sta in una mano aperta),3_Thursday,3_Cena,Frutta_Fresca
+12,Uva,150g (Quello che sta in una mano aperta),3_Thursday,3_Cena,Frutta_Fresca
+0,Pane bianco,g 60,3_Thursday,3_Cena,Pane
+1,Pane integrale,g 70,3_Thursday,3_Cena,Pane
+0,Calamari,g 200,3_Thursday,3_Cena,Pesce_Fresco
+1,Coda di rospo,g 200,3_Thursday,3_Cena,Pesce_Fresco
+2,Dentice,g 200,3_Thursday,3_Cena,Pesce_Fresco
+3,Gamberi,g 200 (6 gamberoni o 40 gamberetti),3_Thursday,3_Cena,Pesce_Fresco
+4,Merluzzo o Nasello,g 200,3_Thursday,3_Cena,Pesce_Fresco
+5,Orata,g 200,3_Thursday,3_Cena,Pesce_Fresco
+6,Pesce spada,g 200,3_Thursday,3_Cena,Pesce_Fresco
+7,Platessa,g 200,3_Thursday,3_Cena,Pesce_Fresco
+8,Polpo,g 200,3_Thursday,3_Cena,Pesce_Fresco
+9,Salmone fresco,g 200,3_Thursday,3_Cena,Pesce_Fresco
+10,Seppie,g 200,3_Thursday,3_Cena,Pesce_Fresco
+11,Sgombro,g 200,3_Thursday,3_Cena,Pesce_Fresco
+12,Spigola,g 200,3_Thursday,3_Cena,Pesce_Fresco
+13,Tonno,g 200,3_Thursday,3_Cena,Pesce_Fresco
+14,Cozze, 50 circa,3_Thursday,3_Cena,Pesce_Fresco
+0,Olio, 5 cucchiaini,3_Thursday,4_Arco_Della_Giornata,Olio
+0,Burro di vacca,g 10,4_Friday,0_Colazione,Burro
+1,Burro di vacca light,g 10,4_Friday,0_Colazione,Burro
+0,Caffè,1 Tazzina,4_Friday,0_Colazione,Caffe
+1,Caffè decaffeinato,1 Tazzina,4_Friday,0_Colazione,Caffe
+0,Mele,150g (Quello che sta in una mano aperta),4_Friday,0_Colazione,Frutta_Fresca
+1,Albicocche,150g (Quello che sta in una mano aperta),4_Friday,0_Colazione,Frutta_Fresca
+2,Ananas,150g (Quello che sta in una mano aperta),4_Friday,0_Colazione,Frutta_Fresca
+3,Banane,150g (Quello che sta in una mano aperta),4_Friday,0_Colazione,Frutta_Fresca
+4,Fichi,150g (Quello che sta in una mano aperta),4_Friday,0_Colazione,Frutta_Fresca
+5,Fragole,150g (Quello che sta in una mano aperta),4_Friday,0_Colazione,Frutta_Fresca
+6,Kiwi,150g (Quello che sta in una mano aperta),4_Friday,0_Colazione,Frutta_Fresca
+7,Mango,150g (Quello che sta in una mano aperta),4_Friday,0_Colazione,Frutta_Fresca
+8,Melone estivo,150g (Quello che sta in una mano aperta),4_Friday,0_Colazione,Frutta_Fresca
+9,Pere,150g (Quello che sta in una mano aperta),4_Friday,0_Colazione,Frutta_Fresca
+10,Pesche,150g (Quello che sta in una mano aperta),4_Friday,0_Colazione,Frutta_Fresca
+11,Prugne,150g (Quello che sta in una mano aperta),4_Friday,0_Colazione,Frutta_Fresca
+12,Uva,150g (Quello che sta in una mano aperta),4_Friday,0_Colazione,Frutta_Fresca
+0,Latte Parzialmente scremato di vacca,g 200,4_Friday,0_Colazione,Latte
+0,Marmellata,2 cucchiaini,4_Friday,0_Colazione,Marmellata
+0,Pane bianco,g 50,4_Friday,0_Colazione,Pane
+1,Pane integrale,g 60,4_Friday,0_Colazione,Pane
+0,Asparagi,,4_Friday,1_Pranzo,Contorni
+1,Bieta,,4_Friday,1_Pranzo,Contorni
+2,Carote,,4_Friday,1_Pranzo,Contorni
+3,Cetrioli,,4_Friday,1_Pranzo,Contorni
+4,Cicoria,,4_Friday,1_Pranzo,Contorni
+5,Cime di rapa,,4_Friday,1_Pranzo,Contorni
+6,Cipolle,,4_Friday,1_Pranzo,Contorni
+7,Fagiolini,,4_Friday,1_Pranzo,Contorni
+8,Finocchi,,4_Friday,1_Pranzo,Contorni
+9,Insalata mista,,4_Friday,1_Pranzo,Contorni
+10,Lattuga,,4_Friday,1_Pranzo,Contorni
+11,Melanzane,,4_Friday,1_Pranzo,Contorni
+12,Peperoni,,4_Friday,1_Pranzo,Contorni
+13,Pomodori,,4_Friday,1_Pranzo,Contorni
+14,Spinaci,,4_Friday,1_Pranzo,Contorni
+15,Zucchine,,4_Friday,1_Pranzo,Contorni
+0,Mele,150g (Quello che sta in una mano aperta),4_Friday,1_Pranzo,Frutta_Fresca
+1,Albicocche,150g (Quello che sta in una mano aperta),4_Friday,1_Pranzo,Frutta_Fresca
+2,Ananas,150g (Quello che sta in una mano aperta),4_Friday,1_Pranzo,Frutta_Fresca
+3,Banane,150g (Quello che sta in una mano aperta),4_Friday,1_Pranzo,Frutta_Fresca
+4,Fichi,150g (Quello che sta in una mano aperta),4_Friday,1_Pranzo,Frutta_Fresca
+5,Fragole,150g (Quello che sta in una mano aperta),4_Friday,1_Pranzo,Frutta_Fresca
+6,Kiwi,150g (Quello che sta in una mano aperta),4_Friday,1_Pranzo,Frutta_Fresca
+7,Mango,150g (Quello che sta in una mano aperta),4_Friday,1_Pranzo,Frutta_Fresca
+8,Melone estivo,150g (Quello che sta in una mano aperta),4_Friday,1_Pranzo,Frutta_Fresca
+9,Pere,150g (Quello che sta in una mano aperta),4_Friday,1_Pranzo,Frutta_Fresca
+10,Pesche,150g (Quello che sta in una mano aperta),4_Friday,1_Pranzo,Frutta_Fresca
+11,Prugne,150g (Quello che sta in una mano aperta),4_Friday,1_Pranzo,Frutta_Fresca
+12,Uva,150g (Quello che sta in una mano aperta),4_Friday,1_Pranzo,Frutta_Fresca
+0,Pasta di farro,g 80,4_Friday,1_Pranzo,Pasta
+1,Pasta di semola,g 70,4_Friday,1_Pranzo,Pasta
+2,Pasta integrale,g 80,4_Friday,1_Pranzo,Pasta
+0,Uovo di gallina, n° 2,4_Friday,1_Pranzo,Uova
+0,Mele,150g (Quello che sta in una mano aperta),4_Friday,2_Merenda,Frutta_Fresca
+1,Albicocche,150g (Quello che sta in una mano aperta),4_Friday,2_Merenda,Frutta_Fresca
+2,Ananas,150g (Quello che sta in una mano aperta),4_Friday,2_Merenda,Frutta_Fresca
+3,Banane,150g (Quello che sta in una mano aperta),4_Friday,2_Merenda,Frutta_Fresca
+4,Fichi,150g (Quello che sta in una mano aperta),4_Friday,2_Merenda,Frutta_Fresca
+5,Fragole,150g (Quello che sta in una mano aperta),4_Friday,2_Merenda,Frutta_Fresca
+6,Kiwi,150g (Quello che sta in una mano aperta),4_Friday,2_Merenda,Frutta_Fresca
+7,Mango,150g (Quello che sta in una mano aperta),4_Friday,2_Merenda,Frutta_Fresca
+8,Melone estivo,150g (Quello che sta in una mano aperta),4_Friday,2_Merenda,Frutta_Fresca
+9,Pere,150g (Quello che sta in una mano aperta),4_Friday,2_Merenda,Frutta_Fresca
+10,Pesche,150g (Quello che sta in una mano aperta),4_Friday,2_Merenda,Frutta_Fresca
+11,Prugne,150g (Quello che sta in una mano aperta),4_Friday,2_Merenda,Frutta_Fresca
+12,Uva,150g (Quello che sta in una mano aperta),4_Friday,2_Merenda,Frutta_Fresca
+0,Marmellata,1 cucchiaino,4_Friday,2_Merenda,Marmellata
+0,Noci secche,g 10,4_Friday,2_Merenda,Noci
+1,Anacardi,g 10,4_Friday,2_Merenda,Noci
+2,Mandorle,g 10,4_Friday,2_Merenda,Noci
+3,Nocciole,g 10,4_Friday,2_Merenda,Noci
+0,Yogurt da latte intero,1 vasetto,4_Friday,2_Merenda,Yogurt
+0,Asparagi,,4_Friday,3_Cena,Contorni
+1,Bieta,,4_Friday,3_Cena,Contorni
+2,Carote,,4_Friday,3_Cena,Contorni
+3,Cetrioli,,4_Friday,3_Cena,Contorni
+4,Cicoria,,4_Friday,3_Cena,Contorni
+5,Cime di rapa,,4_Friday,3_Cena,Contorni
+6,Cipolle,,4_Friday,3_Cena,Contorni
+7,Fagiolini,,4_Friday,3_Cena,Contorni
+8,Finocchi,,4_Friday,3_Cena,Contorni
+9,Insalata mista,,4_Friday,3_Cena,Contorni
+10,Lattuga,,4_Friday,3_Cena,Contorni
+11,Melanzane,,4_Friday,3_Cena,Contorni
+12,Peperoni,,4_Friday,3_Cena,Contorni
+13,Pomodori,,4_Friday,3_Cena,Contorni
+14,Spinaci,,4_Friday,3_Cena,Contorni
+15,Zucchine,,4_Friday,3_Cena,Contorni
+0,Mele,150g (Quello che sta in una mano aperta),4_Friday,3_Cena,Frutta_Fresca
+1,Albicocche,150g (Quello che sta in una mano aperta),4_Friday,3_Cena,Frutta_Fresca
+2,Ananas,150g (Quello che sta in una mano aperta),4_Friday,3_Cena,Frutta_Fresca
+3,Banane,150g (Quello che sta in una mano aperta),4_Friday,3_Cena,Frutta_Fresca
+4,Fichi,150g (Quello che sta in una mano aperta),4_Friday,3_Cena,Frutta_Fresca
+5,Fragole,150g (Quello che sta in una mano aperta),4_Friday,3_Cena,Frutta_Fresca
+6,Kiwi,150g (Quello che sta in una mano aperta),4_Friday,3_Cena,Frutta_Fresca
+7,Mango,150g (Quello che sta in una mano aperta),4_Friday,3_Cena,Frutta_Fresca
+8,Melone estivo,150g (Quello che sta in una mano aperta),4_Friday,3_Cena,Frutta_Fresca
+9,Pere,150g (Quello che sta in una mano aperta),4_Friday,3_Cena,Frutta_Fresca
+10,Pesche,150g (Quello che sta in una mano aperta),4_Friday,3_Cena,Frutta_Fresca
+11,Prugne,150g (Quello che sta in una mano aperta),4_Friday,3_Cena,Frutta_Fresca
+12,Uva,150g (Quello che sta in una mano aperta),4_Friday,3_Cena,Frutta_Fresca
+0,Pane bianco,g60,4_Friday,3_Cena,Pane
+1,Pane integrale,g70,4_Friday,3_Cena,Pane
+0,Calamari,g 200,4_Friday,3_Cena,Pesce_Fresco
+1,Coda di rospo,g 200,4_Friday,3_Cena,Pesce_Fresco
+2,Dentice,g 200,4_Friday,3_Cena,Pesce_Fresco
+3,Gamberi,g 200 (6 gamberoni o 40 gamberetti),4_Friday,3_Cena,Pesce_Fresco
+4,Merluzzo o Nasello,g 200,4_Friday,3_Cena,Pesce_Fresco
+5,Orata,g 200,4_Friday,3_Cena,Pesce_Fresco
+6,Pesce spada,g 200,4_Friday,3_Cena,Pesce_Fresco
+7,Platessa,g 200,4_Friday,3_Cena,Pesce_Fresco
+8,Polpo,g 200,4_Friday,3_Cena,Pesce_Fresco
+9,Salmone fresco,g 200,4_Friday,3_Cena,Pesce_Fresco
+10,Seppie,g 200,4_Friday,3_Cena,Pesce_Fresco
+11,Sgombro,g 200,4_Friday,3_Cena,Pesce_Fresco
+12,Spigola,g 200,4_Friday,3_Cena,Pesce_Fresco
+13,Tonno,g 200,4_Friday,3_Cena,Pesce_Fresco
+14,Cozze, 50 circa,4_Friday,3_Cena,Pesce_Fresco
+0,Olio, 5 cucchiaini,4_Friday,4_Arco_Della_Giornata,Olio
+0,Caffè,1 Tazzina,5_Saturday,0_Colazione,Caffe
+1,Caffè decaffeinato,1 Tazzina,5_Saturday,0_Colazione,Caffe
+0,Sciroppo d'acero,3 cucchiaini,5_Saturday,0_Colazione,Condimenti_Pancakes
+1,Miele di acacia,2 cucchiaini,5_Saturday,0_Colazione,Condimenti_Pancakes
+2,Zucchero,2 cucchiaini,5_Saturday,0_Colazione,Condimenti_Pancakes
+0,Latte Parzialmente scremato di vacca,g 200,5_Saturday,0_Colazione,Latte
+0,farina integrale,g 40,5_Saturday,0_Colazione,Pancakes
+1,Latte parzialmente scremato di vacca,g 100,5_Saturday,0_Colazione,Pancakes
+2,Uovo di gallina,n° 1,5_Saturday,0_Colazione,Pancakes
+0,Asparagi,,5_Saturday,1_Pranzo,Contorni
+1,Bieta,,5_Saturday,1_Pranzo,Contorni
+2,Carote,,5_Saturday,1_Pranzo,Contorni
+3,Cetrioli,,5_Saturday,1_Pranzo,Contorni
+4,Cicoria,,5_Saturday,1_Pranzo,Contorni
+5,Cime di rapa,,5_Saturday,1_Pranzo,Contorni
+6,Cipolle,,5_Saturday,1_Pranzo,Contorni
+7,Fagiolini,,5_Saturday,1_Pranzo,Contorni
+8,Finocchi,,5_Saturday,1_Pranzo,Contorni
+9,Insalata mista,,5_Saturday,1_Pranzo,Contorni
+10,Lattuga,,5_Saturday,1_Pranzo,Contorni
+11,Melanzane,,5_Saturday,1_Pranzo,Contorni
+12,Peperoni,,5_Saturday,1_Pranzo,Contorni
+13,Pomodori,,5_Saturday,1_Pranzo,Contorni
+14,Spinaci,,5_Saturday,1_Pranzo,Contorni
+15,Zucchine,,5_Saturday,1_Pranzo,Contorni
+0,Mele,150g (Quello che sta in una mano aperta),5_Saturday,1_Pranzo,Frutta_Fresca
+1,Albicocche,150g (Quello che sta in una mano aperta),5_Saturday,1_Pranzo,Frutta_Fresca
+2,Ananas,150g (Quello che sta in una mano aperta),5_Saturday,1_Pranzo,Frutta_Fresca
+3,Banane,150g (Quello che sta in una mano aperta),5_Saturday,1_Pranzo,Frutta_Fresca
+4,Fichi,150g (Quello che sta in una mano aperta),5_Saturday,1_Pranzo,Frutta_Fresca
+5,Fragole,150g (Quello che sta in una mano aperta),5_Saturday,1_Pranzo,Frutta_Fresca
+6,Kiwi,150g (Quello che sta in una mano aperta),5_Saturday,1_Pranzo,Frutta_Fresca
+7,Mango,150g (Quello che sta in una mano aperta),5_Saturday,1_Pranzo,Frutta_Fresca
+8,Melone estivo,150g (Quello che sta in una mano aperta),5_Saturday,1_Pranzo,Frutta_Fresca
+9,Pere,150g (Quello che sta in una mano aperta),5_Saturday,1_Pranzo,Frutta_Fresca
+10,Pesche,150g (Quello che sta in una mano aperta),5_Saturday,1_Pranzo,Frutta_Fresca
+11,Prugne,150g (Quello che sta in una mano aperta),5_Saturday,1_Pranzo,Frutta_Fresca
+12,Uva,150g (Quello che sta in una mano aperta),5_Saturday,1_Pranzo,Frutta_Fresca
+0,Taco di frumento hummus e melanzane,,5_Saturday,1_Pranzo,Tacos Vegetariani
+1,Taco di mais hummus e funghi,,5_Saturday,1_Pranzo,Tacos Vegetariani
+2,Taco di mais hummus e pomodori,,5_Saturday,1_Pranzo,Tacos Vegetariani
+3,Taco di mais hummus e zucchine,,5_Saturday,1_Pranzo,Tacos Vegetariani
+0,Cookies al cioccolato,g 30,5_Saturday,2_Merenda,Derivati_Dei_Cereali_Farciti
+1,Barrette ai cereali e cacao,g 30,5_Saturday,2_Merenda,Derivati_Dei_Cereali_Farciti
+2,Biscotti leggeri con cioccolato,g 30,5_Saturday,2_Merenda,Derivati_Dei_Cereali_Farciti
+3,Fiocchi di frumento integrale al cioccolato,g 40,5_Saturday,2_Merenda,Derivati_Dei_Cereali_Farciti
+4,Fiocchi di mais al cioccolato,g 40,5_Saturday,2_Merenda,Derivati_Dei_Cereali_Farciti
+5,Frollini con cioccolato,g 30,5_Saturday,2_Merenda,Derivati_Dei_Cereali_Farciti
+6,Riso soffiato al cioccolato,g 40,5_Saturday,2_Merenda,Derivati_Dei_Cereali_Farciti
+7,Wafers,g 30,5_Saturday,2_Merenda,Derivati_Dei_Cereali_Farciti
+0,Pasto Libero,,5_Saturday,3_Cena,Pasto Libero
+0,Olio, 5 cucchiaini,5_Saturday,4_Arco_Della_Giornata,Olio
+0,Pane bianco,g 40,5_Saturday,4_Arco_Della_Giornata,Pane
+1,Pane integrale,g 50,5_Saturday,4_Arco_Della_Giornata,Pane
+0,Caffè,1 Tazzina,6_Sunday,0_Colazione,Caffe
+1,Caffè decaffeinato,1 Tazzina,6_Sunday,0_Colazione,Caffe
+0,Torta al cioccolato,g 80,6_Sunday,0_Colazione,Dolci_Da_Forno
+1,Croissant alla marmellata,g 90,6_Sunday,0_Colazione,Dolci_Da_Forno
+2,Crostata alla marmellata,g 80,6_Sunday,0_Colazione,Dolci_Da_Forno
+3,Crostata con crema al cioccolato,g 80,6_Sunday,0_Colazione,Dolci_Da_Forno
+4,Pancakes,g 130,6_Sunday,0_Colazione,Dolci_Da_Forno
+5,Torta di carote,g 80,6_Sunday,0_Colazione,Dolci_Da_Forno
+6,Torta margherita,g 80,6_Sunday,0_Colazione,Dolci_Da_Forno
+0,Mele,150g (Quello che sta in una mano aperta),6_Sunday,0_Colazione,Frutta_Fresca
+1,Albicocche,150g (Quello che sta in una mano aperta),6_Sunday,0_Colazione,Frutta_Fresca
+2,Ananas,150g (Quello che sta in una mano aperta),6_Sunday,0_Colazione,Frutta_Fresca
+3,Banane,150g (Quello che sta in una mano aperta),6_Sunday,0_Colazione,Frutta_Fresca
+4,Fichi,150g (Quello che sta in una mano aperta),6_Sunday,0_Colazione,Frutta_Fresca
+5,Fragole,150g (Quello che sta in una mano aperta),6_Sunday,0_Colazione,Frutta_Fresca
+6,Kiwi,150g (Quello che sta in una mano aperta),6_Sunday,0_Colazione,Frutta_Fresca
+7,Mango,150g (Quello che sta in una mano aperta),6_Sunday,0_Colazione,Frutta_Fresca
+8,Melone estivo,150g (Quello che sta in una mano aperta),6_Sunday,0_Colazione,Frutta_Fresca
+9,Pere,150g (Quello che sta in una mano aperta),6_Sunday,0_Colazione,Frutta_Fresca
+10,Pesche,150g (Quello che sta in una mano aperta),6_Sunday,0_Colazione,Frutta_Fresca
+11,Prugne,150g (Quello che sta in una mano aperta),6_Sunday,0_Colazione,Frutta_Fresca
+12,Uva,150g (Quello che sta in una mano aperta),6_Sunday,0_Colazione,Frutta_Fresca
+0,Latte Parzialmente scremato di vacca,g 200,6_Sunday,0_Colazione,Latte
+0,Bresaola,g 80,6_Sunday,1_Pranzo,Carne_Conservata
+1,Fesa di pollo arrosto,g 100,6_Sunday,1_Pranzo,Carne_Conservata
+2,Fesa di tacchino arrosto,g 100,6_Sunday,1_Pranzo,Carne_Conservata
+3,Prosciutto cotto,g 80,6_Sunday,1_Pranzo,Carne_Conservata
+4,Prosciutto crudo magro,g 80,6_Sunday,1_Pranzo,Carne_Conservata
+0,Asparagi,,6_Sunday,1_Pranzo,Contorni
+1,Bieta,,6_Sunday,1_Pranzo,Contorni
+2,Carote,,6_Sunday,1_Pranzo,Contorni
+3,Cetrioli,,6_Sunday,1_Pranzo,Contorni
+4,Cicoria,,6_Sunday,1_Pranzo,Contorni
+5,Cime di rapa,,6_Sunday,1_Pranzo,Contorni
+6,Cipolle,,6_Sunday,1_Pranzo,Contorni
+7,Fagiolini,,6_Sunday,1_Pranzo,Contorni
+8,Finocchi,,6_Sunday,1_Pranzo,Contorni
+9,Insalata mista,,6_Sunday,1_Pranzo,Contorni
+10,Lattuga,,6_Sunday,1_Pranzo,Contorni
+11,Melanzane,,6_Sunday,1_Pranzo,Contorni
+12,Peperoni,,6_Sunday,1_Pranzo,Contorni
+13,Pomodori,,6_Sunday,1_Pranzo,Contorni
+14,Spinaci,,6_Sunday,1_Pranzo,Contorni
+15,Zucchine,,6_Sunday,1_Pranzo,Contorni
+0,Mele,150g (Quello che sta in una mano aperta),6_Sunday,1_Pranzo,Frutta_Fresca
+1,Albicocche,150g (Quello che sta in una mano aperta),6_Sunday,1_Pranzo,Frutta_Fresca
+2,Ananas,150g (Quello che sta in una mano aperta),6_Sunday,1_Pranzo,Frutta_Fresca
+3,Banane,150g (Quello che sta in una mano aperta),6_Sunday,1_Pranzo,Frutta_Fresca
+4,Fichi,150g (Quello che sta in una mano aperta),6_Sunday,1_Pranzo,Frutta_Fresca
+5,Fragole,150g (Quello che sta in una mano aperta),6_Sunday,1_Pranzo,Frutta_Fresca
+6,Kiwi,150g (Quello che sta in una mano aperta),6_Sunday,1_Pranzo,Frutta_Fresca
+7,Mango,150g (Quello che sta in una mano aperta),6_Sunday,1_Pranzo,Frutta_Fresca
+8,Melone estivo,150g (Quello che sta in una mano aperta),6_Sunday,1_Pranzo,Frutta_Fresca
+9,Pere,150g (Quello che sta in una mano aperta),6_Sunday,1_Pranzo,Frutta_Fresca
+10,Pesche,150g (Quello che sta in una mano aperta),6_Sunday,1_Pranzo,Frutta_Fresca
+11,Prugne,150g (Quello che sta in una mano aperta),6_Sunday,1_Pranzo,Frutta_Fresca
+12,Uva,150g (Quello che sta in una mano aperta),6_Sunday,1_Pranzo,Frutta_Fresca
+0,Pasta di farro,g 80,6_Sunday,1_Pranzo,Pasta
+1,Pasta di semola,g 70,6_Sunday,1_Pranzo,Pasta
+2,Pasta integrale,g 80,6_Sunday,1_Pranzo,Pasta
+0,Gelato,,6_Sunday,2_Merenda,Gelato
+0,Agnello,g 150 (1 bistecca),6_Sunday,3_Cena,Carne_Fresca
+1,Coniglio,g 150(1 bistecca),6_Sunday,3_Cena,Carne_Fresca
+2,Coscia di pollo,g 150 (2 cosce),6_Sunday,3_Cena,Carne_Fresca
+3,Hamburger di manzo,g 150 (1 burger),6_Sunday,3_Cena,Carne_Fresca
+4,Hamburger di pollo,g 150 (1 burger),6_Sunday,3_Cena,Carne_Fresca
+5,Maiale bistecca,g 150 (1 bistecca),6_Sunday,3_Cena,Carne_Fresca
+6,Maiale magro,g 150(1 bistecca),6_Sunday,3_Cena,Carne_Fresca
+7,Manzo magro,g 150(1 bistecca),6_Sunday,3_Cena,Carne_Fresca
+8,Petto di pollo,g 150 (2 fette),6_Sunday,3_Cena,Carne_Fresca
+9,Petto di tacchino,g 150 (2 fette),6_Sunday,3_Cena,Carne_Fresca
+10,Vitello magro,g 150(1 bistecca),6_Sunday,3_Cena,Carne_Fresca
+0,Asparagi,,6_Sunday,3_Cena,Contorni
+1,Bieta,,6_Sunday,3_Cena,Contorni
+2,Carote,,6_Sunday,3_Cena,Contorni
+3,Cetrioli,,6_Sunday,3_Cena,Contorni
+4,Cicoria,,6_Sunday,3_Cena,Contorni
+5,Cime di rapa,,6_Sunday,3_Cena,Contorni
+6,Cipolle,,6_Sunday,3_Cena,Contorni
+7,Fagiolini,,6_Sunday,3_Cena,Contorni
+8,Finocchi,,6_Sunday,3_Cena,Contorni
+9,Insalata mista,,6_Sunday,3_Cena,Contorni
+10,Lattuga,,6_Sunday,3_Cena,Contorni
+11,Melanzane,,6_Sunday,3_Cena,Contorni
+12,Peperoni,,6_Sunday,3_Cena,Contorni
+13,Pomodori,,6_Sunday,3_Cena,Contorni
+14,Spinaci,,6_Sunday,3_Cena,Contorni
+15,Zucchine,,6_Sunday,3_Cena,Contorni
+0,Mele,150g (Quello che sta in una mano aperta),6_Sunday,3_Cena,Frutta_Fresca
+1,Albicocche,150g (Quello che sta in una mano aperta),6_Sunday,3_Cena,Frutta_Fresca
+2,Ananas,150g (Quello che sta in una mano aperta),6_Sunday,3_Cena,Frutta_Fresca
+3,Banane,150g (Quello che sta in una mano aperta),6_Sunday,3_Cena,Frutta_Fresca
+4,Fichi,150g (Quello che sta in una mano aperta),6_Sunday,3_Cena,Frutta_Fresca
+5,Fragole,150g (Quello che sta in una mano aperta),6_Sunday,3_Cena,Frutta_Fresca
+6,Kiwi,150g (Quello che sta in una mano aperta),6_Sunday,3_Cena,Frutta_Fresca
+7,Mango,150g (Quello che sta in una mano aperta),6_Sunday,3_Cena,Frutta_Fresca
+8,Melone estivo,150g (Quello che sta in una mano aperta),6_Sunday,3_Cena,Frutta_Fresca
+9,Pere,150g (Quello che sta in una mano aperta),6_Sunday,3_Cena,Frutta_Fresca
+10,Pesche,150g (Quello che sta in una mano aperta),6_Sunday,3_Cena,Frutta_Fresca
+11,Prugne,150g (Quello che sta in una mano aperta),6_Sunday,3_Cena,Frutta_Fresca
+12,Uva,150g (Quello che sta in una mano aperta),6_Sunday,3_Cena,Frutta_Fresca
+0,Pane bianco,g90,6_Sunday,3_Cena,Pane
+1,Pane integrale,g110,6_Sunday,3_Cena,Pane
+0,Olio, 5 cucchiaini,6_Sunday,4_Arco_Della_Giornata,Olio
