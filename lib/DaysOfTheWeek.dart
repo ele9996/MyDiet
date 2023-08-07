@@ -6,45 +6,21 @@ import 'dart:io';
 
 import 'package:flutter/material.dart';
 import 'package:firebase_core/firebase_core.dart';
-import 'package:untitled/DaysOfTheWeek.dart';
 import 'Pasti.dart';
-import 'Tipi.dart';
 import 'firebase_options.dart';
 import 'package:cloud_firestore/cloud_firestore.dart';
 import 'food_grams.dart';
+import 'food_grams.dart';
 
-Future<void> main() async {
-  WidgetsFlutterBinding.ensureInitialized();
-  await Firebase.initializeApp(
-    options: DefaultFirebaseOptions.currentPlatform,
-  );
-
-  runApp(const BottomNavigationBarExampleApp());
-}
-
-class BottomNavigationBarExampleApp extends StatelessWidget {
-  const BottomNavigationBarExampleApp({super.key});
+class DaysOfTheWeek extends StatefulWidget {
+  const DaysOfTheWeek({super.key});
 
   @override
-  Widget build(BuildContext context) {
-    return const MaterialApp(
-      home: DaysOfTheWeek(),// BottomNavigationBarExample(),
-    );
-  }
+  State<DaysOfTheWeek> createState() => _DaysOfTheWeekState();
 }
 
-class BottomNavigationBarExample extends StatefulWidget {
-  const BottomNavigationBarExample({super.key});
-
-  @override
-  State<BottomNavigationBarExample> createState() =>
-      _BottomNavigationBarExampleState();
-}
-
-class _BottomNavigationBarExampleState
-    extends State<BottomNavigationBarExample> {
+class _DaysOfTheWeekState extends State<DaysOfTheWeek> {
   //Dichiaro variabili qui
-
   int _selectedIndex = 0;
   final ScrollController _homeController = ScrollController();
 
@@ -57,20 +33,20 @@ class _BottomNavigationBarExampleState
             const Text("Day"),
             StreamBuilder<QuerySnapshot>(
               stream: FirebaseFirestore.instance
-                  .collection('Diet').where('giorno', isEqualTo: '0_Monday').snapshots(), //parametrizzo query
+                  .collection('Diet').orderBy('giorno')
+                  .snapshots(), //parametrizzo query
               builder: (BuildContext context,
                   AsyncSnapshot<QuerySnapshot> snapshot) {
                 if (snapshot.hasData) {
                   final snap = snapshot.data!.docs
                       .map((doc) => doc.data())
                       .toList() as List;
-                  final distinctPasti = snap
-                      .map((da) => da['pasto'])
-                      .toSet(); //parametrizzo qui
+                  final distinctItems =
+                      snap.map((da) => da['giorno']).toSet(); //parametrizzo qui
                   return ListView.builder(
                     shrinkWrap: true,
                     primary: false,
-                    itemCount: distinctPasti.length,
+                    itemCount: distinctItems.length,
                     itemBuilder: (context, index) {
                       return Container(
                         height: 70,
@@ -88,27 +64,24 @@ class _BottomNavigationBarExampleState
                           ],
                         ),
                         child: Stack(
+
                           children: [
                             Container(
                               margin: const EdgeInsets.only(left: 20),
                               alignment: Alignment.centerLeft,
-                              child: Text(
-                                distinctPasti.toList()[index],
+                              child: GestureDetector(
+                                onTap: () {Navigator.push(
+                                          context,
+                                          MaterialPageRoute(
+                                              builder: (BuildContext context) =>
+                                                  Pasti(day:distinctItems.toList()[index].toString())));},
+                                child:Text(
+                                distinctItems.toList()[index],
                                 style: const TextStyle(
                                   color: Colors.black54,
                                   fontWeight: FontWeight.bold,
                                 ),
                               ),
-                            ),
-                            Container(
-                              margin: const EdgeInsets.only(right: 20),
-                              alignment: Alignment.centerRight,
-                              child: Text(
-                                "\$${distinctPasti.toList()[index]}",
-                                style: TextStyle(
-                                  color: Colors.green.withOpacity(0.7),
-                                  fontWeight: FontWeight.bold,
-                                ),
                               ),
                             ),
                           ],

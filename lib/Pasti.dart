@@ -6,47 +6,26 @@ import 'dart:io';
 
 import 'package:flutter/material.dart';
 import 'package:firebase_core/firebase_core.dart';
-import 'package:untitled/DaysOfTheWeek.dart';
-import 'Pasti.dart';
-import 'Tipi.dart';
+import 'package:untitled/Tipi.dart';
 import 'firebase_options.dart';
 import 'package:cloud_firestore/cloud_firestore.dart';
 import 'food_grams.dart';
+import 'DaysOfTheWeek.dart';
 
-Future<void> main() async {
-  WidgetsFlutterBinding.ensureInitialized();
-  await Firebase.initializeApp(
-    options: DefaultFirebaseOptions.currentPlatform,
-  );
-
-  runApp(const BottomNavigationBarExampleApp());
-}
-
-class BottomNavigationBarExampleApp extends StatelessWidget {
-  const BottomNavigationBarExampleApp({super.key});
+class Pasti extends StatefulWidget {
+  const Pasti({super.key, required this.day});
+  final String day;
 
   @override
-  Widget build(BuildContext context) {
-    return const MaterialApp(
-      home: DaysOfTheWeek(),// BottomNavigationBarExample(),
-    );
-  }
+  State<Pasti> createState() => _PastiState();
 }
 
-class BottomNavigationBarExample extends StatefulWidget {
-  const BottomNavigationBarExample({super.key});
-
-  @override
-  State<BottomNavigationBarExample> createState() =>
-      _BottomNavigationBarExampleState();
-}
-
-class _BottomNavigationBarExampleState
-    extends State<BottomNavigationBarExample> {
+class _PastiState extends State<Pasti> {
   //Dichiaro variabili qui
-
   int _selectedIndex = 0;
   final ScrollController _homeController = ScrollController();
+
+  
 
   Widget _listViewBody() {
     return Scaffold(
@@ -54,23 +33,24 @@ class _BottomNavigationBarExampleState
         padding: const EdgeInsets.all(20),
         child: Column(
           children: [
-            const Text("Day"),
+            Text(widget.day),
             StreamBuilder<QuerySnapshot>(
               stream: FirebaseFirestore.instance
-                  .collection('Diet').where('giorno', isEqualTo: '0_Monday').snapshots(), //parametrizzo query
+                  .collection('Diet')
+                  .where('giorno', isEqualTo: widget.day)
+                  .snapshots(), //parametrizzo query
               builder: (BuildContext context,
                   AsyncSnapshot<QuerySnapshot> snapshot) {
                 if (snapshot.hasData) {
                   final snap = snapshot.data!.docs
                       .map((doc) => doc.data())
                       .toList() as List;
-                  final distinctPasti = snap
-                      .map((da) => da['pasto'])
-                      .toSet(); //parametrizzo qui
+                  final distinctItems =
+                      snap.map((da) => da['pasto']).toSet(); //parametrizzo qui
                   return ListView.builder(
                     shrinkWrap: true,
                     primary: false,
-                    itemCount: distinctPasti.length,
+                    itemCount: distinctItems.length,
                     itemBuilder: (context, index) {
                       return Container(
                         height: 70,
@@ -92,22 +72,24 @@ class _BottomNavigationBarExampleState
                             Container(
                               margin: const EdgeInsets.only(left: 20),
                               alignment: Alignment.centerLeft,
-                              child: Text(
-                                distinctPasti.toList()[index],
-                                style: const TextStyle(
-                                  color: Colors.black54,
-                                  fontWeight: FontWeight.bold,
-                                ),
-                              ),
-                            ),
-                            Container(
-                              margin: const EdgeInsets.only(right: 20),
-                              alignment: Alignment.centerRight,
-                              child: Text(
-                                "\$${distinctPasti.toList()[index]}",
-                                style: TextStyle(
-                                  color: Colors.green.withOpacity(0.7),
-                                  fontWeight: FontWeight.bold,
+                              child: GestureDetector(
+                                onTap: () {
+                                  Navigator.push(
+                                      context,
+                                      MaterialPageRoute(
+                                          builder: (BuildContext context) =>
+                                              Tipi(
+                                                  day: widget.day,
+                                                  pasto: distinctItems
+                                                      .toList()[index]
+                                                      .toString())));
+                                },
+                                child: Text(
+                                  distinctItems.toList()[index],
+                                  style: const TextStyle(
+                                    color: Colors.black54,
+                                    fontWeight: FontWeight.bold,
+                                  ),
                                 ),
                               ),
                             ),
