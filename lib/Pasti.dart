@@ -9,7 +9,6 @@ import 'package:firebase_core/firebase_core.dart';
 import 'package:untitled/Tipi.dart';
 import 'firebase_options.dart';
 import 'package:cloud_firestore/cloud_firestore.dart';
-import 'food_grams.dart';
 import 'DaysOfTheWeek.dart';
 
 class Pasti extends StatefulWidget {
@@ -24,8 +23,6 @@ class _PastiState extends State<Pasti> {
   //Dichiaro variabili qui
   int _selectedIndex = 0;
   final ScrollController _homeController = ScrollController();
-
-  
 
   Widget _listViewBody() {
     return Scaffold(

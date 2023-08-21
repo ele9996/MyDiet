@@ -11,7 +11,7 @@ import 'Pasti.dart';
 import 'Tipi.dart';
 import 'firebase_options.dart';
 import 'package:cloud_firestore/cloud_firestore.dart';
-import 'food_grams.dart';
+
 
 Future<void> main() async {
   WidgetsFlutterBinding.ensureInitialized();

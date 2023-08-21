@@ -9,7 +9,6 @@ import 'package:firebase_core/firebase_core.dart';
 import 'package:untitled/Alimenti.dart';
 import 'firebase_options.dart';
 import 'package:cloud_firestore/cloud_firestore.dart';
-import 'food_grams.dart';
 import 'DaysOfTheWeek.dart';
 import 'package:untitled/Tipi.dart';
 
@@ -28,8 +27,6 @@ class _TipiState extends State<Tipi> {
   int _selectedIndex = 0;
   final ScrollController _homeController = ScrollController();
 
-
-
   Widget _listViewBody() {
     return Scaffold(
       body: SingleChildScrollView(
@@ -40,7 +37,8 @@ class _TipiState extends State<Tipi> {
             StreamBuilder<QuerySnapshot>(
               stream: FirebaseFirestore.instance
                   .collection('Diet')
-                  .where('giorno', isEqualTo: widget.day).where('pasto', isEqualTo: widget.pasto)
+                  .where('giorno', isEqualTo: widget.day)
+                  .where('pasto', isEqualTo: widget.pasto)
                   .snapshots(), //parametrizzo query
               builder: (BuildContext context,
                   AsyncSnapshot<QuerySnapshot> snapshot) {
@@ -82,7 +80,8 @@ class _TipiState extends State<Tipi> {
                                       MaterialPageRoute(
                                           builder: (BuildContext context) =>
                                               Alimenti(
-                                                  day: widget.day, pasto:widget.pasto,
+                                                  day: widget.day,
+                                                  pasto: widget.pasto,
                                                   tipo: distinctItems
                                                       .toList()[index]
                                                       .toString())));

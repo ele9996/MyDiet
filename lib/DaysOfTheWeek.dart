@@ -9,8 +9,7 @@ import 'package:firebase_core/firebase_core.dart';
 import 'Pasti.dart';
 import 'firebase_options.dart';
 import 'package:cloud_firestore/cloud_firestore.dart';
-import 'food_grams.dart';
-import 'food_grams.dart';
+
 
 class DaysOfTheWeek extends StatefulWidget {
   const DaysOfTheWeek({super.key});
