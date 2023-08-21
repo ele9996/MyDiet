@@ -2,15 +2,11 @@
 // .where('pasto', isEqualTo: '1_Pranzo')
 //.where('tipo', isEqualTo: 'Frutta_Fresca')
 
-import 'dart:io';
-
 import 'package:flutter/material.dart';
-import 'package:firebase_core/firebase_core.dart';
+
 import 'package:untitled/Alimenti.dart';
-import 'firebase_options.dart';
+
 import 'package:cloud_firestore/cloud_firestore.dart';
-import 'DaysOfTheWeek.dart';
-import 'package:untitled/Tipi.dart';
 
 class Tipi extends StatefulWidget {
   const Tipi({super.key, required this.day, required this.pasto});

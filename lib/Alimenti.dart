@@ -2,14 +2,9 @@
 // .where('pasto', isEqualTo: '1_Pranzo')
 //.where('tipo', isEqualTo: 'Frutta_Fresca')
 
-import 'dart:io';
-
 import 'package:flutter/material.dart';
-import 'package:firebase_core/firebase_core.dart';
-import 'firebase_options.dart';
-import 'package:cloud_firestore/cloud_firestore.dart';
 
-import 'DaysOfTheWeek.dart';
+import 'package:cloud_firestore/cloud_firestore.dart';
 
 class Alimenti extends StatefulWidget {
   const Alimenti(

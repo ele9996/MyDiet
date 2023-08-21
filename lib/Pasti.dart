@@ -2,14 +2,11 @@
 // .where('pasto', isEqualTo: '1_Pranzo')
 //.where('tipo', isEqualTo: 'Frutta_Fresca')
 
-import 'dart:io';
-
 import 'package:flutter/material.dart';
-import 'package:firebase_core/firebase_core.dart';
+
 import 'package:untitled/Tipi.dart';
-import 'firebase_options.dart';
+
 import 'package:cloud_firestore/cloud_firestore.dart';
-import 'DaysOfTheWeek.dart';
 
 class Pasti extends StatefulWidget {
   const Pasti({super.key, required this.day});
@@ -30,7 +27,9 @@ class _PastiState extends State<Pasti> {
         padding: const EdgeInsets.all(20),
         child: Column(
           children: [
-            Text("${widget.day}\n",style: const TextStyle(fontSize: 18, fontWeight: FontWeight.bold)),
+            Text("${widget.day}\n",
+                style:
+                    const TextStyle(fontSize: 18, fontWeight: FontWeight.bold)),
             StreamBuilder<QuerySnapshot>(
               stream: FirebaseFirestore.instance
                   .collection('Diet')
@@ -126,7 +125,7 @@ class _PastiState extends State<Pasti> {
           ),
         ],
         currentIndex: _selectedIndex,
-        selectedItemColor:  const Color.fromARGB(255, 181, 45, 202),
+        selectedItemColor: const Color.fromARGB(255, 181, 45, 202),
         onTap: (int index) {
           switch (index) {
             case 0:
