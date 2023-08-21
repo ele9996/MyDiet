@@ -118,6 +118,7 @@ class _TipiState extends State<Tipi> {
     return Scaffold(
       appBar: AppBar(
         title: const Text('My Diet'),
+        backgroundColor: const Color.fromARGB(255, 181, 45, 202),
       ),
       body: _listViewBody(),
       bottomNavigationBar: BottomNavigationBar(
@@ -132,7 +133,7 @@ class _TipiState extends State<Tipi> {
           ),
         ],
         currentIndex: _selectedIndex,
-        selectedItemColor: Colors.amber[800],
+        selectedItemColor: const Color.fromARGB(255, 181, 45, 202),
         onTap: (int index) {
           switch (index) {
             case 0:

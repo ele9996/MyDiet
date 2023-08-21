@@ -34,7 +34,9 @@ class _AlimentiState extends State<Alimenti> {
         padding: const EdgeInsets.all(20),
         child: Column(
           children: [
-            Text("${widget.tipo}\n",style: const TextStyle(fontSize: 18, fontWeight: FontWeight.bold)),
+            Text("${widget.tipo}\n",
+                style:
+                    const TextStyle(fontSize: 18, fontWeight: FontWeight.bold)),
             StreamBuilder<QuerySnapshot>(
               stream: FirebaseFirestore.instance
                   .collection('Diet')
@@ -112,6 +114,7 @@ class _AlimentiState extends State<Alimenti> {
     return Scaffold(
       appBar: AppBar(
         title: const Text('My Diet'),
+        backgroundColor: const Color.fromARGB(255, 181, 45, 202),
       ),
       body: _listViewBody(),
       bottomNavigationBar: BottomNavigationBar(
@@ -126,7 +129,7 @@ class _AlimentiState extends State<Alimenti> {
           ),
         ],
         currentIndex: _selectedIndex,
-        selectedItemColor: Colors.amber[800],
+        selectedItemColor: const Color.fromARGB(255, 181, 45, 202),
         onTap: (int index) {
           switch (index) {
             case 0:
