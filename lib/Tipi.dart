@@ -51,39 +51,38 @@ class _TipiState extends State<Tipi> {
                     primary: false,
                     itemCount: distinctItems.length,
                     itemBuilder: (context, index) {
-                      return Container(
-                        height: 70,
-                        width: double.infinity,
-                        margin: const EdgeInsets.only(bottom: 12),
-                        decoration: BoxDecoration(
-                          color: Colors.white,
-                          borderRadius: BorderRadius.circular(20),
-                          boxShadow: const [
-                            BoxShadow(
-                              color: Colors.black26,
-                              offset: Offset(2, 2),
-                              blurRadius: 10,
-                            ),
-                          ],
-                        ),
-                        child: Stack(
-                          children: [
-                            Container(
-                              margin: const EdgeInsets.only(left: 20),
-                              alignment: Alignment.centerLeft,
-                              child: GestureDetector(
-                                onTap: () {
-                                  Navigator.push(
-                                      context,
-                                      MaterialPageRoute(
-                                          builder: (BuildContext context) =>
-                                              Alimenti(
-                                                  day: widget.day,
-                                                  pasto: widget.pasto,
-                                                  tipo: distinctItems
-                                                      .toList()[index]
-                                                      .toString())));
-                                },
+                      return GestureDetector(
+                        onTap: () {
+                          Navigator.push(
+                              context,
+                              MaterialPageRoute(
+                                  builder: (BuildContext context) => Alimenti(
+                                      day: widget.day,
+                                      pasto: widget.pasto,
+                                      tipo: distinctItems
+                                          .toList()[index]
+                                          .toString())));
+                        },
+                        child: Container(
+                          height: 70,
+                          width: double.infinity,
+                          margin: const EdgeInsets.only(bottom: 12),
+                          decoration: BoxDecoration(
+                            color: Colors.white,
+                            borderRadius: BorderRadius.circular(20),
+                            boxShadow: const [
+                              BoxShadow(
+                                color: Colors.black26,
+                                offset: Offset(2, 2),
+                                blurRadius: 10,
+                              ),
+                            ],
+                          ),
+                          child: Stack(
+                            children: [
+                              Container(
+                                margin: const EdgeInsets.only(left: 20),
+                                alignment: Alignment.centerLeft,
                                 child: Text(
                                   distinctItems.toList()[index],
                                   style: const TextStyle(
@@ -92,8 +91,8 @@ class _TipiState extends State<Tipi> {
                                   ),
                                 ),
                               ),
-                            ),
-                          ],
+                            ],
+                          ),
                         ),
                       );
                     },
