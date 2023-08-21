@@ -33,7 +33,7 @@ class _PastiState extends State<Pasti> {
             StreamBuilder<QuerySnapshot>(
               stream: FirebaseFirestore.instance
                   .collection('Diet')
-                  .where('giorno', isEqualTo: widget.day)
+                  .where('giorno', isEqualTo: widget.day).orderBy('pasto')
                   .snapshots(), //parametrizzo query
               builder: (BuildContext context,
                   AsyncSnapshot<QuerySnapshot> snapshot) {
