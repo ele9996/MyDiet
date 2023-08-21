@@ -111,7 +111,7 @@ class _AlimentiState extends State<Alimenti> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: const Text('BottomNavigationBar Sample'),
+        title: const Text('My Diet'),
       ),
       body: _listViewBody(),
       bottomNavigationBar: BottomNavigationBar(

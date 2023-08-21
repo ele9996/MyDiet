@@ -117,7 +117,7 @@ class _TipiState extends State<Tipi> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: const Text('BottomNavigationBar Sample'),
+        title: const Text('My Diet'),
       ),
       body: _listViewBody(),
       bottomNavigationBar: BottomNavigationBar(

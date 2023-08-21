@@ -12,7 +12,6 @@ import 'Tipi.dart';
 import 'firebase_options.dart';
 import 'package:cloud_firestore/cloud_firestore.dart';
 
-
 Future<void> main() async {
   WidgetsFlutterBinding.ensureInitialized();
   await Firebase.initializeApp(
@@ -28,7 +27,7 @@ class BottomNavigationBarExampleApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return const MaterialApp(
-      home: DaysOfTheWeek(),// BottomNavigationBarExample(),
+      home: DaysOfTheWeek(), // BottomNavigationBarExample(),
     );
   }
 }
@@ -57,16 +56,17 @@ class _BottomNavigationBarExampleState
             const Text("Day"),
             StreamBuilder<QuerySnapshot>(
               stream: FirebaseFirestore.instance
-                  .collection('Diet').where('giorno', isEqualTo: '0_Monday').snapshots(), //parametrizzo query
+                  .collection('Diet')
+                  .where('giorno', isEqualTo: '0_Monday')
+                  .snapshots(), //parametrizzo query
               builder: (BuildContext context,
                   AsyncSnapshot<QuerySnapshot> snapshot) {
                 if (snapshot.hasData) {
                   final snap = snapshot.data!.docs
                       .map((doc) => doc.data())
                       .toList() as List;
-                  final distinctPasti = snap
-                      .map((da) => da['pasto'])
-                      .toSet(); //parametrizzo qui
+                  final distinctPasti =
+                      snap.map((da) => da['pasto']).toSet(); //parametrizzo qui
                   return ListView.builder(
                     shrinkWrap: true,
                     primary: false,
@@ -131,7 +131,7 @@ class _BottomNavigationBarExampleState
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: const Text('BottomNavigationBar Sample'),
+        title: const Text('My Diet'),
       ),
       body: _listViewBody(),
       bottomNavigationBar: BottomNavigationBar(
