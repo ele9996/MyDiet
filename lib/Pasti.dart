@@ -30,7 +30,7 @@ class _PastiState extends State<Pasti> {
         padding: const EdgeInsets.all(20),
         child: Column(
           children: [
-            Text(widget.day),
+            Text("${widget.day}\n",style: const TextStyle(fontSize: 18, fontWeight: FontWeight.bold)),
             StreamBuilder<QuerySnapshot>(
               stream: FirebaseFirestore.instance
                   .collection('Diet')

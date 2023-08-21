@@ -34,7 +34,7 @@ class _AlimentiState extends State<Alimenti> {
         padding: const EdgeInsets.all(20),
         child: Column(
           children: [
-            Text(widget.tipo),
+            Text("${widget.tipo}\n",style: const TextStyle(fontSize: 18, fontWeight: FontWeight.bold)),
             StreamBuilder<QuerySnapshot>(
               stream: FirebaseFirestore.instance
                   .collection('Diet')

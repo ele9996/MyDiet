@@ -33,7 +33,9 @@ class _TipiState extends State<Tipi> {
         padding: const EdgeInsets.all(20),
         child: Column(
           children: [
-            Text(widget.pasto),
+            Text("${widget.pasto}\n",
+                style:
+                    const TextStyle(fontSize: 18, fontWeight: FontWeight.bold)),
             StreamBuilder<QuerySnapshot>(
               stream: FirebaseFirestore.instance
                   .collection('Diet')

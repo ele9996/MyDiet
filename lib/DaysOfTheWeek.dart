@@ -10,7 +10,6 @@ import 'Pasti.dart';
 import 'firebase_options.dart';
 import 'package:cloud_firestore/cloud_firestore.dart';
 
-
 class DaysOfTheWeek extends StatefulWidget {
   const DaysOfTheWeek({super.key});
 
@@ -29,10 +28,12 @@ class _DaysOfTheWeekState extends State<DaysOfTheWeek> {
         padding: const EdgeInsets.all(20),
         child: Column(
           children: [
-            const Text("Day"),
+            const Text("Day\n",
+                style: TextStyle(fontSize: 18, fontWeight: FontWeight.bold)),
             StreamBuilder<QuerySnapshot>(
               stream: FirebaseFirestore.instance
-                  .collection('Diet').orderBy('giorno')
+                  .collection('Diet')
+                  .orderBy('giorno')
                   .snapshots(), //parametrizzo query
               builder: (BuildContext context,
                   AsyncSnapshot<QuerySnapshot> snapshot) {
@@ -63,24 +64,28 @@ class _DaysOfTheWeekState extends State<DaysOfTheWeek> {
                           ],
                         ),
                         child: Stack(
-
                           children: [
                             Container(
                               margin: const EdgeInsets.only(left: 20),
                               alignment: Alignment.centerLeft,
                               child: GestureDetector(
-                                onTap: () {Navigator.push(
-                                          context,
-                                          MaterialPageRoute(
-                                              builder: (BuildContext context) =>
-                                                  Pasti(day:distinctItems.toList()[index].toString())));},
-                                child:Text(
-                                distinctItems.toList()[index],
-                                style: const TextStyle(
-                                  color: Colors.black54,
-                                  fontWeight: FontWeight.bold,
+                                onTap: () {
+                                  Navigator.push(
+                                      context,
+                                      MaterialPageRoute(
+                                          builder: (BuildContext context) =>
+                                              Pasti(
+                                                  day: distinctItems
+                                                      .toList()[index]
+                                                      .toString())));
+                                },
+                                child: Text(
+                                  distinctItems.toList()[index],
+                                  style: const TextStyle(
+                                    color: Colors.black54,
+                                    fontWeight: FontWeight.bold,
+                                  ),
                                 ),
-                              ),
                               ),
                             ),
                           ],
