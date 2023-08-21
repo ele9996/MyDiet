@@ -82,9 +82,9 @@ class _AlimentiState extends State<Alimenti> {
                               child: Text(
                                 snap[index]['quantita'],
                                 style: TextStyle(
-                                  color: Colors.green.withOpacity(0.7),
-                                  fontWeight: FontWeight.bold,
-                                ),
+                                    color: Colors.green.withOpacity(0.7),
+                                    fontWeight: FontWeight.bold,
+                                    fontSize: 10),
                               ),
                             ),
                           ],
