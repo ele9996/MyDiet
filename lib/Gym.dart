@@ -4,7 +4,7 @@
 
 import 'package:flutter/material.dart';
 
-import 'Pasti.dart';
+import 'Esercizi.dart';
 import 'package:untitled/Gym.dart';
 
 import 'package:cloud_firestore/cloud_firestore.dart';
@@ -18,7 +18,7 @@ class Gym extends StatefulWidget {
 
 class _GymState extends State<Gym> {
   //Dichiaro variabili qui
-  int _selectedIndex = 0;
+  int _selectedIndex = 1;
   final ScrollController _homeController = ScrollController();
 
   Widget _listViewBody() {
@@ -31,8 +31,8 @@ class _GymState extends State<Gym> {
                 style: TextStyle(fontSize: 18, fontWeight: FontWeight.bold)),
             StreamBuilder<QuerySnapshot>(
               stream: FirebaseFirestore.instance
-                  .collection('Diet')
-                  .orderBy('giorno')
+                  .collection('Palestra')
+                  .orderBy('sessione')
                   .snapshots(), //parametrizzo query
               builder: (BuildContext context,
                   AsyncSnapshot<QuerySnapshot> snapshot) {
@@ -40,8 +40,9 @@ class _GymState extends State<Gym> {
                   final snap = snapshot.data!.docs
                       .map((doc) => doc.data())
                       .toList() as List;
-                  final distinctItems =
-                      snap.map((da) => da['giorno']).toSet(); //parametrizzo qui
+                  final distinctItems = snap
+                      .map((da) => da['sessione'])
+                      .toSet(); //parametrizzo qui
                   return ListView.builder(
                     shrinkWrap: true,
                     primary: false,
@@ -52,8 +53,8 @@ class _GymState extends State<Gym> {
                           Navigator.push(
                               context,
                               MaterialPageRoute(
-                                  builder: (BuildContext context) => Pasti(
-                                      day: distinctItems
+                                  builder: (BuildContext context) => Esercizi(
+                                      sessione: distinctItems
                                           .toList()[index]
                                           .toString())));
                         },
