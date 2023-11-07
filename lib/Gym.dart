@@ -6,16 +6,17 @@ import 'package:flutter/material.dart';
 
 import 'Pasti.dart';
 import 'package:untitled/Gym.dart';
+
 import 'package:cloud_firestore/cloud_firestore.dart';
 
-class DaysOfTheWeek extends StatefulWidget {
-  const DaysOfTheWeek({super.key});
+class Gym extends StatefulWidget {
+  const Gym({super.key});
 
   @override
-  State<DaysOfTheWeek> createState() => _DaysOfTheWeekState();
+  State<Gym> createState() => _GymState();
 }
 
-class _DaysOfTheWeekState extends State<DaysOfTheWeek> {
+class _GymState extends State<Gym> {
   //Dichiaro variabili qui
   int _selectedIndex = 0;
   final ScrollController _homeController = ScrollController();
@@ -26,7 +27,7 @@ class _DaysOfTheWeekState extends State<DaysOfTheWeek> {
         padding: const EdgeInsets.all(20),
         child: Column(
           children: [
-            const Text("Day\n",
+            const Text("Training Session\n",
                 style: TextStyle(fontSize: 18, fontWeight: FontWeight.bold)),
             StreamBuilder<QuerySnapshot>(
               stream: FirebaseFirestore.instance

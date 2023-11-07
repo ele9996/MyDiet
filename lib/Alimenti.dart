@@ -3,7 +3,7 @@
 //.where('tipo', isEqualTo: 'Frutta_Fresca')
 
 import 'package:flutter/material.dart';
-
+import 'package:untitled/Gym.dart';
 import 'package:cloud_firestore/cloud_firestore.dart';
 
 class Alimenti extends StatefulWidget {
@@ -119,9 +119,13 @@ class _AlimentiState extends State<Alimenti> {
             label: 'Home',
           ),
           BottomNavigationBarItem(
-            icon: Icon(Icons.open_in_new_rounded),
-            label: 'Open Dialog',
+            icon: Icon(Icons.fitness_center),
+            label: 'Gym',
           ),
+          //BottomNavigationBarItem(
+          //  icon: Icon(Icons.open_in_new_rounded),
+          //  label: 'Open Dialog',
+          //),
         ],
         currentIndex: _selectedIndex,
         selectedItemColor: const Color.fromARGB(255, 181, 45, 202),
@@ -138,7 +142,17 @@ class _AlimentiState extends State<Alimenti> {
               }
               break;
             case 1:
+              if (_selectedIndex == index) {
+                Navigator.push(
+                    context,
+                    MaterialPageRoute(
+                        builder: (BuildContext context) => const Gym()));
+              }
+              break;
+
+            /*case 2:
               showModal(context);
+            */
           }
           setState(
             () {

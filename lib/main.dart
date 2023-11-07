@@ -2,11 +2,10 @@
 // .where('pasto', isEqualTo: '1_Pranzo')
 //.where('tipo', isEqualTo: 'Frutta_Fresca')
 
-
 import 'package:flutter/material.dart';
 import 'package:firebase_core/firebase_core.dart';
 import 'package:untitled/DaysOfTheWeek.dart';
-
+import 'package:untitled/Gym.dart';
 import 'firebase_options.dart';
 import 'package:cloud_firestore/cloud_firestore.dart';
 
@@ -139,13 +138,18 @@ class _BottomNavigationBarExampleState
             icon: Icon(Icons.home),
             label: 'Home',
           ),
+
           BottomNavigationBarItem(
-            icon: Icon(Icons.open_in_new_rounded),
-            label: 'Open Dialog',
+            icon: Icon(Icons.fitness_center),
+            label: 'Gym',
           ),
+          //BottomNavigationBarItem(
+          //  icon: Icon(Icons.open_in_new_rounded),
+          //  label: 'Open Dialog',
+          //),
         ],
         currentIndex: _selectedIndex,
-        selectedItemColor:  const Color.fromARGB(255, 181, 45, 202),
+        selectedItemColor: const Color.fromARGB(255, 181, 45, 202),
         onTap: (int index) {
           switch (index) {
             case 0:
@@ -159,7 +163,17 @@ class _BottomNavigationBarExampleState
               }
               break;
             case 1:
+              if (_selectedIndex == index) {
+                Navigator.push(
+                    context,
+                    MaterialPageRoute(
+                        builder: (BuildContext context) => const Gym()));
+              }
+              break;
+
+            /*case 2:
               showModal(context);
+            */
           }
           setState(
             () {

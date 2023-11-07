@@ -2,9 +2,11 @@
 // .where('pasto', isEqualTo: '1_Pranzo')
 //.where('tipo', isEqualTo: 'Frutta_Fresca')
 
+
 import 'package:flutter/material.dart';
 
 import 'package:untitled/Tipi.dart';
+import 'package:untitled/Gym.dart';
 
 import 'package:cloud_firestore/cloud_firestore.dart';
 
@@ -119,9 +121,13 @@ class _PastiState extends State<Pasti> {
             label: 'Home',
           ),
           BottomNavigationBarItem(
-            icon: Icon(Icons.open_in_new_rounded),
-            label: 'Open Dialog',
+            icon: Icon(Icons.fitness_center),
+            label: 'Gym',
           ),
+          //BottomNavigationBarItem(
+          //  icon: Icon(Icons.open_in_new_rounded),
+          //  label: 'Open Dialog',
+          //),
         ],
         currentIndex: _selectedIndex,
         selectedItemColor: const Color.fromARGB(255, 181, 45, 202),
@@ -138,7 +144,17 @@ class _PastiState extends State<Pasti> {
               }
               break;
             case 1:
+              if (_selectedIndex == index) {
+                Navigator.push(
+                    context,
+                    MaterialPageRoute(
+                        builder: (BuildContext context) => const Gym()));
+              }
+              break;
+
+            /*case 2:
               showModal(context);
+            */
           }
           setState(
             () {

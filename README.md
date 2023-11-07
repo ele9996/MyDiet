@@ -1,4 +1,7 @@
-# untitled
+# My Diet
+
+##TO DO 
+- racchiudere bottom navigation bar info in funzione su main e farla parametrica (ora è definita in ogni classe, e quando la cambi la devi cambiare in tutte)
 
 A new Flutter project.
 
