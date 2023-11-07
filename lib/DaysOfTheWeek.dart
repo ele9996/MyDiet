@@ -130,12 +130,11 @@ class _DaysOfTheWeekState extends State<DaysOfTheWeek> {
           switch (index) {
             case 0:
               // only scroll to top when current index is selected.
-              if (_selectedIndex == index) {
-                _homeController.animateTo(
-                  0.0,
-                  duration: const Duration(milliseconds: 500),
-                  curve: Curves.easeOut,
-                );
+                if(_selectedIndex== index){
+                  Navigator.push(
+                    context,
+                    MaterialPageRoute(
+                        builder: (BuildContext context) => const DaysOfTheWeek()));
               }
               break;
             case 1:

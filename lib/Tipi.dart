@@ -6,6 +6,7 @@ import 'package:flutter/material.dart';
 
 import 'package:untitled/Alimenti.dart';
 import 'package:untitled/Gym.dart';
+import 'package:untitled/DaysOfTheWeek.dart';
 import 'package:cloud_firestore/cloud_firestore.dart';
 
 class Tipi extends StatefulWidget {
@@ -137,12 +138,11 @@ class _TipiState extends State<Tipi> {
           switch (index) {
             case 0:
               // only scroll to top when current index is selected.
-              if (_selectedIndex == index) {
-                _homeController.animateTo(
-                  0.0,
-                  duration: const Duration(milliseconds: 500),
-                  curve: Curves.easeOut,
-                );
+                if(_selectedIndex== index){
+                  Navigator.push(
+                    context,
+                    MaterialPageRoute(
+                        builder: (BuildContext context) => const DaysOfTheWeek()));                
               }
               break;
             case 1:
