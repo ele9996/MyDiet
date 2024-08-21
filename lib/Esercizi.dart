@@ -45,84 +45,100 @@ class _EserciziState extends State<Esercizi> {
                     primary: false,
                     itemCount: snap.length,
                     itemBuilder: (context, index) {
-                      return Container(
-                        height: 70,
-                        width: double.infinity,
-                        margin: const EdgeInsets.only(bottom: 12),
-                        decoration: BoxDecoration(
-                          color: Colors.white,
-                          borderRadius: BorderRadius.circular(20),
-                          boxShadow: const [
-                            BoxShadow(
-                              color: Colors.black26,
-                              offset: Offset(2, 2),
-                              blurRadius: 10,
-                            ),
-                          ],
-                        ),
-                        child: Stack(
-                          children: [
-                            /*Container(
+                      return GestureDetector(
+                        onTap: () {
+                          if (snap[index]['spiegazioneEsercizio'].toString() !=
+                              "") {
+                            showModal(context,
+                                snap[index]['spiegazioneEsercizio'].toString());
+                          }
+                        },
+                        child: Container(
+                          height: 70,
+                          width: double.infinity,
+                          margin: const EdgeInsets.only(bottom: 12),
+                          decoration: BoxDecoration(
+                            color: Colors.white,
+                            borderRadius: BorderRadius.circular(20),
+                            boxShadow: const [
+                              BoxShadow(
+                                color: Colors.black26,
+                                offset: Offset(2, 2),
+                                blurRadius: 10,
+                              ),
+                            ],
+                          ),
+                          child: Stack(
+                            children: [
+                              /*Container(
+                                  margin: const EdgeInsets.only(left: 20),
+                                  alignment: Alignment.centerLeft,
+                                  child: Text(snap[index]['nEs'],
+                                      style: const TextStyle(
+                                        color: Colors.black54,
+                                        fontWeight: FontWeight.bold,
+                                      ))),*/
+                              Container(
                                 margin: const EdgeInsets.only(left: 20),
                                 alignment: Alignment.centerLeft,
-                                child: Image.network(
-                                    snap[index]['spiegazioneEsercizio'])),*/
-                            Container(
-                              margin: const EdgeInsets.only(left: 20),
-                              alignment: Alignment.centerLeft,
-                              child: Text(
-                                snap[index]['esercizio'],
-                                style: const TextStyle(
-                                  color: Colors.black54,
-                                  fontWeight: FontWeight.bold,
+                                child: Text(
+                                  snap[index]['esercizio'],
+                                  style: const TextStyle(
+                                    color: Colors.black54,
+                                    fontWeight: FontWeight.bold,
+                                  ),
                                 ),
                               ),
-                            ),
-                            Container(
-                              margin: const EdgeInsets.only(right: 20),
-                              alignment: Alignment.centerRight,
-                              child: Column(
-                                  mainAxisAlignment: MainAxisAlignment.center,
-                                  children: [
-                                    Text(
-                                      snap[index]['tempo'],
-                                      style: TextStyle(
-                                          color: Colors.green.withOpacity(0.7),
-                                          fontWeight: FontWeight.bold,
-                                          fontSize: 12),
-                                    ),
-                                    Text(
-                                      snap[index]['peso'],
-                                      style: TextStyle(
-                                          color: Colors.green.withOpacity(0.7),
-                                          fontWeight: FontWeight.bold,
-                                          fontSize: 12),
-                                    )
-                                  ]),
-                            ),
-                            Container(
-                              margin: const EdgeInsets.only(right: 20),
-                              alignment: Alignment.centerRight,
-                              child: Column(
-                                  mainAxisAlignment: MainAxisAlignment.center,
-                                  children: [
-                                    Text(
-                                      snap[index]['serie'],
-                                      style: TextStyle(
-                                          color: Colors.green.withOpacity(0.7),
-                                          fontWeight: FontWeight.bold,
-                                          fontSize: 12),
-                                    ),
-                                    Text(
-                                      snap[index]['ripetizioni'],
-                                      style: TextStyle(
-                                          color: Colors.green.withOpacity(0.7),
-                                          fontWeight: FontWeight.bold,
-                                          fontSize: 12),
-                                    )
-                                  ]),
-                            ),
-                          ],
+                              Container(
+                                margin: const EdgeInsets.only(right: 20),
+                                alignment: Alignment.centerRight,
+                                child: Column(
+                                    mainAxisAlignment: MainAxisAlignment.center,
+                                    children: [
+                                      Text(
+                                        snap[index]['tempo'],
+                                        style: TextStyle(
+                                            color:
+                                                Colors.green.withOpacity(0.7),
+                                            fontWeight: FontWeight.bold,
+                                            fontSize: 12),
+                                      ),
+                                      Text(
+                                        snap[index]['peso'],
+                                        style: TextStyle(
+                                            color:
+                                                Colors.green.withOpacity(0.7),
+                                            fontWeight: FontWeight.bold,
+                                            fontSize: 12),
+                                      )
+                                    ]),
+                              ),
+                              Container(
+                                margin: const EdgeInsets.only(right: 20),
+                                alignment: Alignment.centerRight,
+                                child: Column(
+                                    mainAxisAlignment: MainAxisAlignment.center,
+                                    children: [
+                                      Text(
+                                        snap[index]['serie'],
+                                        style: TextStyle(
+                                            color:
+                                                Colors.green.withOpacity(0.7),
+                                            fontWeight: FontWeight.bold,
+                                            fontSize: 12),
+                                      ),
+                                      Text(
+                                        snap[index]['ripetizioni'],
+                                        style: TextStyle(
+                                            color:
+                                                Colors.green.withOpacity(0.7),
+                                            fontWeight: FontWeight.bold,
+                                            fontSize: 12),
+                                      )
+                                    ]),
+                              ),
+                            ],
+                          ),
                         ),
                       );
                     },
@@ -199,11 +215,11 @@ class _EserciziState extends State<Esercizi> {
     );
   }
 
-  void showModal(BuildContext context) {
+  void showModal(BuildContext context, gifUrl) {
     showDialog(
       context: context,
       builder: (BuildContext context) => AlertDialog(
-        content: const Text('Example Dialog'),
+        content: Image.network(gifUrl),
         actions: <TextButton>[
           TextButton(
             onPressed: () {

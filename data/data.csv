@@ -57,8 +57,8 @@
 3,Fave secche,g 70,0_Monday,1_Pranzo,Legumi_Secchi
 4,Lenticchie secche,g 80,0_Monday,1_Pranzo,Legumi_Secchi
 5,Piselli secchi,g 80,0_Monday,1_Pranzo,Legumi_Secchi
-0,Pane bianco,g 80,0_Monday,1_Pranzo,Pane
-1,Pane integrale,g 100,0_Monday,1_Pranzo,Pane
+0,Pane bianco,g 60,0_Monday,1_Pranzo,Pane
+1,Pane integrale,g 80,0_Monday,1_Pranzo,Pane
 0,Mele,150g (Quello che sta in una mano aperta),0_Monday,2_Merenda,Frutta_Fresca
 1,Albicocche,150g (Quello che sta in una mano aperta),0_Monday,2_Merenda,Frutta_Fresca
 2,Ananas,150g (Quello che sta in una mano aperta),0_Monday,2_Merenda,Frutta_Fresca
@@ -107,6 +107,8 @@
 10,Pesche,150g (Quello che sta in una mano aperta),0_Monday,3_Cena,Frutta_Fresca
 11,Prugne,150g (Quello che sta in una mano aperta),0_Monday,3_Cena,Frutta_Fresca
 12,Uva,150g (Quello che sta in una mano aperta),0_Monday,3_Cena,Frutta_Fresca
+0,Pane bianco,g 50,0_Monday,3_Cena,Pane
+1,Pane integrale,g 60,0_Monday,3_Cena,Pane
 0,Tisana,1 tazza,0_Monday,3_Cena,Spuntino_Serale
 1,Camomilla,1 tazza,0_Monday,3_Cena,Spuntino_Serale
 0,Uovo di gallina, n° 2,0_Monday,3_Cena,Uova
@@ -114,7 +116,7 @@
 0,Caffè,1 Tazzina,1_Tuesday,0_Colazione,Caffe
 1,Caffè decaffeinato,1 Tazzina,1_Tuesday,0_Colazione,Caffe
 0,Latte Parzialmente scremato di vacca,g 200,1_Tuesday,0_Colazione,Latte
-0,Marmellata,3 cucchiaini,1_Tuesday,0_Colazione,Marmellata
+0,Marmellata,1 cucchiaino,1_Tuesday,0_Colazione,Marmellata
 0,Pane bianco,g 50,1_Tuesday,0_Colazione,Pane
 1,Pane integrale,g 60,1_Tuesday,0_Colazione,Pane
 0,philadelphia,g 30,1_Tuesday,0_Colazione,Philadelphia
@@ -157,9 +159,9 @@
 10,Pesche,150g (Quello che sta in una mano aperta),1_Tuesday,1_Pranzo,Frutta_Fresca
 11,Prugne,150g (Quello che sta in una mano aperta),1_Tuesday,1_Pranzo,Frutta_Fresca
 12,Uva,150g (Quello che sta in una mano aperta),1_Tuesday,1_Pranzo,Frutta_Fresca
-0,Pasta di farro,g 80,1_Tuesday,1_Pranzo,Pasta
-1,Pasta di semola,g 70,1_Tuesday,1_Pranzo,Pasta
-2,Pasta integrale,g 80,1_Tuesday,1_Pranzo,Pasta
+0,Pasta di farro,g 70,1_Tuesday,1_Pranzo,Pasta
+1,Pasta di semola,g 60,1_Tuesday,1_Pranzo,Pasta
+2,Pasta integrale,g 70,1_Tuesday,1_Pranzo,Pasta
 0,Cioccolato fondente,g 20,1_Tuesday,2_Merenda,Cioccolato
 0,Mele,150g (Quello che sta in una mano aperta),1_Tuesday,2_Merenda,Frutta_Fresca
 1,Albicocche,150g (Quello che sta in una mano aperta),1_Tuesday,2_Merenda,Frutta_Fresca
@@ -174,8 +176,6 @@
 10,Pesche,150g (Quello che sta in una mano aperta),1_Tuesday,2_Merenda,Frutta_Fresca
 11,Prugne,150g (Quello che sta in una mano aperta),1_Tuesday,2_Merenda,Frutta_Fresca
 12,Uva,150g (Quello che sta in una mano aperta),1_Tuesday,2_Merenda,Frutta_Fresca
-0,Pane bianco,g 40,1_Tuesday,2_Merenda,Pane
-1,Pane integrale,g 50,1_Tuesday,2_Merenda,Pane
 0,Asparagi,,1_Tuesday,3_Cena,Contorni
 1,Bieta,,1_Tuesday,3_Cena,Contorni
 2,Carote,,1_Tuesday,3_Cena,Contorni
@@ -225,22 +225,6 @@
 0,Olio, 5 cucchiaini,1_Tuesday,4_Arco_Della_Giornata,Olio
 0,Caffè,1 Tazzina,2_Wednesday,0_Colazione,Caffe
 1,Caffè decaffeinato,1 Tazzina,2_Wednesday,0_Colazione,Caffe
-0,Asparagi,,2_Wednesday,0_Colazione,Contorni
-1,Bieta,,2_Wednesday,0_Colazione,Contorni
-2,Carote,,2_Wednesday,0_Colazione,Contorni
-3,Cetrioli,,2_Wednesday,0_Colazione,Contorni
-4,Cicoria,,2_Wednesday,0_Colazione,Contorni
-5,Cime di rapa,,2_Wednesday,0_Colazione,Contorni
-6,Cipolle,,2_Wednesday,0_Colazione,Contorni
-7,Fagiolini,,2_Wednesday,0_Colazione,Contorni
-8,Finocchi,,2_Wednesday,0_Colazione,Contorni
-9,Insalata mista,,2_Wednesday,0_Colazione,Contorni
-10,Lattuga,,2_Wednesday,0_Colazione,Contorni
-11,Melanzane,,2_Wednesday,0_Colazione,Contorni
-12,Peperoni,,2_Wednesday,0_Colazione,Contorni
-13,Pomodori,,2_Wednesday,0_Colazione,Contorni
-14,Spinaci,,2_Wednesday,0_Colazione,Contorni
-15,Zucchine,,2_Wednesday,0_Colazione,Contorni
 0,Mele,150g (Quello che sta in una mano aperta),2_Wednesday,0_Colazione,Frutta_Fresca
 1,Albicocche,150g (Quello che sta in una mano aperta),2_Wednesday,0_Colazione,Frutta_Fresca
 2,Ananas,150g (Quello che sta in una mano aperta),2_Wednesday,0_Colazione,Frutta_Fresca
@@ -257,11 +241,12 @@
 0,Latte Parzialmente scremato di vacca,g 200,2_Wednesday,0_Colazione,Latte
 0,Pane bianco,g 50,2_Wednesday,0_Colazione,Pane
 1,Pane integrale,g 60,2_Wednesday,0_Colazione,Pane
-0,Bulgur,g 80,2_Wednesday,1_Pranzo,Cereali
-1,Couscous,g 80,2_Wednesday,1_Pranzo,Cereali
-2,Farro g,80,2_Wednesday,1_Pranzo,Cereali
-3,Orzo g,80,2_Wednesday,1_Pranzo,Cereali
-4,Riso,g 80,2_Wednesday,1_Pranzo,Cereali
+0, Crema Novi,g 20,2_Wednesday,0_Colazione,Creme Spalmabili
+0,Bulgur,g 70,2_Wednesday,1_Pranzo,Cereali
+1,Couscous,g 70,2_Wednesday,1_Pranzo,Cereali
+2,Farro g,70,2_Wednesday,1_Pranzo,Cereali
+3,Orzo g,70,2_Wednesday,1_Pranzo,Cereali
+4,Riso,g 70,2_Wednesday,1_Pranzo,Cereali
 0,Asparagi,,2_Wednesday,1_Pranzo,Contorni
 1,Bieta,,2_Wednesday,1_Pranzo,Contorni
 2,Carote,,2_Wednesday,1_Pranzo,Contorni
@@ -360,8 +345,8 @@
 10,Pesche,150g (Quello che sta in una mano aperta),2_Wednesday,3_Cena,Frutta_Fresca
 11,Prugne,150g (Quello che sta in una mano aperta),2_Wednesday,3_Cena,Frutta_Fresca
 12,Uva,150g (Quello che sta in una mano aperta),2_Wednesday,3_Cena,Frutta_Fresca
-0,Pane bianco,g 90,2_Wednesday,3_Cena,Pane
-1,Pane integrale,g 110,2_Wednesday,3_Cena,Pane
+0,Pane bianco,g 70,2_Wednesday,3_Cena,Pane
+1,Pane integrale,g 80,2_Wednesday,3_Cena,Pane
 0,Olio, 5 cucchiaini,2_Wednesday,4_Arco_Della_Giornata,Olio
 0,Caffè,1 Tazzina,3_Thursday,0_Colazione,Caffe
 1,Caffè decaffeinato,1 Tazzina,3_Thursday,0_Colazione,Caffe
@@ -546,9 +531,9 @@
 10,Pesche,150g (Quello che sta in una mano aperta),4_Friday,1_Pranzo,Frutta_Fresca
 11,Prugne,150g (Quello che sta in una mano aperta),4_Friday,1_Pranzo,Frutta_Fresca
 12,Uva,150g (Quello che sta in una mano aperta),4_Friday,1_Pranzo,Frutta_Fresca
-0,Pasta di farro,g 80,4_Friday,1_Pranzo,Pasta
-1,Pasta di semola,g 70,4_Friday,1_Pranzo,Pasta
-2,Pasta integrale,g 80,4_Friday,1_Pranzo,Pasta
+0,Pasta di farro,g 70,4_Friday,1_Pranzo,Pasta
+1,Pasta di semola,g 60,4_Friday,1_Pranzo,Pasta
+2,Pasta integrale,g 70,4_Friday,1_Pranzo,Pasta
 0,Uovo di gallina, n° 2,4_Friday,1_Pranzo,Uova
 0,Mele,150g (Quello che sta in una mano aperta),4_Friday,2_Merenda,Frutta_Fresca
 1,Albicocche,150g (Quello che sta in una mano aperta),4_Friday,2_Merenda,Frutta_Fresca
@@ -598,8 +583,8 @@
 10,Pesche,150g (Quello che sta in una mano aperta),4_Friday,3_Cena,Frutta_Fresca
 11,Prugne,150g (Quello che sta in una mano aperta),4_Friday,3_Cena,Frutta_Fresca
 12,Uva,150g (Quello che sta in una mano aperta),4_Friday,3_Cena,Frutta_Fresca
-0,Pane bianco,g60,4_Friday,3_Cena,Pane
-1,Pane integrale,g70,4_Friday,3_Cena,Pane
+0,Pane bianco,g 50,4_Friday,3_Cena,Pane
+1,Pane integrale,g 60,4_Friday,3_Cena,Pane
 0,Calamari,g 200,4_Friday,3_Cena,Pesce_Fresco
 1,Coda di rospo,g 200,4_Friday,3_Cena,Pesce_Fresco
 2,Dentice,g 200,4_Friday,3_Cena,Pesce_Fresco
@@ -727,9 +712,9 @@
 10,Pesche,150g (Quello che sta in una mano aperta),6_Sunday,1_Pranzo,Frutta_Fresca
 11,Prugne,150g (Quello che sta in una mano aperta),6_Sunday,1_Pranzo,Frutta_Fresca
 12,Uva,150g (Quello che sta in una mano aperta),6_Sunday,1_Pranzo,Frutta_Fresca
-0,Pasta di farro,g 80,6_Sunday,1_Pranzo,Pasta
-1,Pasta di semola,g 70,6_Sunday,1_Pranzo,Pasta
-2,Pasta integrale,g 80,6_Sunday,1_Pranzo,Pasta
+0,Pasta di farro,g 70,6_Sunday,1_Pranzo,Pasta
+1,Pasta di semola,g 60,6_Sunday,1_Pranzo,Pasta
+2,Pasta integrale,g 70,6_Sunday,1_Pranzo,Pasta
 0,Gelato,,6_Sunday,2_Merenda,Gelato
 0,Agnello,g 150 (1 bistecca),6_Sunday,3_Cena,Carne_Fresca
 1,Coniglio,g 150(1 bistecca),6_Sunday,3_Cena,Carne_Fresca
@@ -771,6 +756,6 @@
 10,Pesche,150g (Quello che sta in una mano aperta),6_Sunday,3_Cena,Frutta_Fresca
 11,Prugne,150g (Quello che sta in una mano aperta),6_Sunday,3_Cena,Frutta_Fresca
 12,Uva,150g (Quello che sta in una mano aperta),6_Sunday,3_Cena,Frutta_Fresca
-0,Pane bianco,g90,6_Sunday,3_Cena,Pane
-1,Pane integrale,g110,6_Sunday,3_Cena,Pane
+0,Pane bianco,g50,6_Sunday,3_Cena,Pane
+1,Pane integrale,g 50,6_Sunday,3_Cena,Pane
 0,Olio, 5 cucchiaini,6_Sunday,4_Arco_Della_Giornata,Olio
