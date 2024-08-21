@@ -1,3 +1,4 @@
 {
-    "cmake.sourceDirectory": "C:/Users/eleon/StudioProjects/MyDiet/build/windows/extracted/firebase_cpp_sdk"
+    "cmake.sourceDirectory": "C:/Users/eleon/StudioProjects/MyDiet/linux",
+    "dart.showTodos": false
 }
