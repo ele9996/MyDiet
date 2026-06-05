@@ -3,6 +3,7 @@ import 'package:flutter/material.dart';
 import 'package:untitled/DaysOfTheWeek.dart';
 import 'package:untitled/Gym.dart';
 import 'package:untitled/app_ui.dart';
+import 'package:untitled/meals_planning.dart';
 
 import 'firebase_options.dart';
 
@@ -131,6 +132,7 @@ class _AppShellState extends State<AppShell> {
     const pages = [
       DaysOfTheWeek(),
       Gym(),
+      MealsPlanning(),
     ];
 
     return Scaffold(
@@ -170,6 +172,11 @@ class _AppShellState extends State<AppShell> {
                   icon: Icon(Icons.fitness_center_outlined),
                   selectedIcon: Icon(Icons.fitness_center),
                   label: 'Training',
+                ),
+                NavigationDestination(
+                  icon: Icon(Icons.edit_calendar_outlined),
+                  selectedIcon: Icon(Icons.edit_calendar),
+                  label: 'Planning',
                 ),
               ],
               onDestinationSelected: (index) {
