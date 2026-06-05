@@ -67,7 +67,8 @@ class DefaultFirebaseOptions {
     messagingSenderId: '291236876533',
     projectId: 'mydiet-6ee55',
     storageBucket: 'mydiet-6ee55.appspot.com',
-    iosClientId: '291236876533-htkheea27s7ludj24ocjfak50efpof80.apps.googleusercontent.com',
+    iosClientId:
+        '291236876533-htkheea27s7ludj24ocjfak50efpof80.apps.googleusercontent.com',
     iosBundleId: 'com.example.untitled',
   );
 
@@ -77,7 +78,8 @@ class DefaultFirebaseOptions {
     messagingSenderId: '291236876533',
     projectId: 'mydiet-6ee55',
     storageBucket: 'mydiet-6ee55.appspot.com',
-    iosClientId: '291236876533-htkheea27s7ludj24ocjfak50efpof80.apps.googleusercontent.com',
+    iosClientId:
+        '291236876533-htkheea27s7ludj24ocjfak50efpof80.apps.googleusercontent.com',
     iosBundleId: 'com.example.untitled',
   );
 }

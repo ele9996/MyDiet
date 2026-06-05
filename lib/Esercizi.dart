@@ -1,233 +1,195 @@
-// .where('giorno', isEqualTo: '0_Monday')
-// .where('pasto', isEqualTo: '1_Pranzo')
-//.where('tipo', isEqualTo: 'Frutta_Fresca')
-
-import 'package:flutter/material.dart';
-import 'package:flutter/rendering.dart';
-import 'package:untitled/Gym.dart';
-import 'package:untitled/DaysOfTheWeek.dart';
 import 'package:cloud_firestore/cloud_firestore.dart';
+import 'package:flutter/material.dart';
+import 'package:untitled/app_ui.dart';
+import 'package:untitled/exercise_media_service.dart';
 
-class Esercizi extends StatefulWidget {
+class Esercizi extends StatelessWidget {
   const Esercizi({super.key, required this.sessione});
 
   final String sessione;
 
   @override
-  State<Esercizi> createState() => _EserciziState();
-}
-
-class _EserciziState extends State<Esercizi> {
-  //Dichiaro variabili qui
-  int _selectedIndex = 1;
-  final ScrollController _homeController = ScrollController();
-
-  Widget _listViewBody() {
-    return Scaffold(
-      body: SingleChildScrollView(
-        padding: const EdgeInsets.all(20),
-        child: Column(
-          children: [
-            Text("Sessione ${widget.sessione}\n",
-                style:
-                    const TextStyle(fontSize: 18, fontWeight: FontWeight.bold)),
-            StreamBuilder<QuerySnapshot>(
-              stream: FirebaseFirestore.instance
-                  .collection('Palestra')
-                  .where('sessione', isEqualTo: widget.sessione)
-                  .snapshots(), //parametrizzo query
-              builder: (BuildContext context,
-                  AsyncSnapshot<QuerySnapshot> snapshot) {
-                if (snapshot.hasData) {
-                  final snap = snapshot.data!.docs;
-                  return ListView.builder(
-                    shrinkWrap: true,
-                    primary: false,
-                    itemCount: snap.length,
-                    itemBuilder: (context, index) {
-                      return GestureDetector(
-                        onTap: () {
-                          if (snap[index]['spiegazioneEsercizio'].toString() !=
-                              "") {
-                            showModal(context,
-                                snap[index]['spiegazioneEsercizio'].toString());
-                          }
-                        },
-                        child: Container(
-                          height: 70,
-                          width: double.infinity,
-                          margin: const EdgeInsets.only(bottom: 12),
-                          decoration: BoxDecoration(
-                            color: Colors.white,
-                            borderRadius: BorderRadius.circular(20),
-                            boxShadow: const [
-                              BoxShadow(
-                                color: Colors.black26,
-                                offset: Offset(2, 2),
-                                blurRadius: 10,
-                              ),
-                            ],
-                          ),
-                          child: Stack(
-                            children: [
-                              /*Container(
-                                  margin: const EdgeInsets.only(left: 20),
-                                  alignment: Alignment.centerLeft,
-                                  child: Text(snap[index]['nEs'],
-                                      style: const TextStyle(
-                                        color: Colors.black54,
-                                        fontWeight: FontWeight.bold,
-                                      ))),*/
-                              Container(
-                                margin: const EdgeInsets.only(left: 20),
-                                alignment: Alignment.centerLeft,
-                                child: Text(
-                                  snap[index]['esercizio'],
-                                  style: const TextStyle(
-                                    color: Colors.black54,
-                                    fontWeight: FontWeight.bold,
-                                  ),
-                                ),
-                              ),
-                              Container(
-                                margin: const EdgeInsets.only(right: 20),
-                                alignment: Alignment.centerRight,
-                                child: Column(
-                                    mainAxisAlignment: MainAxisAlignment.center,
-                                    children: [
-                                      Text(
-                                        snap[index]['tempo'],
-                                        style: TextStyle(
-                                            color:
-                                                Colors.green.withOpacity(0.7),
-                                            fontWeight: FontWeight.bold,
-                                            fontSize: 12),
-                                      ),
-                                      Text(
-                                        snap[index]['peso'],
-                                        style: TextStyle(
-                                            color:
-                                                Colors.green.withOpacity(0.7),
-                                            fontWeight: FontWeight.bold,
-                                            fontSize: 12),
-                                      )
-                                    ]),
-                              ),
-                              Container(
-                                margin: const EdgeInsets.only(right: 20),
-                                alignment: Alignment.centerRight,
-                                child: Column(
-                                    mainAxisAlignment: MainAxisAlignment.center,
-                                    children: [
-                                      Text(
-                                        snap[index]['serie'],
-                                        style: TextStyle(
-                                            color:
-                                                Colors.green.withOpacity(0.7),
-                                            fontWeight: FontWeight.bold,
-                                            fontSize: 12),
-                                      ),
-                                      Text(
-                                        snap[index]['ripetizioni'],
-                                        style: TextStyle(
-                                            color:
-                                                Colors.green.withOpacity(0.7),
-                                            fontWeight: FontWeight.bold,
-                                            fontSize: 12),
-                                      )
-                                    ]),
-                              ),
-                            ],
-                          ),
-                        ),
-                      );
-                    },
-                  );
-                } else {
-                  return const SizedBox();
-                }
-              },
-            )
-          ],
-        ),
-      ),
-    );
-  }
-
-//Per push
-  @override
   Widget build(BuildContext context) {
-    return Scaffold(
-      appBar: AppBar(
-        title: const Text('My Diet'),
-        backgroundColor: const Color.fromARGB(255, 181, 45, 202),
-      ),
-      body: _listViewBody(),
-      bottomNavigationBar: BottomNavigationBar(
-        items: const <BottomNavigationBarItem>[
-          BottomNavigationBarItem(
-            icon: Icon(Icons.home),
-            label: 'Home',
-          ),
-          BottomNavigationBarItem(
-            icon: Icon(Icons.fitness_center),
-            label: 'Gym',
-          ),
-          //BottomNavigationBarItem(
-          //  icon: Icon(Icons.open_in_new_rounded),
-          //  label: 'Open Dialog',
-          //),
-        ],
-        currentIndex: _selectedIndex,
-        selectedItemColor: const Color.fromARGB(255, 181, 45, 202),
-        onTap: (int index) {
-          switch (index) {
-            case 0:
-              // only scroll to top when current index is selected.
-              if (_selectedIndex == index) {
-                Navigator.push(
-                    context,
-                    MaterialPageRoute(
-                        builder: (BuildContext context) =>
-                            const DaysOfTheWeek()));
-              }
-              break;
-            case 1:
-              if (_selectedIndex == index) {
-                Navigator.push(
-                    context,
-                    MaterialPageRoute(
-                        builder: (BuildContext context) => const Gym()));
-              }
-              break;
-
-            /*case 2:
-              showModal(context);
-            */
+    return DetailScaffold(
+      eyebrow: 'Workout session',
+      title: 'Session ${prettifyLabel(sessione)}',
+      subtitle:
+          'Each exercise now opens a concrete movement GIF. Missing links are replaced with stronger fallback matches and then saved back to your data.',
+      body: StreamBuilder<QuerySnapshot>(
+        stream: FirebaseFirestore.instance
+            .collection('Palestra')
+            .where('sessione', isEqualTo: sessione)
+            .snapshots(),
+        builder: (context, snapshot) {
+          if (snapshot.connectionState == ConnectionState.waiting) {
+            return const LoadingCard();
           }
-          setState(
-            () {
-              _selectedIndex = index;
-            },
+
+          if (!snapshot.hasData || snapshot.data!.docs.isEmpty) {
+            return const EmptyStateCard(
+              title: 'No exercises found',
+              message: 'This session has not been populated yet.',
+              icon: Icons.format_list_bulleted_outlined,
+            );
+          }
+
+          final exercises = snapshot.data!.docs;
+
+          return Column(
+            crossAxisAlignment: CrossAxisAlignment.start,
+            children: [
+              const SectionTitle(
+                title: 'Exercise flow',
+                caption:
+                    'Open an exercise to see its movement reference and keep the session easier to follow.',
+              ),
+              for (final exercise in exercises)
+                ContentCard(
+                  title: exercise['esercizio'].toString(),
+                  subtitle:
+                      '${exercise['serie']} sets | ${exercise['ripetizioni']} reps | ${exercise['tempo']} tempo',
+                  icon: Icons.fitness_center_outlined,
+                  accentColor: uiPink,
+                  trailing: Container(
+                    padding: const EdgeInsets.symmetric(
+                      horizontal: 12,
+                      vertical: 10,
+                    ),
+                    decoration: BoxDecoration(
+                      color: uiLilac,
+                      borderRadius: BorderRadius.circular(16),
+                    ),
+                    child: Text(
+                      exercise['peso'].toString(),
+                      style: const TextStyle(
+                        color: uiInk,
+                        fontWeight: FontWeight.w800,
+                      ),
+                    ),
+                  ),
+                  onTap: () {
+                    showDialog<void>(
+                      context: context,
+                      builder: (context) => _ExerciseGifDialog(
+                        exerciseName: exercise['esercizio'].toString(),
+                        existingUrl:
+                            exercise['spiegazioneEsercizio'].toString(),
+                        reference: exercise.reference,
+                      ),
+                    );
+                  },
+                ),
+            ],
           );
         },
       ),
     );
   }
+}
 
-  void showModal(BuildContext context, gifUrl) {
-    showDialog(
-      context: context,
-      builder: (BuildContext context) => AlertDialog(
-        content: Image.network(gifUrl),
-        actions: <TextButton>[
-          TextButton(
-            onPressed: () {
-              Navigator.pop(context);
-            },
-            child: const Text('Close'),
-          )
-        ],
+class _ExerciseGifDialog extends StatelessWidget {
+  const _ExerciseGifDialog({
+    required this.exerciseName,
+    required this.existingUrl,
+    required this.reference,
+  });
+
+  final String exerciseName;
+  final String existingUrl;
+  final DocumentReference reference;
+
+  @override
+  Widget build(BuildContext context) {
+    final mediaService = ExerciseMediaService();
+
+    return Dialog(
+      insetPadding: const EdgeInsets.all(20),
+      shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(28)),
+      child: FutureBuilder<String>(
+        future: mediaService.resolveGifUrl(
+          exerciseName: exerciseName,
+          existingUrl: existingUrl,
+        ),
+        builder: (context, snapshot) {
+          if (snapshot.connectionState == ConnectionState.waiting) {
+            return const Padding(
+              padding: EdgeInsets.all(28),
+              child: SizedBox(
+                height: 180,
+                child: Center(child: CircularProgressIndicator()),
+              ),
+            );
+          }
+
+          final gifUrl = snapshot.data ??
+              'https://upload.wikimedia.org/wikipedia/commons/e/e9/Jumpingjacks.gif';
+
+          if (existingUrl.trim().isEmpty && snapshot.hasData) {
+            reference.update({'spiegazioneEsercizio': gifUrl});
+          }
+
+          return ClipRRect(
+            borderRadius: BorderRadius.circular(28),
+            child: SingleChildScrollView(
+              child: Column(
+                crossAxisAlignment: CrossAxisAlignment.start,
+                children: [
+                  Stack(
+                    children: [
+                      Container(
+                        color: Colors.white,
+                        width: double.infinity,
+                        child: Image.network(
+                          gifUrl,
+                          fit: BoxFit.cover,
+                          errorBuilder: (context, error, stackTrace) {
+                            return Image.network(
+                              'https://upload.wikimedia.org/wikipedia/commons/e/e9/Jumpingjacks.gif',
+                              fit: BoxFit.cover,
+                            );
+                          },
+                        ),
+                      ),
+                      Positioned(
+                        top: 12,
+                        right: 12,
+                        child: IconButton.filledTonal(
+                          onPressed: () => Navigator.of(context).pop(),
+                          icon: const Icon(Icons.close_rounded),
+                        ),
+                      ),
+                    ],
+                  ),
+                  Padding(
+                    padding: const EdgeInsets.all(20),
+                    child: Column(
+                      crossAxisAlignment: CrossAxisAlignment.start,
+                      children: [
+                        Text(
+                          exerciseName,
+                          style: const TextStyle(
+                            fontFamily: 'Georgia',
+                            fontSize: 24,
+                            fontWeight: FontWeight.w700,
+                            color: uiInk,
+                          ),
+                        ),
+                        const SizedBox(height: 8),
+                        const Text(
+                          'This GIF is loaded from the stored exercise link or a stronger fallback source and then persisted back when needed.',
+                          style: TextStyle(
+                            color: Color(0xFF6B5D89),
+                            height: 1.4,
+                          ),
+                        ),
+                      ],
+                    ),
+                  ),
+                ],
+              ),
+            ),
+          );
+        },
       ),
     );
   }

@@ -1,184 +1,87 @@
-// .where('giorno', isEqualTo: '0_Monday')
-// .where('pasto', isEqualTo: '1_Pranzo')
-//.where('tipo', isEqualTo: 'Frutta_Fresca')
-
-
-import 'package:flutter/material.dart';
-
-import 'package:untitled/Tipi.dart';
-import 'package:untitled/Gym.dart';
-import 'package:untitled/DaysOfTheWeek.dart';
-
 import 'package:cloud_firestore/cloud_firestore.dart';
+import 'package:flutter/material.dart';
+import 'package:untitled/Tipi.dart';
+import 'package:untitled/app_ui.dart';
 
-class Pasti extends StatefulWidget {
+class Pasti extends StatelessWidget {
   const Pasti({super.key, required this.day});
+
   final String day;
 
-  @override
-  State<Pasti> createState() => _PastiState();
-}
-
-class _PastiState extends State<Pasti> {
-  //Dichiaro variabili qui
-  int _selectedIndex = 0;
-  final ScrollController _homeController = ScrollController();
-
-  Widget _listViewBody() {
-    return Scaffold(
-      body: SingleChildScrollView(
-        padding: const EdgeInsets.all(20),
-        child: Column(
-          children: [
-            Text("${widget.day}\n",
-                style:
-                    const TextStyle(fontSize: 18, fontWeight: FontWeight.bold)),
-            StreamBuilder<QuerySnapshot>(
-              stream: FirebaseFirestore.instance
-                  .collection('Diet')
-                  .where('giorno', isEqualTo: widget.day)
-                  .snapshots(), //parametrizzo query
-              builder: (BuildContext context,
-                  AsyncSnapshot<QuerySnapshot> snapshot) {
-                if (snapshot.hasData) {
-                  final snap = snapshot.data!.docs
-                      .map((doc) => doc.data())
-                      .toList() as List;
-                  final distinctItems =
-                      snap.map((da) => da['pasto']).toSet(); //parametrizzo qui
-                  return ListView.builder(
-                    shrinkWrap: true,
-                    primary: false,
-                    itemCount: distinctItems.length,
-                    itemBuilder: (context, index) {
-                      return GestureDetector(
-                        onTap: () {
-                          Navigator.push(
-                              context,
-                              MaterialPageRoute(
-                                  builder: (BuildContext context) => Tipi(
-                                      day: widget.day,
-                                      pasto: distinctItems
-                                          .toList()[index]
-                                          .toString())));
-                        },
-                        child: Container(
-                          height: 70,
-                          width: double.infinity,
-                          margin: const EdgeInsets.only(bottom: 12),
-                          decoration: BoxDecoration(
-                            color: Colors.white,
-                            borderRadius: BorderRadius.circular(20),
-                            boxShadow: const [
-                              BoxShadow(
-                                color: Colors.black26,
-                                offset: Offset(2, 2),
-                                blurRadius: 10,
-                              ),
-                            ],
-                          ),
-                          child: Stack(
-                            children: [
-                              Container(
-                                margin: const EdgeInsets.only(left: 20),
-                                alignment: Alignment.centerLeft,
-                                child: Text(
-                                  distinctItems.toList()[index],
-                                  style: const TextStyle(
-                                    color: Colors.black54,
-                                    fontWeight: FontWeight.bold,
-                                  ),
-                                ),
-                              ),
-                            ],
-                          ),
-                        ),
-                      );
-                    },
-                  );
-                } else {
-                  return const SizedBox();
-                }
-              },
-            )
-          ],
-        ),
-      ),
-    );
-  }
+  static const List<String> _mealOrder = [
+    '0_Colazione',
+    '1_Pranzo',
+    '2_Merenda',
+    '3_Cena',
+    '4_Arco_Della_Giornata',
+  ];
 
   @override
   Widget build(BuildContext context) {
-    return Scaffold(
-      appBar: AppBar(
-        title: const Text('My Diet'),
-        backgroundColor: const Color.fromARGB(255, 181, 45, 202),
-      ),
-      body: _listViewBody(),
-      bottomNavigationBar: BottomNavigationBar(
-        items: const <BottomNavigationBarItem>[
-          BottomNavigationBarItem(
-            icon: Icon(Icons.home),
-            label: 'Home',
-          ),
-          BottomNavigationBarItem(
-            icon: Icon(Icons.fitness_center),
-            label: 'Gym',
-          ),
-          //BottomNavigationBarItem(
-          //  icon: Icon(Icons.open_in_new_rounded),
-          //  label: 'Open Dialog',
-          //),
-        ],
-        currentIndex: _selectedIndex,
-        selectedItemColor: const Color.fromARGB(255, 181, 45, 202),
-        onTap: (int index) {
-          switch (index) {
-            case 0:
-              // only scroll to top when current index is selected.
-                if(_selectedIndex== index){
-                  Navigator.push(
-                    context,
-                    MaterialPageRoute(
-                        builder: (BuildContext context) => const DaysOfTheWeek()));
-              }
-              break;
-            case 1:
-              if (_selectedIndex == index) {
-                Navigator.push(
-                    context,
-                    MaterialPageRoute(
-                        builder: (BuildContext context) => const Gym()));
-              }
-              break;
-
-            /*case 2:
-              showModal(context);
-            */
+    return DetailScaffold(
+      eyebrow: prettifyLabel(day),
+      title: prettifyLabel(day),
+      subtitle: '',
+      body: StreamBuilder<QuerySnapshot>(
+        stream: FirebaseFirestore.instance
+            .collection('Diet')
+            .where('giorno', isEqualTo: day)
+            .snapshots(),
+        builder: (context, snapshot) {
+          if (snapshot.connectionState == ConnectionState.waiting) {
+            return const LoadingCard();
           }
-          setState(
-            () {
-              _selectedIndex = index;
-            },
+
+          if (!snapshot.hasData || snapshot.data!.docs.isEmpty) {
+            return const EmptyStateCard(
+              title: 'No meals found',
+              message: 'There are no meals configured for this day.',
+              icon: Icons.lunch_dining_outlined,
+            );
+          }
+
+          final meals =
+              orderedDistinct(snapshot.data!.docs.map((doc) => doc['pasto']))
+                ..sort((a, b) {
+                  final indexA = _mealOrder.indexOf(a);
+                  final indexB = _mealOrder.indexOf(b);
+
+                  if (indexA == -1 && indexB == -1) {
+                    return a.compareTo(b);
+                  }
+                  if (indexA == -1) {
+                    return 1;
+                  }
+                  if (indexB == -1) {
+                    return -1;
+                  }
+                  return indexA.compareTo(indexB);
+                });
+
+          return Column(
+            crossAxisAlignment: CrossAxisAlignment.start,
+            children: [
+              const SectionTitle(
+                title: 'Meal list',
+                caption: 'Open a meal to view categories and recipes.',
+              ),
+              for (final meal in meals)
+                ContentCard(
+                  title: prettifyLabel(meal),
+                  subtitle: 'View categories and recipes for this meal.',
+                  icon: Icons.restaurant_outlined,
+                  accentColor: uiPink,
+                  onTap: () {
+                    Navigator.of(context).push(
+                      MaterialPageRoute(
+                        builder: (_) => Tipi(day: day, pasto: meal),
+                      ),
+                    );
+                  },
+                ),
+            ],
           );
         },
-      ),
-    );
-  }
-
-  void showModal(BuildContext context) {
-    showDialog(
-      context: context,
-      builder: (BuildContext context) => AlertDialog(
-        content: const Text('Example Dialog'),
-        actions: <TextButton>[
-          TextButton(
-            onPressed: () {
-              Navigator.pop(context);
-            },
-            child: const Text('Close'),
-          )
-        ],
       ),
     );
   }

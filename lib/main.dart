@@ -1,13 +1,10 @@
-// .where('giorno', isEqualTo: '0_Monday')
-// .where('pasto', isEqualTo: '1_Pranzo')
-//.where('tipo', isEqualTo: 'Frutta_Fresca')
-
-import 'package:flutter/material.dart';
 import 'package:firebase_core/firebase_core.dart';
+import 'package:flutter/material.dart';
 import 'package:untitled/DaysOfTheWeek.dart';
 import 'package:untitled/Gym.dart';
+import 'package:untitled/app_ui.dart';
+
 import 'firebase_options.dart';
-import 'package:cloud_firestore/cloud_firestore.dart';
 
 Future<void> main() async {
   WidgetsFlutterBinding.ensureInitialized();
@@ -15,197 +12,174 @@ Future<void> main() async {
     options: DefaultFirebaseOptions.currentPlatform,
   );
 
-  runApp(const BottomNavigationBarExampleApp());
+  runApp(const MyDietApp());
 }
 
-class BottomNavigationBarExampleApp extends StatelessWidget {
-  const BottomNavigationBarExampleApp({super.key});
+class MyDietApp extends StatelessWidget {
+  const MyDietApp({super.key});
 
   @override
   Widget build(BuildContext context) {
-    return const MaterialApp(
-      home: DaysOfTheWeek(), // BottomNavigationBarExample(),
+    final colorScheme = ColorScheme.fromSeed(
+      seedColor: uiPink,
+      primary: uiPink,
+      secondary: uiLilac,
+      tertiary: uiMint,
+      background: uiBackground,
+      surface: Colors.white,
+      brightness: Brightness.light,
     );
-  }
-}
 
-class BottomNavigationBarExample extends StatefulWidget {
-  const BottomNavigationBarExample({super.key});
-
-  @override
-  State<BottomNavigationBarExample> createState() =>
-      _BottomNavigationBarExampleState();
-}
-
-class _BottomNavigationBarExampleState
-    extends State<BottomNavigationBarExample> {
-  //Dichiaro variabili qui
-
-  int _selectedIndex = 0;
-  final ScrollController _homeController = ScrollController();
-
-  Widget _listViewBody() {
-    return Scaffold(
-      body: SingleChildScrollView(
-        padding: const EdgeInsets.all(20),
-        child: Column(
-          children: [
-            const Text("Day"),
-            StreamBuilder<QuerySnapshot>(
-              stream: FirebaseFirestore.instance
-                  .collection('Diet')
-                  .where('giorno', isEqualTo: '0_Monday')
-                  .snapshots(), //parametrizzo query
-              builder: (BuildContext context,
-                  AsyncSnapshot<QuerySnapshot> snapshot) {
-                if (snapshot.hasData) {
-                  final snap = snapshot.data!.docs
-                      .map((doc) => doc.data())
-                      .toList() as List;
-                  final distinctPasti =
-                      snap.map((da) => da['pasto']).toSet(); //parametrizzo qui
-                  return ListView.builder(
-                    shrinkWrap: true,
-                    primary: false,
-                    itemCount: distinctPasti.length,
-                    itemBuilder: (context, index) {
-                      return Container(
-                        height: 70,
-                        width: double.infinity,
-                        margin: const EdgeInsets.only(bottom: 12),
-                        decoration: BoxDecoration(
-                          color: Colors.white,
-                          borderRadius: BorderRadius.circular(20),
-                          boxShadow: const [
-                            BoxShadow(
-                              color: Colors.black26,
-                              offset: Offset(2, 2),
-                              blurRadius: 10,
-                            ),
-                          ],
-                        ),
-                        child: Stack(
-                          children: [
-                            Container(
-                              margin: const EdgeInsets.only(left: 20),
-                              alignment: Alignment.centerLeft,
-                              child: Text(
-                                distinctPasti.toList()[index],
-                                style: const TextStyle(
-                                  color: Colors.black54,
-                                  fontWeight: FontWeight.bold,
-                                ),
-                              ),
-                            ),
-                            Container(
-                              margin: const EdgeInsets.only(right: 20),
-                              alignment: Alignment.centerRight,
-                              child: Text(
-                                "\$${distinctPasti.toList()[index]}",
-                                style: TextStyle(
-                                  color: Colors.green.withOpacity(0.7),
-                                  fontWeight: FontWeight.bold,
-                                ),
-                              ),
-                            ),
-                          ],
-                        ),
-                      );
-                    },
-                  );
-                } else {
-                  return const SizedBox();
-                }
-              },
-            )
-          ],
+    return MaterialApp(
+      debugShowCheckedModeBanner: false,
+      title: 'My Diet',
+      theme: ThemeData(
+        useMaterial3: true,
+        colorScheme: colorScheme,
+        scaffoldBackgroundColor: uiBackground,
+        textTheme: ThemeData.light().textTheme.copyWith(
+              displaySmall: const TextStyle(
+                fontFamily: 'Georgia',
+                fontSize: 36,
+                fontWeight: FontWeight.w700,
+                color: uiInk,
+              ),
+              headlineMedium: const TextStyle(
+                fontFamily: 'Georgia',
+                fontSize: 30,
+                fontWeight: FontWeight.w700,
+                color: uiInk,
+              ),
+              titleLarge: const TextStyle(
+                fontFamily: 'Georgia',
+                fontSize: 22,
+                fontWeight: FontWeight.w700,
+                color: uiInk,
+              ),
+              bodyLarge: const TextStyle(
+                color: uiMuted,
+                height: 1.45,
+              ),
+              bodyMedium: const TextStyle(
+                color: uiMuted,
+                height: 1.4,
+              ),
+            ),
+        navigationBarTheme: NavigationBarThemeData(
+          backgroundColor: Colors.white,
+          indicatorColor: Colors.white,
+          labelTextStyle: MaterialStateProperty.resolveWith(
+            (states) => TextStyle(
+              color: uiInk,
+              fontWeight: states.contains(MaterialState.selected)
+                  ? FontWeight.w800
+                  : FontWeight.w600,
+            ),
+          ),
+          iconTheme: MaterialStateProperty.resolveWith(
+            (states) => IconThemeData(
+              color: states.contains(MaterialState.selected) ? uiPink : uiMuted,
+            ),
+          ),
+        ),
+        inputDecorationTheme: InputDecorationTheme(
+          filled: true,
+          fillColor: Colors.white,
+          contentPadding: const EdgeInsets.symmetric(
+            horizontal: 16,
+            vertical: 14,
+          ),
+          border: OutlineInputBorder(
+            borderRadius: BorderRadius.circular(20),
+            borderSide: BorderSide.none,
+          ),
+          enabledBorder: OutlineInputBorder(
+            borderRadius: BorderRadius.circular(20),
+            borderSide: BorderSide(
+              color: uiInk.withOpacity(0.05),
+            ),
+          ),
+          focusedBorder: OutlineInputBorder(
+            borderRadius: BorderRadius.circular(20),
+            borderSide: const BorderSide(
+              color: uiPink,
+              width: 1.2,
+            ),
+          ),
+          labelStyle: const TextStyle(
+            color: uiMuted,
+          ),
         ),
       ),
+      home: const AppShell(),
     );
   }
+}
+
+class AppShell extends StatefulWidget {
+  const AppShell({super.key});
+
+  @override
+  State<AppShell> createState() => _AppShellState();
+}
+
+class _AppShellState extends State<AppShell> {
+  int _currentIndex = 0;
 
   @override
   Widget build(BuildContext context) {
+    const pages = [
+      DaysOfTheWeek(),
+      Gym(),
+    ];
+
     return Scaffold(
-      appBar: AppBar(
-        title: const Text('My Diet'),
-        backgroundColor: const Color.fromARGB(255, 181, 45, 202),
+      body: AnimatedSwitcher(
+        duration: const Duration(milliseconds: 260),
+        switchInCurve: Curves.easeOutCubic,
+        switchOutCurve: Curves.easeInCubic,
+        child: KeyedSubtree(
+          key: ValueKey(_currentIndex),
+          child: pages[_currentIndex],
+        ),
       ),
-      body: _listViewBody(),
-      bottomNavigationBar: BottomNavigationBar(
-        items: const <BottomNavigationBarItem>[
-          BottomNavigationBarItem(
-            icon: Icon(Icons.home),
-            label: 'Home',
+      bottomNavigationBar: SafeArea(
+        minimum: const EdgeInsets.fromLTRB(18, 0, 18, 18),
+        child: Container(
+          decoration: BoxDecoration(
+            boxShadow: [
+              BoxShadow(
+                color: uiPink.withOpacity(0.12),
+                blurRadius: 24,
+                offset: const Offset(0, 10),
+              ),
+            ],
           ),
-
-          BottomNavigationBarItem(
-            icon: Icon(Icons.fitness_center),
-            label: 'Gym',
+          child: ClipRRect(
+            borderRadius: BorderRadius.circular(32),
+            child: NavigationBar(
+              height: 72,
+              selectedIndex: _currentIndex,
+              destinations: const [
+                NavigationDestination(
+                  icon: Icon(Icons.restaurant_menu_outlined),
+                  selectedIcon: Icon(Icons.restaurant_menu),
+                  label: 'Meals',
+                ),
+                NavigationDestination(
+                  icon: Icon(Icons.fitness_center_outlined),
+                  selectedIcon: Icon(Icons.fitness_center),
+                  label: 'Training',
+                ),
+              ],
+              onDestinationSelected: (index) {
+                setState(() {
+                  _currentIndex = index;
+                });
+              },
+            ),
           ),
-          //BottomNavigationBarItem(
-          //  icon: Icon(Icons.open_in_new_rounded),
-          //  label: 'Open Dialog',
-          //),
-        ],
-        currentIndex: _selectedIndex,
-        selectedItemColor: const Color.fromARGB(255, 181, 45, 202),
-        onTap: (int index) {
-          switch (index) {
-            case 0:
-              // only scroll to top when current index is selected.
-              /*if (_selectedIndex == index) {
-                _homeController.animateTo(
-                  0.0,
-                  duration: const Duration(milliseconds: 500),
-                  curve: Curves.easeOut,
-                );*/
-                if(_selectedIndex== index){
-                  Navigator.push(
-                    context,
-                    MaterialPageRoute(
-                        builder: (BuildContext context) => const DaysOfTheWeek()));
-              
-
-                
-              }
-              break;
-            case 1:
-              if (_selectedIndex == index) {
-                Navigator.push(
-                    context,
-                    MaterialPageRoute(
-                        builder: (BuildContext context) => const Gym()));
-              }
-              break;
-
-            /*case 2:
-              showModal(context);
-            */
-          }
-          setState(
-            () {
-              _selectedIndex = index;
-            },
-          );
-        },
-      ),
-    );
-  }
-
-  void showModal(BuildContext context) {
-    showDialog(
-      context: context,
-      builder: (BuildContext context) => AlertDialog(
-        content: const Text('Example Dialog'),
-        actions: <TextButton>[
-          TextButton(
-            onPressed: () {
-              Navigator.pop(context);
-            },
-            child: const Text('Close'),
-          )
-        ],
+        ),
       ),
     );
   }
