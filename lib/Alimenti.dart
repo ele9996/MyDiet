@@ -51,29 +51,94 @@ class Alimenti extends StatelessWidget {
                     'Simple, readable quantities with the item name kept front and center.',
               ),
               for (final food in foods)
-                ContentCard(
+                _FoodPortionCard(
                   title: food['alimento'].toString(),
-                  subtitle: 'Recommended portion',
-                  icon: Icons.eco_outlined,
-                  trailing: Container(
-                    padding: const EdgeInsets.symmetric(
-                        horizontal: 12, vertical: 10),
-                    decoration: BoxDecoration(
-                      color: const Color(0xFFE7F1EC),
-                      borderRadius: BorderRadius.circular(16),
-                    ),
-                    child: Text(
-                      food['quantita'].toString(),
-                      style: const TextStyle(
-                        color: Color(0xFF244B3C),
-                        fontWeight: FontWeight.w800,
-                      ),
-                    ),
-                  ),
+                  quantity: food['quantita'].toString(),
                 ),
             ],
           );
         },
+      ),
+    );
+  }
+}
+
+class _FoodPortionCard extends StatelessWidget {
+  const _FoodPortionCard({
+    required this.title,
+    required this.quantity,
+  });
+
+  final String title;
+  final String quantity;
+
+  @override
+  Widget build(BuildContext context) {
+    return Padding(
+      padding: const EdgeInsets.only(bottom: 14),
+      child: Container(
+        width: double.infinity,
+        padding: const EdgeInsets.all(16),
+        decoration: BoxDecoration(
+          color: Colors.white,
+          borderRadius: BorderRadius.circular(32),
+          border: Border.all(
+            color: uiInk.withOpacity(0.05),
+          ),
+        ),
+        child: Row(
+          crossAxisAlignment: CrossAxisAlignment.start,
+          children: [
+            Container(
+              width: 58,
+              height: 58,
+              decoration: BoxDecoration(
+                color: uiLilac,
+                borderRadius: BorderRadius.circular(20),
+              ),
+              child: const Icon(
+                Icons.eco_outlined,
+                color: uiInk,
+              ),
+            ),
+            const SizedBox(width: 14),
+            Expanded(
+              child: Column(
+                crossAxisAlignment: CrossAxisAlignment.start,
+                children: [
+                  Text(
+                    title,
+                    style: const TextStyle(
+                      color: uiInk,
+                      fontWeight: FontWeight.w800,
+                      fontSize: 17,
+                      height: 1.2,
+                    ),
+                  ),
+                  const SizedBox(height: 10),
+                  Container(
+                    padding: const EdgeInsets.symmetric(
+                      horizontal: 12,
+                      vertical: 10,
+                    ),
+                    decoration: BoxDecoration(
+                      color: uiMint,
+                      borderRadius: BorderRadius.circular(16),
+                    ),
+                    child: Text(
+                      quantity,
+                      style: const TextStyle(
+                        color: uiInk,
+                        fontWeight: FontWeight.w800,
+                        height: 1.2,
+                      ),
+                    ),
+                  ),
+                ],
+              ),
+            ),
+          ],
+        ),
       ),
     );
   }
